@@ -5,6 +5,1253 @@
 	(uuid "996c4afa-af57-455f-b0b6-e0f996045a90")
 	(paper "A3")
 	(lib_symbols
+		(symbol "UNITED_CAPACITORS_DATA_BASE:C_CGA4J1X7R1V225K125AC"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2.2 µF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_0805_2012Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J1X7R1V225K125AC"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 2.2 µF X7R 10% 0805 35V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Ceramic"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0805"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "2012"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CGA4J1X7R1V225K125AC"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "CGA4J1X7R1V"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_CGA4J1X7R1V225K125AC"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CGA4J1X7R1V225K125AC"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "35V"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_CGA4J1X7R1V225K125AC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_CGA4J1X7R1V225K125AC_1_1"
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10 µF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_1206.step"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Ceramic"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "1206"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "3216"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL31B106KBHNNN#"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "CL31B"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_CL31B106KBHNNN#"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_CL31B106KBHNNN#_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_CL31B106KBHNNN#_1_1"
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100 nF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 100 nF X7R 10% 0402 50V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_0402.step"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Ceramic"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0402"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "1005"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GCM155R71H104KE02D"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "GCM155R71H"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_GCM155R71H104KE02D"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_GCM155R71H104KE02D_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_GCM155R71H104KE02D_1_1"
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_CAPACITORS_DATA_BASE:C_GCM188R71H393KA55D"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "39 nF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_0603_1608Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71H393KA55-01.pdf"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 39 nF X7R 10% 0603 50V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Ceramic"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0603"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "1608"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GCM188R71H393KA55D"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "GCM188R71H"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_GCM188R71H393KA55D"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM188R71H393KA55D"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_GCM188R71H393KA55D_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_GCM188R71H393KA55D_1_1"
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_CAPACITORS_DATA_BASE:C_GRM32EC72A106KE05L"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10 µF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_1210_250_3225Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 10 µF X7S 10% 1210_250 100V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Ceramic"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "1210_250"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "3225"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7S"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM32EC72A106KE05L"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "GRM32EC72A"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_GRM32EC72A106KE05L"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM32EC72A106KE05L"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "100V"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_GRM32EC72A106KE05L_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_GRM32EC72A106KE05L_1_1"
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UNITED_IC_ADI:U_AD74416HBCPZ-RL7"
 			(pin_names
 				(offset 0.254)
@@ -311,96 +1558,6 @@
 						)
 					)
 					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -10.16 -63.5 90)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -5.08 -63.5 90)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -63.5 90)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 5.08 -63.5 90)
-					(length 2.54)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -63.5 90)
-					(length 2.54)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1149,7 +2306,7 @@
 					)
 				)
 				(pin power_in line
-					(at -7.62 63.5 270)
+					(at -10.16 63.5 270)
 					(length 2.54)
 					(name "AVDD_LO"
 						(effects
@@ -1159,6 +2316,42 @@
 						)
 					)
 					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -10.16 -66.04 90)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -5.08 -66.04 90)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1202,6 +2395,24 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 0 -66.04 90)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 2.54 63.5 270)
 					(length 2.54)
@@ -1220,8 +2431,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 5.08 -66.04 90)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 7.62 63.5 270)
+					(at 10.16 63.5 270)
 					(length 2.54)
 					(name "AVCC"
 						(effects
@@ -1231,6 +2460,24 @@
 						)
 					)
 					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -66.04 90)
+					(length 5.08)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1259,6 +2506,1173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10 kΩ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0402"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "1005"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Resistor"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-2RKF1002X"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "ERJ-2RKF"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "R_ERJ-2RKF1002X"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "100 ppm/°C"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "R_ERJ-2RKF1002X_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_ERJ-2RKF1002X_1_1"
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 190.5 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36ff452a-8218-4acc-b91d-6301c32aef7b")
+	)
+	(junction
+		(at 175.26 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46df3602-b2da-4475-9f6b-cd2059c89658")
+	)
+	(junction
+		(at 215.9 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47862419-4f2f-49a3-b9ca-097ffb9885b5")
+	)
+	(junction
+		(at 231.14 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "777ccc00-75df-4bb5-af2a-8c9718e6a1fe")
+	)
+	(junction
+		(at 177.8 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "836333f5-493a-46c8-81c9-c1d9a5531f44")
+	)
+	(junction
+		(at 203.2 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "841c2c5f-0a49-4955-a4f2-bbfdba5b37a0")
+	)
+	(junction
+		(at 213.36 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87ba8859-4594-4a0e-ab54-7ad40d807179")
+	)
+	(junction
+		(at 193.04 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96435618-87cb-4ce0-a375-489c36a973c8")
+	)
+	(junction
+		(at 220.98 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9843b0aa-9903-4e44-96ce-98c9cbadeac9")
+	)
+	(junction
+		(at 200.66 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a386904e-0e49-459f-8f78-642c5446b374")
+	)
+	(junction
+		(at 205.74 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1a2466b-bbef-4921-8725-bd54131437ee")
+	)
+	(junction
+		(at 198.12 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d37b80b9-42e9-4b75-856e-3bd01a1b7891")
+	)
+	(junction
+		(at 215.9 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d387d35a-4ca5-458b-8de5-2cd07f928132")
+	)
+	(junction
+		(at 228.6 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa2ef16e-6fac-4b4b-b3e8-8ba2c43b604d")
+	)
+	(wire
+		(pts
+			(xy 200.66 33.02) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e238e0-e131-4516-9807-e7c169fe5c58")
+	)
+	(wire
+		(pts
+			(xy 208.28 219.71) (xy 203.2 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0672eda3-28ff-4257-9aa0-4667b6c955d8")
+	)
+	(wire
+		(pts
+			(xy 213.36 60.96) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b53171d-281c-4150-bac8-92db3b4f5a8b")
+	)
+	(wire
+		(pts
+			(xy 185.42 129.54) (xy 170.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0ab66b-1484-4453-8209-92f7ce9a9ce9")
+	)
+	(wire
+		(pts
+			(xy 215.9 76.2) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fabe487-c379-4552-a3bb-2bfb71af266e")
+	)
+	(wire
+		(pts
+			(xy 160.02 127) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd34987-40d9-4d84-adcf-4c86063b0fb9")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a24701-9129-4b33-bc64-915c15a3f540")
+	)
+	(wire
+		(pts
+			(xy 170.18 129.54) (xy 170.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e79a790-af97-4604-857b-3cc9858d5d62")
+	)
+	(wire
+		(pts
+			(xy 208.28 218.44) (xy 208.28 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2485cd5a-c677-44ab-9aac-b90cdb58d0ec")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28240320-1f36-476b-ac09-3bfb48b38eef")
+	)
+	(wire
+		(pts
+			(xy 198.12 218.44) (xy 198.12 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bed404-85c2-468e-9148-f54a4ab5e893")
+	)
+	(wire
+		(pts
+			(xy 149.86 144.78) (xy 185.42 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298fc6a6-b7e8-439a-974f-7f6536bf7009")
+	)
+	(wire
+		(pts
+			(xy 187.96 55.88) (xy 193.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e695f32-5f18-4919-875f-24fdc440514b")
+	)
+	(wire
+		(pts
+			(xy 200.66 219.71) (xy 198.12 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8d6ea8-6477-40fc-b3af-b18e785ba3ac")
+	)
+	(wire
+		(pts
+			(xy 193.04 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b9c4fa-ec4a-4b93-b97a-63db7e439d65")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335a6898-ad68-4668-b6db-1e5a49f6ea73")
+	)
+	(wire
+		(pts
+			(xy 220.98 78.74) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34eb9340-a17a-45ef-b6d9-f891139df371")
+	)
+	(wire
+		(pts
+			(xy 210.82 33.02) (xy 205.74 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383f6282-4269-404a-ab08-62064a75bebd")
+	)
+	(wire
+		(pts
+			(xy 149.86 127) (xy 149.86 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b99533-1662-43e5-83d4-e5858941e9da")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 226.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc1ff5c-b8d0-4616-ab94-063b3482d27d")
+	)
+	(wire
+		(pts
+			(xy 215.9 78.74) (xy 215.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404aa48d-aa0c-43c3-9088-f954566af4ca")
+	)
+	(wire
+		(pts
+			(xy 213.36 218.44) (xy 213.36 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4478d52f-c066-4334-9889-345d095da179")
+	)
+	(wire
+		(pts
+			(xy 231.14 86.36) (xy 231.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e1ea4b-9265-455a-8b11-889222830f8a")
+	)
+	(wire
+		(pts
+			(xy 213.36 223.52) (xy 215.9 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a36823c-4332-40da-9caa-a11f0865fdea")
+	)
+	(wire
+		(pts
+			(xy 228.6 60.96) (xy 223.52 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b277f91-db3b-4c4b-a0b1-90fedc49394c")
+	)
+	(wire
+		(pts
+			(xy 231.14 83.82) (xy 231.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516ede1a-8a41-4414-85b0-ab08acec2be3")
+	)
+	(wire
+		(pts
+			(xy 193.04 219.71) (xy 198.12 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f27761-3408-4e74-9345-78487fbe6a0e")
+	)
+	(wire
+		(pts
+			(xy 190.5 33.02) (xy 193.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59471a05-37a9-480a-a80c-19ceee9a7c75")
+	)
+	(wire
+		(pts
+			(xy 228.6 63.5) (xy 228.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efa3ddc-979b-409a-9539-40ba9e4391d1")
+	)
+	(wire
+		(pts
+			(xy 213.36 60.96) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f91f3a4-c7f0-4eeb-98f0-013deac723aa")
+	)
+	(wire
+		(pts
+			(xy 220.98 38.1) (xy 220.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600430b1-df64-4bd6-b7ca-60de00a3cf17")
+	)
+	(wire
+		(pts
+			(xy 182.88 105.41) (xy 182.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6195553a-a467-417a-b3cc-7d36bc7f1b43")
+	)
+	(wire
+		(pts
+			(xy 220.98 33.02) (xy 218.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e82a4a8-5809-4cd6-90e4-fcc46e040b4e")
+	)
+	(wire
+		(pts
+			(xy 177.8 63.5) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f15f841-a5ae-484e-a060-ede17aec60cf")
+	)
+	(wire
+		(pts
+			(xy 205.74 33.02) (xy 205.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a47c70-0fb8-4ea9-8f4d-3781564bb5b9")
+	)
+	(wire
+		(pts
+			(xy 213.36 55.88) (xy 213.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761a8e47-fcbb-43f7-9835-d7875b8d6132")
+	)
+	(wire
+		(pts
+			(xy 215.9 88.9) (xy 215.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ead20b7-44bc-4cc7-9ed7-571e3789b4ce")
+	)
+	(wire
+		(pts
+			(xy 160.02 132.08) (xy 185.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8082ae0a-534f-4a8b-830e-668b3a41f2c6")
+	)
+	(wire
+		(pts
+			(xy 200.66 44.45) (xy 198.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b947cb-96f9-4372-870b-e99a5460d02e")
+	)
+	(wire
+		(pts
+			(xy 220.98 38.1) (xy 215.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865b3e57-1be3-4a30-9030-8f3b22f7d34e")
+	)
+	(wire
+		(pts
+			(xy 228.6 60.96) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86bc8fcc-b1a7-4ad1-b949-053d0d52a4c2")
+	)
+	(wire
+		(pts
+			(xy 200.66 88.9) (xy 200.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8760dfa7-f7e1-490e-a102-d6c922be6c8c")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 208.28 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886f5679-0064-41e0-8639-dbbbb1267b0f")
+	)
+	(wire
+		(pts
+			(xy 177.8 55.88) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce2b5be-f313-4cba-881f-aa8a4aee141a")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2a9f43-bf44-44c8-924f-af432134a8cc")
+	)
+	(wire
+		(pts
+			(xy 218.44 55.88) (xy 213.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9493e37e-47d2-42df-8f73-ac8e400053d9")
+	)
+	(wire
+		(pts
+			(xy 187.96 44.45) (xy 190.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95aa68b0-fb3a-4e62-8bca-d251aa20e010")
+	)
+	(wire
+		(pts
+			(xy 182.88 113.03) (xy 182.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998174ec-9a93-4c11-8a5d-b055714f2716")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cee822-d4bc-494d-89a6-3e25e3b4fa3a")
+	)
+	(wire
+		(pts
+			(xy 203.2 218.44) (xy 203.2 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e447c0-bdcd-47da-86bb-3b6159e27afa")
+	)
+	(wire
+		(pts
+			(xy 203.2 219.71) (xy 200.66 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4344d6f-d384-466c-9fa6-259bec9a4eb0")
+	)
+	(wire
+		(pts
+			(xy 220.98 40.64) (xy 220.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2981b83-134d-4f85-89ca-a8a4d017ed99")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a3fc2c-065e-44b8-ad0f-379844f4333e")
+	)
+	(wire
+		(pts
+			(xy 175.26 83.82) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e36777-68de-46d4-aeb9-49cbf233027b")
+	)
+	(wire
+		(pts
+			(xy 231.14 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6709b4-9035-47a0-a563-dd8251792d21")
+	)
+	(wire
+		(pts
+			(xy 203.2 33.02) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c061b77b-6cbb-4b75-b374-6674c3c777c3")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c46999-6489-4982-aea6-b735f084691e")
+	)
+	(wire
+		(pts
+			(xy 231.14 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dacc8a-6558-486e-8592-cabbbcd41070")
+	)
+	(wire
+		(pts
+			(xy 193.04 55.88) (xy 193.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4957cdd-ca24-4ee0-986b-8c63748bb509")
+	)
+	(wire
+		(pts
+			(xy 193.04 218.44) (xy 193.04 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7cba2c6-2f02-4d6f-8773-3bebba746488")
+	)
+	(wire
+		(pts
+			(xy 215.9 83.82) (xy 218.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8591a61-0428-4327-9f17-c210d363032c")
+	)
+	(wire
+		(pts
+			(xy 175.26 83.82) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca92dd50-c868-4d18-b25c-0b7ca1c1d80e")
+	)
+	(wire
+		(pts
+			(xy 193.04 60.96) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec3832f-e428-4b68-82d7-e717ed043731")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 177.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1f00ac-ef6c-4a97-b2d5-053c5e1defaa")
+	)
+	(wire
+		(pts
+			(xy 182.88 104.14) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5509d8-3403-4dc7-8f5b-3d0cc7634e0a")
+	)
+	(wire
+		(pts
+			(xy 200.66 219.71) (xy 200.66 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f884ac1b-3b87-42d6-96e4-489ac0dc1592")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.82) (xy 187.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff141013-2ab3-4b0a-a310-b72a03c2777a")
+	)
+	(label "AVSS"
+		(at 215.9 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b333301-661a-4b16-9731-83c221b138b1")
+	)
+	(label "AVSS"
+		(at 215.9 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ff629f8-68e2-4de9-bb7b-b04f5e3848f2")
 	)
 	(symbol
 		(lib_id "UNITED_IC_ADI:U_AD74416HBCPZ-RL7")
@@ -1447,7 +3861,7 @@
 		(pin "40"
 			(uuid "bea09c19-9a56-429e-82a3-8a7183e5be9a")
 		)
-		(pin "65"
+		(pin "PAD"
 			(uuid "89a3e7e5-558c-47dd-b867-f0166fd03eae")
 		)
 		(pin "2"
@@ -1529,6 +3943,3889 @@
 			(project ""
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GRM32EC72A106KE05L")
+		(at 194.31 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b07c2c4-6c55-40ef-9db2-3bb1ea1e513a")
+		(property "Reference" "C11"
+			(at 194.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 194.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_1210_250_3225Metric"
+			(at 194.31 52.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf"
+			(at 194.31 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 µF X7S 10% 1210_250 100V"
+			(at 194.31 57.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 194.31 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "1210_250"
+			(at 194.31 62.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "3225"
+			(at 194.31 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7S"
+			(at 194.31 67.31 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM32EC72A106KE05L"
+			(at 194.31 69.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 194.31 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GRM32EC72A"
+			(at 194.31 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GRM32EC72A106KE05L"
+			(at 194.31 77.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 194.31 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM32EC72A106KE05L"
+			(at 194.31 82.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "100V"
+			(at 194.31 85.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f1af39a-3790-4808-aa84-554a09327eca")
+		)
+		(pin "1"
+			(uuid "6950767b-90c0-40fc-b554-084e2f13258b")
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(at 181.61 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20949290-47dd-40b9-9d72-b751ecf66351")
+		(property "Reference" "C1"
+			(at 181.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+			(at 181.61 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+			(at 181.61 68.58 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+			(at 181.61 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31B106KBHNNN#"
+			(at 181.61 55.88 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 179.07 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 181.61 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_CL31B106KBHNNN#"
+			(at 181.61 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 181.61 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "1206"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "3216"
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CL31B"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_1206.step"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13af3460-0153-400a-b64e-505c1769528b")
+		)
+		(pin "1"
+			(uuid "d503c451-83b9-459c-b3a6-dc8a6ab0fbab")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 175.26 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35ae1151-28f5-42b4-a787-b8c181445eb3")
+		(property "Reference" "#PWR10"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 172.72 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c90e30b8-5619-41b7-a302-49e840e3769a")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CGA4J1X7R1V225K125AC")
+		(at 196.85 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c3b8cc6-42b6-4835-833b-0e44ca357882")
+		(property "Reference" "C12"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2 µF"
+			(at 196.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0805_2012Metric"
+			(at 196.85 40.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J1X7R1V225K125AC"
+			(at 196.85 43.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 2.2 µF X7R 10% 0805 35V"
+			(at 196.85 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 196.85 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0805"
+			(at 196.85 50.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "2012"
+			(at 196.85 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 196.85 55.88 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA4J1X7R1V225K125AC"
+			(at 196.85 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 196.85 60.96 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CGA4J1X7R1V"
+			(at 196.85 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_CGA4J1X7R1V225K125AC"
+			(at 196.85 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 196.85 68.58 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CGA4J1X7R1V225K125AC"
+			(at 196.85 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "35V"
+			(at 196.85 73.66 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87ccd5b1-e462-43ba-b8ac-55c0754b0933")
+		)
+		(pin "2"
+			(uuid "2d9d509f-eb45-477d-930e-bc1939788224")
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
+		(at 149.86 121.92 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "451de6ac-0f1c-4791-856a-f98ba63f1b0b")
+		(property "Reference" "R2"
+			(at 147.32 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 147.32 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 154.94 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 157.48 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
+			(at 160.02 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1002X"
+			(at 167.64 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 185.42 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 170.18 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 180.34 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(at 175.26 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 177.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17180c86-415a-4d90-a668-92a7f0e27fd3")
+		)
+		(pin "1"
+			(uuid "d049c4b8-0a36-4035-9a74-5d2aec4d48ac")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 231.14 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cf35cf1-9008-4df6-b2c3-162669614cd0")
+		(property "Reference" "#PWR03"
+			(at 231.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 233.68 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "869dacff-056b-4a6c-adb0-9d18942b84a7")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(at 184.15 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "575cf887-c77d-4d72-9ba6-09a9c8ff3231")
+		(property "Reference" "C3"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 184.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+			(at 184.15 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+			(at 184.15 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+			(at 184.15 43.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31B106KBHNNN#"
+			(at 184.15 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 181.61 31.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 184.15 22.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_CL31B106KBHNNN#"
+			(at 184.15 25.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 184.15 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "1206"
+			(at 184.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "3216"
+			(at 184.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CL31B"
+			(at 184.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
+			(at 184.15 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 184.15 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_1206.step"
+			(at 184.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 184.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34fa3ba6-cd30-48f9-a7fd-a0b39595bf04")
+		)
+		(pin "1"
+			(uuid "b9e579d6-072c-4493-bf37-5f2c957f78e9")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 190.5 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a4fa858-08a9-4a53-811d-d77be288cabb")
+		(property "Reference" "#PWR07"
+			(at 190.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 187.96 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10c75572-7039-4190-832e-6611be1738f3")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 200.66 220.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66747f52-8a72-46b4-b399-9780258fdc9f")
+		(property "Reference" "#PWR04"
+			(at 200.66 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 203.2 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 200.66 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a41262c3-dd08-471e-a87e-238e5481e60a")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 220.98 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d4f60fc-ac1a-412b-8bdc-086eabaca3c1")
+		(property "Reference" "#PWR05"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 223.52 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 220.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b106b77-5c4e-443b-ad89-3d2466838f87")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D")
+		(at 212.09 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aeaf741-641c-48ea-8b30-f0d9127c6fc7")
+		(property "Reference" "C10"
+			(at 212.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 212.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+			(at 212.09 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 212.09 27.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100 nF X7R 10% 0402 50V"
+			(at 212.09 25.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H104KE02D"
+			(at 212.09 15.24 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 214.63 13.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 212.09 5.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GCM155R71H104KE02D"
+			(at 212.09 7.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 212.09 12.7 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 212.09 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 212.09 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 212.09 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GCM155R71H"
+			(at 212.09 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
+			(at 212.09 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 212.09 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_0402.step"
+			(at 212.09 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 212.09 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "deb7c989-3e7c-4712-a575-1ce21aa4fb8b")
+		)
+		(pin "1"
+			(uuid "5debbb6e-c9b1-4c3e-9cd2-4788c11d4b86")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(at 214.63 33.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91a037c6-e52f-41a0-8f01-3e8253875998")
+		(property "Reference" "C9"
+			(at 214.63 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 214.63 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+			(at 214.63 25.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+			(at 214.63 22.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+			(at 214.63 20.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31B106KBHNNN#"
+			(at 214.63 10.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 217.17 8.89 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 214.63 0 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_CL31B106KBHNNN#"
+			(at 214.63 2.54 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 214.63 7.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "1206"
+			(at 214.63 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "3216"
+			(at 214.63 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 214.63 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CL31B"
+			(at 214.63 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
+			(at 214.63 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 214.63 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_1206.step"
+			(at 214.63 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 214.63 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "274597b8-9189-47ee-83be-75783d3fa53a")
+		)
+		(pin "1"
+			(uuid "5306563c-fca8-4cb1-af5c-b1c835e1b571")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 187.96 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a589a3e5-5e67-4582-a1a0-310178afb721")
+		(property "Reference" "#PWR06"
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 185.42 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15251345-8f20-450d-bb6c-c7867574ca16")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D")
+		(at 186.69 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab3f5e86-68aa-4732-bd53-a4313abd5077")
+		(property "Reference" "C4"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+			(at 186.69 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 186.69 50.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100 nF X7R 10% 0402 50V"
+			(at 186.69 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H104KE02D"
+			(at 186.69 38.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 184.15 36.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 186.69 27.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GCM155R71H104KE02D"
+			(at 186.69 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 186.69 35.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 186.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 186.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GCM155R71H"
+			(at 186.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
+			(at 186.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 186.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_0402.step"
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 186.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7d16b41-50f1-4012-aa5f-0da9c60adebf")
+		)
+		(pin "1"
+			(uuid "85ac81f3-1615-4adb-9260-782b74936840")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 182.88 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b192a52c-d400-41c4-ae2e-0b969fa78add")
+		(property "Reference" "#PWR08"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 180.34 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3efa400-f4ab-4f3c-ac8a-3359963ba985")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 228.6 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1ceea6d-c6b6-464f-959f-17762d4f3eaf")
+		(property "Reference" "#PWR02"
+			(at 228.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 231.14 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "009c06b8-fbe2-4541-b8ca-212bfd6245d6")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
+		(at 160.02 121.92 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c89c4b42-fda7-46c9-a4c5-db7ca365c9f6")
+		(property "Reference" "R1"
+			(at 157.48 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 157.48 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 165.1 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 167.64 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
+			(at 170.18 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1002X"
+			(at 177.8 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 195.58 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 180.34 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 190.5 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(at 185.42 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "267a278f-ec7d-4449-9a1d-72cff36ed00c")
+		)
+		(pin "1"
+			(uuid "87b07346-b624-481f-a8c4-2cab95771b7f")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D")
+		(at 222.25 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caf9dd69-0a27-44a4-b49f-6d9a97bd3e1a")
+		(property "Reference" "C8"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 222.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+			(at 222.25 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 222.25 73.66 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100 nF X7R 10% 0402 50V"
+			(at 222.25 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H104KE02D"
+			(at 222.25 60.96 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 224.79 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 222.25 50.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GCM155R71H104KE02D"
+			(at 222.25 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 222.25 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GCM155R71H"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 222.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_0402.step"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5842ecab-be28-4267-b883-47eeb2587e12")
+		)
+		(pin "1"
+			(uuid "b6f180c5-2837-4d5d-81d1-bbc47d571ae3")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D")
+		(at 184.15 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d57cb74b-0b6c-42a3-9586-866fbf35fc5f")
+		(property "Reference" "C2"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+			(at 184.15 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 184.15 73.66 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100 nF X7R 10% 0402 50V"
+			(at 184.15 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H104KE02D"
+			(at 184.15 60.96 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 181.61 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 184.15 50.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GCM155R71H104KE02D"
+			(at 184.15 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 184.15 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 184.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GCM155R71H"
+			(at 184.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 184.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_0402.step"
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40d496ee-a8ea-4887-a12f-d53168132ae5")
+		)
+		(pin "1"
+			(uuid "9fc8b7b5-db91-41cd-8e4b-7e8c6833589b")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM188R71H393KA55D")
+		(at 182.88 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e366faa6-b390-415e-83e4-8d19445ae77c")
+		(property "Reference" "C13"
+			(at 179.07 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "39 nF"
+			(at 179.07 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0603_1608Metric"
+			(at 175.26 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71H393KA55-01.pdf"
+			(at 172.72 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 39 nF X7R 10% 0603 50V"
+			(at 170.18 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 167.64 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0603"
+			(at 165.1 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1608"
+			(at 162.56 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 160.02 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM188R71H393KA55D"
+			(at 157.48 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 154.94 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GCM188R71H"
+			(at 152.4 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GCM188R71H393KA55D"
+			(at 149.86 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 147.32 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM188R71H393KA55D"
+			(at 144.78 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 142.24 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ce8a3ad-a7e8-486f-b642-d19cee97ecef")
+		)
+		(pin "1"
+			(uuid "8cb0135c-3b02-46f5-a943-4e10f8ebacd1")
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
+		(at 170.18 121.92 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e80bc453-31f9-4cd6-9907-0bd8bdb24d98")
+		(property "Reference" "R12"
+			(at 167.64 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 167.64 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 175.26 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 177.8 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
+			(at 180.34 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1002X"
+			(at 187.96 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 205.74 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 190.5 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 200.66 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(at 195.58 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 185.42 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
+			(at 203.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b316a3bc-5c6e-427e-9a3c-e194ed3eccfb")
+		)
+		(pin "1"
+			(uuid "bde7ff41-2210-4053-9496-f3ae9205058d")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D")
+		(at 219.71 60.96 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecef5a31-a8fd-41eb-9e2b-bd4ae85e0978")
+		(property "Reference" "C6"
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+			(at 219.71 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
+			(at 219.71 50.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100 nF X7R 10% 0402 50V"
+			(at 219.71 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H104KE02D"
+			(at 219.71 38.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 222.25 36.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 219.71 27.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GCM155R71H104KE02D"
+			(at 219.71 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 219.71 35.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 219.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 219.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 219.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GCM155R71H"
+			(at 219.71 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
+			(at 219.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 219.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_0402.step"
+			(at 219.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 219.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f9ac618-1070-46c4-b758-8669cc60b2c0")
+		)
+		(pin "1"
+			(uuid "976eecd2-6af2-482d-b2e6-37064503f423")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(at 224.79 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed43d76c-c660-4b61-8742-b7e8a4065e3b")
+		(property "Reference" "C7"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+			(at 224.79 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+			(at 224.79 68.58 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+			(at 224.79 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31B106KBHNNN#"
+			(at 224.79 55.88 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 227.33 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 224.79 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_CL31B106KBHNNN#"
+			(at 224.79 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 224.79 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "1206"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "3216"
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CL31B"
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
+			(at 224.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_1206.step"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cf8ca4c-c842-4d03-bd98-b6d868f4dd4d")
+		)
+		(pin "1"
+			(uuid "308e71aa-3528-4686-a87d-70652f8408ff")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(at 222.25 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee5e2bc-bca5-4ccc-890e-920f97f16ffd")
+		(property "Reference" "C5"
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+			(at 222.25 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+			(at 222.25 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+			(at 222.25 43.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31B106KBHNNN#"
+			(at 222.25 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating DC" "50 VDC "
+			(at 224.79 31.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 222.25 22.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_CL31B106KBHNNN#"
+			(at 222.25 25.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 222.25 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "1206"
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "3216"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 222.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CL31B"
+			(at 222.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
+			(at 222.25 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 222.25 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_1206.step"
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Ceramic"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0bb9105-c89b-4177-91b0-87b4079e3785")
+		)
+		(pin "1"
+			(uuid "2c212fe0-b8e4-454b-ab8d-b2ded0161632")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 177.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1b8eedf-f09c-45c7-a0b3-e1a16da17579")
+		(property "Reference" "#PWR01"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 175.26 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20555619-026f-45e6-8df9-0c6416c997f8")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
