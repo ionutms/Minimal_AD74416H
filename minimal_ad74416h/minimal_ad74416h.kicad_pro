@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -627,6 +627,22 @@
     [
       "996c4afa-af57-455f-b0b6-e0f996045a90",
       "Root"
+    ],
+    [
+      "0786ce20-9b4f-45a9-9d62-20c78d282fdc",
+      "Front End Channel 1"
+    ],
+    [
+      "010e8139-4c72-4154-a66e-8d0ded735c08",
+      "Front End Channel 2"
+    ],
+    [
+      "56f471d9-4771-4bab-9fc0-7f2502be0d29",
+      "Front End Channel 3"
+    ],
+    [
+      "0d35b6da-5370-4b8d-bdb2-6a6466fd726d",
+      "Front End Channel 4"
     ]
   ],
   "text_variables": {}
