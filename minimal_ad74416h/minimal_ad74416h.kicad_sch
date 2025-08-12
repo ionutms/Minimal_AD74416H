@@ -762,251 +762,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UNITED_CAPACITORS_DATA_BASE:C_GCM188R71H393KA55D"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "39 nF"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "capacitor_footprints:C_0603_1608Metric"
-				(at 0 -7.62 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71H393KA55-01.pdf"
-				(at 0 -10.16 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP SMD 39 nF X7R 10% 0603 50V"
-				(at 0 -12.7 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Capacitor Type" "Ceramic"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Case Code - in" "0603"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Case Code - mm" "1608"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "GCM188R71H393KA55D"
-				(at 0 -25.4 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
-				(at 0 -27.94 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Series" "GCM188R71H"
-				(at 0 -30.48 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Symbol Name" "C_GCM188R71H393KA55D"
-				(at 0 -33.02 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "10%"
-				(at 0 -35.56 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM188R71H393KA55D"
-				(at 0 -38.1 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Voltage Rating" "50V"
-				(at 0 -40.64 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "C_GCM188R71H393KA55D_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -2.032) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.032) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_GCM188R71H393KA55D_1_1"
-				(pin unspecified line
-					(at -3.81 0 0)
-					(length 2.8)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 0 180)
-					(length 2.8)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "UNITED_CAPACITORS_DATA_BASE:C_GRM32EC72A106KE05L"
 			(pin_names
 				(offset 0.254)
@@ -1213,6 +968,251 @@
 				)
 			)
 			(symbol "C_GRM32EC72A106KE05L_1_1"
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_CAPACITORS_DATA_BASE:C_KGM05AR71C393KH"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "39 nF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdfKGM05AR71C393KH"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 39 nF X7R 10% 0402 16V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Ceramic"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0402"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "1005"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "KGM05AR71C393KH"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KYOCERA AVX"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "KGM05AR71C"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_KGM05AR71C393KH"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/KGM05AR71C393KH"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "16V"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_KGM05AR71C393KH_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_KGM05AR71C393KH_1_1"
 				(pin unspecified line
 					(at -3.81 0 0)
 					(length 2.8)
@@ -7699,13 +7699,14 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM188R71H393KA55D")
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_KGM05AR71C393KH")
 		(at 182.88 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e366faa6-b390-415e-83e4-8d19445ae77c")
 		(property "Reference" "C13"
 			(at 179.07 107.9499 90)
@@ -7725,7 +7726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "capacitor_footprints:C_0603_1608Metric"
+		(property "Footprint" "capacitor_footprints:C_0402_1005Metric"
 			(at 175.26 109.22 0)
 			(show_name yes)
 			(effects
@@ -7736,7 +7737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R71H393KA55-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdfKGM05AR71C393KH"
 			(at 172.72 109.22 0)
 			(show_name yes)
 			(effects
@@ -7747,7 +7748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP SMD 39 nF X7R 10% 0603 50V"
+		(property "Description" "CAP SMD 39 nF X7R 10% 0402 16V"
 			(at 170.18 109.22 0)
 			(show_name yes)
 			(effects
@@ -7769,7 +7770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case Code - in" "0603"
+		(property "Case Code - in" "0402"
 			(at 165.1 109.22 0)
 			(show_name yes)
 			(effects
@@ -7780,7 +7781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Case Code - mm" "1608"
+		(property "Case Code - mm" "1005"
 			(at 162.56 109.22 0)
 			(show_name yes)
 			(effects
@@ -7802,7 +7803,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM188R71H393KA55D"
+		(property "MPN" "KGM05AR71C393KH"
 			(at 157.48 109.22 0)
 			(show_name yes)
 			(effects
@@ -7813,7 +7814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 154.94 109.22 0)
 			(show_name yes)
 			(effects
@@ -7824,7 +7825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "GCM188R71H"
+		(property "Series" "KGM05AR71C"
 			(at 152.4 109.22 0)
 			(show_name yes)
 			(effects
@@ -7835,7 +7836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_GCM188R71H393KA55D"
+		(property "Symbol Name" "C_KGM05AR71C393KH"
 			(at 149.86 109.22 0)
 			(show_name yes)
 			(effects
@@ -7857,7 +7858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM188R71H393KA55D"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/KGM05AR71C393KH"
 			(at 144.78 109.22 0)
 			(show_name yes)
 			(effects
@@ -7868,7 +7869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "50V"
+		(property "Voltage Rating" "16V"
 			(at 142.24 109.22 0)
 			(show_name yes)
 			(effects
