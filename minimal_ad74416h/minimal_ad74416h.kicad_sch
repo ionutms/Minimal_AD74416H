@@ -250,262 +250,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10 µF"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
-				(at 0 -7.62 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
-				(at 0 -10.16 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
-				(at 0 -12.7 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_1206.step"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Capacitor Type" "Ceramic"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Case Code - in" "1206"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Case Code - mm" "3216"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0 -25.4 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CL31B106KBHNNN#"
-				(at 0 -27.94 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 0 -30.48 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Series" "CL31B"
-				(at 0 -33.02 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Symbol Name" "C_CL31B106KBHNNN#"
-				(at 0 -35.56 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "10%"
-				(at 0 -38.1 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
-				(at 0 -40.64 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Voltage Rating" "50V"
-				(at 0 -43.18 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "C_CL31B106KBHNNN#_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -2.032) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.032) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_CL31B106KBHNNN#_1_1"
-				(pin unspecified line
-					(at -3.81 0 0)
-					(length 2.8)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 0 180)
-					(length 2.8)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D"
 			(pin_names
 				(offset 0.254)
@@ -723,6 +467,251 @@
 				)
 			)
 			(symbol "C_GCM155R71H104KE02D_1_1"
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_CAPACITORS_DATA_BASE:C_GRM21BR61H106KE43L"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10 µF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_0805_125_2012Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01.pdf"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 10 µF X5R 10% 0805_125 50V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Ceramic"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "0805_125"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "2012"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM21BR61H106KE43L"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "GRM21BR61H"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_GRM21BR61H106KE43L"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM21BR61H106KE43L"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_GRM21BR61H106KE43L_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_GRM21BR61H106KE43L_1_1"
 				(pin unspecified line
 					(at -3.81 0 0)
 					(length 2.8)
@@ -1242,6 +1231,218 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_DIODES_DATA_BASE:D_APHHS1005CGCK"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1.8 V"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "diode_footprints:LED_GREEN_0402_1005Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005CGCK"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Green LED SMD 1.8 V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Diode Type" "Green LED"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "APHHS1005CGCK"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maximum DC Current (A)" "0.03"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "APHHS1005CGCK"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "D_APHHS1005CGCK"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005CGCK"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "D_APHHS1005CGCK_1_0"
+				(polyline
+					(pts
+						(xy 1.27 1.905) (xy 1.27 0) (xy -1.27 1.905) (xy -1.27 -1.905) (xy 1.27 0) (xy 1.27 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 204 255 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.54) (xy 3.302 4.064) (xy 2.54 4.064) (xy 3.302 4.064) (xy 3.302 3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.54) (xy 4.572 4.064) (xy 3.81 4.064) (xy 4.572 4.064) (xy 4.572 3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2798,6 +2999,390 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UNITED_TACTILE_SWITCHES_DATA_BASE:S_TS21-34-035-BK-160-SMT-TR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TS21-34-035-BK-160-SMT-TR"
+				(at 5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "tactile_switches_footprints:TS21"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts21.pdf"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Same Sky TS21-34-035-BK-160-SMT-TR series,  2 positions tactile switch,  Black,  Vertical mounting,  Surface Mount,"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TS21-34-035-BK-160-SMT-TR"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Same Sky"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "TS21-34-035-BK-160-SMT-TR"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "S_TS21-34-035-BK-160-SMT-TR"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TS21-34-035-BK-160-SMT-TR"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "S_TS21-34-035-BK-160-SMT-TR_0_0"
+				(circle
+					(center 0 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 2.54) (xy 0 2.54) (xy 0 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.27 -2.54) (xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_TEST_POINTS:TestPoint_Castelated"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Castelated_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Castelated_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDA"
 			(power)
 			(pin_numbers
@@ -2901,6 +3486,30 @@
 		)
 	)
 	(junction
+		(at 149.86 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ee61010-ba4b-4352-93b2-fe970d451367")
+	)
+	(junction
+		(at 170.18 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1498f06c-5a3c-470a-b43c-1a97ff15609f")
+	)
+	(junction
+		(at 149.86 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26a6a60e-6d01-4c35-971c-f71254b3df00")
+	)
+	(junction
+		(at 203.2 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cd3700d-923f-4872-b3cd-fcbab1d1cdcc")
+	)
+	(junction
 		(at 190.5 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2917,6 +3526,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47862419-4f2f-49a3-b9ca-097ffb9885b5")
+	)
+	(junction
+		(at 205.74 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e82f6a0-47b7-4a49-9c69-a0db69ad9215")
+	)
+	(junction
+		(at 160.02 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5101bbbc-3629-49ad-8edf-ffa75f8e0561")
 	)
 	(junction
 		(at 231.14 78.74)
@@ -2965,6 +3586,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a386904e-0e49-459f-8f78-642c5446b374")
+	)
+	(junction
+		(at 149.86 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a92cd548-e456-4c72-abb3-0bec960933d5")
 	)
 	(junction
 		(at 205.74 33.02)
@@ -3019,6 +3646,16 @@
 			(type default)
 		)
 		(uuid "0463a394-0385-4ffb-964c-6e3df80ac75f")
+	)
+	(wire
+		(pts
+			(xy 152.4 190.5) (xy 152.4 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a5afb7-d42e-43d9-b18f-130eb464057f")
 	)
 	(wire
 		(pts
@@ -3082,6 +3719,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 203.2) (xy 139.7 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9ada7c-b0c8-45d5-aa81-1b9917eac319")
+	)
+	(wire
+		(pts
 			(xy 185.42 129.54) (xy 170.18 129.54)
 		)
 		(stroke
@@ -3122,6 +3769,36 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 114.3) (xy 149.86 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140ee644-8756-430b-a430-596d3817b6d1")
+	)
+	(wire
+		(pts
+			(xy 148.59 153.67) (xy 148.59 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19eedcfd-6c58-4059-9326-0b477a66f58a")
+	)
+	(wire
+		(pts
+			(xy 139.7 190.5) (xy 139.7 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f4dfc5-abe8-48fe-b797-81f6332983cf")
+	)
+	(wire
+		(pts
 			(xy 266.7 172.72) (xy 273.05 172.72)
 		)
 		(stroke
@@ -3129,6 +3806,16 @@
 			(type default)
 		)
 		(uuid "1af4457f-84dc-4bad-9362-864af747fd57")
+	)
+	(wire
+		(pts
+			(xy 149.86 144.78) (xy 149.86 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfa4c19-68af-4da4-b6cf-bf9e234e8639")
 	)
 	(wire
 		(pts
@@ -3159,6 +3846,16 @@
 			(type default)
 		)
 		(uuid "2244d5ef-2f3c-4087-8972-feb5cd4d7621")
+	)
+	(wire
+		(pts
+			(xy 139.7 214.63) (xy 139.7 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ca9e50-f481-4a42-9793-55139a0843b1")
 	)
 	(wire
 		(pts
@@ -3289,6 +3986,16 @@
 			(type default)
 		)
 		(uuid "31d594f0-45cb-46c5-88be-37b4194c913b")
+	)
+	(wire
+		(pts
+			(xy 148.59 165.1) (xy 149.86 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b286c2-d03c-45d1-a843-740fa4e2e2c8")
 	)
 	(wire
 		(pts
@@ -3432,6 +4139,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 190.5) (xy 165.1 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4482b7dd-573f-4954-8419-6142fa8a175a")
+	)
+	(wire
+		(pts
 			(xy 231.14 81.28) (xy 231.14 78.74)
 		)
 		(stroke
@@ -3482,6 +4199,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 125.73) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc8244e-56d9-4fbb-a86e-9097e9b13237")
+	)
+	(wire
+		(pts
 			(xy 266.7 203.2) (xy 273.05 203.2)
 		)
 		(stroke
@@ -3489,6 +4216,26 @@
 			(type default)
 		)
 		(uuid "4e0a565f-42b0-4be0-b2ca-42788d7ea40d")
+	)
+	(wire
+		(pts
+			(xy 151.13 165.1) (xy 149.86 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edcf15d-eff7-43ae-a6be-2462022552cf")
+	)
+	(wire
+		(pts
+			(xy 165.1 203.2) (xy 165.1 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee0d2c9-6f0f-42b8-89e4-836b48b25296")
 	)
 	(wire
 		(pts
@@ -3532,6 +4279,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 165.1) (xy 149.86 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541bb7fd-0fd9-4c41-bac1-433eba67900c")
+	)
+	(wire
+		(pts
 			(xy 190.5 27.94) (xy 193.04 27.94)
 		)
 		(stroke
@@ -3559,6 +4316,16 @@
 			(type default)
 		)
 		(uuid "5efa3ddc-979b-409a-9539-40ba9e4391d1")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f304bc2-3f01-4b65-a3b0-b24749b4af57")
 	)
 	(wire
 		(pts
@@ -3702,6 +4469,46 @@
 	)
 	(wire
 		(pts
+			(xy 127 203.2) (xy 127 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a69a89-bfc6-48b2-b6b9-39b010372a1d")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 129.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788fbf4d-e3c7-4c69-bbae-ce1dd0074731")
+	)
+	(wire
+		(pts
+			(xy 151.13 163.83) (xy 151.13 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d83566-1c9f-4e6f-93a3-9326cebf0671")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e17c538-d299-4ba7-afd4-bc44521e1e5b")
+	)
+	(wire
+		(pts
 			(xy 215.9 83.82) (xy 215.9 78.74)
 		)
 		(stroke
@@ -3719,6 +4526,16 @@
 			(type default)
 		)
 		(uuid "8082ae0a-534f-4a8b-830e-668b3a41f2c6")
+	)
+	(wire
+		(pts
+			(xy 127 132.08) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dfbe92-c504-4923-8bc0-42cbac5b79fc")
 	)
 	(wire
 		(pts
@@ -3782,6 +4599,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 144.78) (xy 149.86 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8885b81e-9d27-40cd-920c-3b04bfe95ed9")
+	)
+	(wire
+		(pts
+			(xy 151.13 152.4) (xy 151.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3495fa-992b-4bbe-9cd8-3194d712b506")
+	)
+	(wire
+		(pts
 			(xy 177.8 50.8) (xy 180.34 50.8)
 		)
 		(stroke
@@ -3812,6 +4649,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 114.3) (xy 160.02 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918ac7d1-d8f3-4f95-867a-f297f42d1851")
+	)
+	(wire
+		(pts
 			(xy 218.44 50.8) (xy 213.36 50.8)
 		)
 		(stroke
@@ -3829,6 +4676,16 @@
 			(type default)
 		)
 		(uuid "95aa68b0-fb3a-4e62-8bca-d251aa20e010")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977d3afd-a312-4f39-8c25-456bb362160a")
 	)
 	(wire
 		(pts
@@ -3862,6 +4719,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 24.13) (xy 228.6 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9ef056-f5ac-40ea-8f5a-b3b2e3fd65c4")
+	)
+	(wire
+		(pts
 			(xy 266.7 109.22) (xy 273.05 109.22)
 		)
 		(stroke
@@ -3869,6 +4736,16 @@
 			(type default)
 		)
 		(uuid "9b298e99-a023-41cc-9bbc-fa887a5aff1a")
+	)
+	(wire
+		(pts
+			(xy 203.2 24.13) (xy 203.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e624836-c71d-4326-ab39-14f42e654097")
 	)
 	(wire
 		(pts
@@ -3902,6 +4779,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 142.24) (xy 185.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a480898c-ab04-4d52-9117-924e22ffb8b4")
+	)
+	(wire
+		(pts
+			(xy 127 190.5) (xy 127 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e5b99b-7a5d-4d42-a186-21890c38f8cf")
+	)
+	(wire
+		(pts
 			(xy 220.98 200.66) (xy 241.3 200.66)
 		)
 		(stroke
@@ -3912,6 +4809,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 152.4) (xy 149.86 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2e90c9-2afd-412e-b376-7546dbc0620d")
+	)
+	(wire
+		(pts
 			(xy 266.7 101.6) (xy 273.05 101.6)
 		)
 		(stroke
@@ -3919,6 +4826,16 @@
 			(type default)
 		)
 		(uuid "af6b9e32-c887-4e52-af60-c1c7d2bd7017")
+	)
+	(wire
+		(pts
+			(xy 177.8 24.13) (xy 203.2 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe6a81e-fc78-4638-8b07-2ab3088cd661")
 	)
 	(wire
 		(pts
@@ -3979,6 +4896,16 @@
 			(type default)
 		)
 		(uuid "b75fa4ff-545a-41da-a5bb-474b8bd515db")
+	)
+	(wire
+		(pts
+			(xy 152.4 203.2) (xy 152.4 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ee5f6a-5f97-46d8-8a6f-11eed46ca1b3")
 	)
 	(wire
 		(pts
@@ -4112,6 +5039,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 139.7) (xy 185.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd8b594-4b08-43af-ad89-3d0ea7e2516b")
+	)
+	(wire
+		(pts
 			(xy 220.98 172.72) (xy 241.3 172.72)
 		)
 		(stroke
@@ -4142,6 +5079,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 152.4) (xy 151.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d127031b-3b2d-47e2-98d3-d2b04cbb3ac3")
+	)
+	(wire
+		(pts
 			(xy 220.98 114.3) (xy 241.3 114.3)
 		)
 		(stroke
@@ -4162,6 +5109,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 163.83) (xy 148.59 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cdf68f-18c1-4a2f-9420-66c8d4550733")
+	)
+	(wire
+		(pts
+			(xy 127 214.63) (xy 127 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82c1277-7994-4054-8f00-11c617a3e39b")
+	)
+	(wire
+		(pts
 			(xy 220.98 127) (xy 241.3 127)
 		)
 		(stroke
@@ -4179,6 +5146,16 @@
 			(type default)
 		)
 		(uuid "dc3a376a-1fb0-4619-b799-92db6264de6d")
+	)
+	(wire
+		(pts
+			(xy 165.1 214.63) (xy 165.1 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc48276f-2460-4316-828f-cc66e7f474f6")
 	)
 	(wire
 		(pts
@@ -4222,6 +5199,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 134.62) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a7b8fc-a38e-4ddd-b32e-4eb8a3decc9e")
+	)
+	(wire
+		(pts
+			(xy 127 129.54) (xy 170.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3e0229-1ace-4165-a0b4-3987a960069b")
+	)
+	(wire
+		(pts
 			(xy 220.98 165.1) (xy 241.3 165.1)
 		)
 		(stroke
@@ -4229,6 +5226,16 @@
 			(type default)
 		)
 		(uuid "eb4a0548-9341-41ea-8cd0-5e958e5af1f2")
+	)
+	(wire
+		(pts
+			(xy 152.4 214.63) (xy 152.4 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec81a646-b07b-4768-9627-55c0b9bb3fb4")
 	)
 	(wire
 		(pts
@@ -4292,6 +5299,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 24.13) (xy 205.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7f5a81-be23-4aaa-a003-62422444a067")
+	)
+	(wire
+		(pts
 			(xy 238.76 124.46) (xy 241.3 124.46)
 		)
 		(stroke
@@ -4350,6 +5367,16 @@
 		)
 		(uuid "04b9bfdc-e5ab-40d1-bbe0-7610261b7bfd")
 	)
+	(label "GPIO_C"
+		(at 139.7 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "069cddee-3577-4890-beaa-3ab8ea949078")
+	)
 	(label "ISN_D"
 		(at 273.05 203.2 0)
 		(effects
@@ -4380,6 +5407,16 @@
 		)
 		(uuid "09d61f50-e84c-4312-859d-27618965318b")
 	)
+	(label "GPIO_B"
+		(at 152.4 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ba66df4-aa79-49ec-b2e1-e1610a0d6cb0")
+	)
 	(label "ISP_A"
 		(at 273.05 109.22 0)
 		(effects
@@ -4399,6 +5436,16 @@
 			(justify left bottom)
 		)
 		(uuid "10dd8506-f720-4060-a68d-67f2f79314af")
+	)
+	(label "GPIO_D"
+		(at 127 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "141d9b57-7f1d-425e-9a36-3a059a081725")
 	)
 	(label "SENSELF_B"
 		(at 222.25 144.78 0)
@@ -4439,6 +5486,26 @@
 			(justify left bottom)
 		)
 		(uuid "1b333301-661a-4b16-9731-83c221b138b1")
+	)
+	(label "DVCC"
+		(at 228.6 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b5355eb-24a0-4dfa-9d8e-d0d69c64889f")
+	)
+	(label "DVCC"
+		(at 170.18 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21a4a3c6-a986-4b5d-a318-3f2ff9bf6140")
 	)
 	(label "LKG_COMP_C"
 		(at 222.25 162.56 0)
@@ -4590,6 +5657,16 @@
 		)
 		(uuid "5ea1308c-b3a4-4605-b3f5-80b853f6a5f8")
 	)
+	(label "LDO1V8"
+		(at 177.8 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "616ff2ba-29f3-4354-87ee-3e9c945e3155")
+	)
 	(label "ISN_C"
 		(at 273.05 172.72 0)
 		(effects
@@ -4609,6 +5686,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e6ca0e4-e210-4ab4-8b54-41b2a4fac28d")
+	)
+	(label "GPIO_A"
+		(at 165.1 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fcce183-be9f-4b24-862f-b119af3a9818")
 	)
 	(label "DO_VDD"
 		(at 177.8 35.56 180)
@@ -4780,6 +5867,16 @@
 		)
 		(uuid "a8c4663e-c02c-4e8c-9c92-331deec82759")
 	)
+	(label "DVCC"
+		(at 160.02 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0a71212-fca9-4d09-bc95-71bf25de9b78")
+	)
 	(label "SENSELF_D"
 		(at 222.25 205.74 0)
 		(effects
@@ -4860,6 +5957,16 @@
 		)
 		(uuid "c1c13b61-9796-401e-a326-f858514e1b96")
 	)
+	(label "~{RESET}"
+		(at 182.88 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c62a43a6-0c6c-4362-9da0-1115609e1acb")
+	)
 	(label "DO_VDD"
 		(at 238.76 152.4 180)
 		(effects
@@ -4899,6 +6006,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb656f5e-d0a4-47b4-a548-cf54b41cb433")
+	)
+	(label "DVCC"
+		(at 129.54 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbea10f9-f620-43ba-85e8-f0947db82c99")
 	)
 	(label "VSENSEN_D"
 		(at 222.25 208.28 0)
@@ -4960,6 +6077,16 @@
 		)
 		(uuid "f46f3378-ae30-4cbe-87f8-8b9299206f67")
 	)
+	(label "DVCC"
+		(at 149.86 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6a63474-e38b-4513-b727-f7f2ce6710cb")
+	)
 	(label "ISP_D"
 		(at 273.05 200.66 0)
 		(effects
@@ -4989,6 +6116,278 @@
 			(justify left bottom)
 		)
 		(uuid "fdde0f2c-b8be-46ba-b466-0b019298a375")
+	)
+	(symbol
+		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
+		(at 152.4 198.12 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00e52163-7bc7-4be1-aabc-cd6b0608707d")
+		(property "Reference" "R49"
+			(at 149.86 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 149.86 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 157.48 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 160.02 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
+			(at 162.56 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1002X"
+			(at 170.18 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 187.96 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 172.72 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 182.88 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(at 177.8 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 165.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 167.64 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 175.26 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 180.34 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
+			(at 185.42 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(at 165.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 172.72 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6dd1413-d7ab-43c7-a0a3-1415293e154d")
+		)
+		(pin "1"
+			(uuid "5c1d7cd3-1762-4c57-8c74-29881bdb38da")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05adacc1-1dfe-454e-9adb-86edbead0451")
+		(property "Reference" "TP3"
+			(at 121.92 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "319cdc01-27f4-4cdf-a11b-79217bf4ded7")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "UNITED_IC_ADI:U_AD74416HBCPZ-RL7")
@@ -5265,6 +6664,207 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
+		(at 139.7 198.12 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "096d436f-1186-4e7d-a845-b1ac4dca0e32")
+		(property "Reference" "R50"
+			(at 137.16 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 137.16 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 144.78 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 147.32 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
+			(at 149.86 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1002X"
+			(at 157.48 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 175.26 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 160.02 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 170.18 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(at 165.1 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 152.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 154.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 162.56 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 167.64 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
+			(at 172.72 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(at 152.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9eb716d0-2194-46e1-af83-92db04beb955")
+		)
+		(pin "1"
+			(uuid "f69db038-8951-4fff-8a88-7a8f9e3fe17b")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GRM32EC72A106KE05L")
 		(at 194.31 39.37 0)
 		(unit 1)
@@ -5460,7 +7060,78 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10eac7f5-d339-4930-ae26-19447dd69e99")
+		(property "Reference" "TP5"
+			(at 121.92 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a7bdae8-011f-4fe0-ac52-6a76e208c801")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GRM21BR61H106KE43L")
 		(at 181.61 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5485,7 +7156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+		(property "Footprint" "capacitor_footprints:C_0805_125_2012Metric"
 			(at 181.61 66.04 0)
 			(show_name yes)
 			(effects
@@ -5496,7 +7167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01.pdf"
 			(at 181.61 63.5 0)
 			(show_name yes)
 			(effects
@@ -5507,7 +7178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+		(property "Description" "CAP SMD 10 µF X5R 10% 0805_125 50V"
 			(at 181.61 60.96 0)
 			(show_name yes)
 			(effects
@@ -5518,8 +7189,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNN#"
-			(at 181.61 50.8 0)
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 181.61 48.26 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5541,6 +7212,17 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 181.61 38.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GRM21BR61H106KE43L"
 			(at 181.61 40.64 0)
 			(show_name yes)
 			(effects
@@ -5551,7 +7233,51 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_CL31B106KBHNNN#"
+		(property "Manufacturer" "Murata Electronics"
+			(at 181.61 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0805_125"
+			(at 181.61 55.88 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "2012"
+			(at 181.61 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 181.61 50.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GRM21BR61H"
 			(at 181.61 43.18 0)
 			(show_name yes)
 			(effects
@@ -5562,8 +7288,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 181.61 48.26 0)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM21BR61H106KE43L"
+			(at 181.61 35.56 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5573,58 +7299,9 @@
 				(hide yes)
 			)
 		)
-		(property "Case Code - in" "1206"
-			(at 181.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "3216"
-			(at 181.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 181.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "CL31B"
-			(at 181.61 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
-			(at 181.61 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Voltage Rating" "50V"
-			(at 181.61 35.56 0)
+			(at 181.61 33.02 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +7321,8 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 181.61 55.88 0)
+			(at 181.61 58.42 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,6 +7341,73 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 129.54 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31a4a93d-f227-45ec-9943-174f2d55befb")
+		(property "Reference" "#PWR047"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 132.08 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03b2cd19-98ba-4571-90b5-5e952e402e00")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5729,6 +7474,148 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "399e5ef9-acc1-4af3-a18a-31467fb30eda")
+		(property "Reference" "TP8"
+			(at 121.92 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92d67562-0f46-4362-a661-74c004ac5d38")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a8ac138-5abd-4c91-8474-53af196fd735")
+		(property "Reference" "TP2"
+			(at 121.92 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74d892b3-da52-4453-bb13-009034f3ab24")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6131,6 +8018,159 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_DIODES_DATA_BASE:D_APHHS1005CGCK")
+		(at 139.7 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bd83317-7f57-4900-ba9f-237b8238b700")
+		(property "Reference" "D19"
+			(at 135.89 209.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8 V"
+			(at 135.89 212.4709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "diode_footprints:LED_GREEN_0402_1005Metric"
+			(at 132.08 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005CGCK"
+			(at 129.54 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green LED SMD 1.8 V"
+			(at 127 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Diode Type" "Green LED"
+			(at 124.46 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005CGCK"
+			(at 121.92 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 119.38 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "0.03"
+			(at 116.84 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "APHHS1005CGCK"
+			(at 114.3 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "D_APHHS1005CGCK"
+			(at 111.76 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005CGCK"
+			(at 109.22 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f0cb138-5d3e-4881-a7e3-b735a4121475")
+		)
+		(pin "1"
+			(uuid "ce56484c-3a4b-442d-8a1e-079cfcbdd999")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 231.14 81.28 0)
 		(mirror y)
@@ -6198,7 +8238,73 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(lib_id "power:GNDA")
+		(at 127 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50e52060-7be8-4ad1-ae80-e857aee409c3")
+		(property "Reference" "#PWR048"
+			(at 127 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 124.46 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 127 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9984bca0-e8ab-485f-98de-c95e0a384176")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GRM21BR61H106KE43L")
 		(at 184.15 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6223,7 +8329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+		(property "Footprint" "capacitor_footprints:C_0805_125_2012Metric"
 			(at 184.15 43.18 0)
 			(show_name yes)
 			(effects
@@ -6234,7 +8340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01.pdf"
 			(at 184.15 40.64 0)
 			(show_name yes)
 			(effects
@@ -6245,7 +8351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+		(property "Description" "CAP SMD 10 µF X5R 10% 0805_125 50V"
 			(at 184.15 38.1 0)
 			(show_name yes)
 			(effects
@@ -6256,8 +8362,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNN#"
-			(at 184.15 27.94 0)
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 184.15 25.4 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6279,6 +8385,17 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 184.15 15.24 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GRM21BR61H106KE43L"
 			(at 184.15 17.78 0)
 			(show_name yes)
 			(effects
@@ -6289,7 +8406,51 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_CL31B106KBHNNN#"
+		(property "Manufacturer" "Murata Electronics"
+			(at 184.15 22.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0805_125"
+			(at 184.15 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "2012"
+			(at 184.15 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 184.15 27.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GRM21BR61H"
 			(at 184.15 20.32 0)
 			(show_name yes)
 			(effects
@@ -6300,8 +8461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 184.15 25.4 0)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM21BR61H106KE43L"
+			(at 184.15 12.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6311,58 +8472,9 @@
 				(hide yes)
 			)
 		)
-		(property "Case Code - in" "1206"
-			(at 184.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "3216"
-			(at 184.15 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "CL31B"
-			(at 184.15 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
-			(at 184.15 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Voltage Rating" "50V"
-			(at 184.15 12.7 0)
+			(at 184.15 10.16 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +8494,8 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 184.15 33.02 0)
+			(at 184.15 35.56 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,6 +8654,273 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 152.4 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68c42dc2-4a12-4140-8290-5a9470954b88")
+		(property "Reference" "#PWR050"
+			(at 152.4 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 149.86 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 152.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "684771a7-d18d-4c22-b61a-ae704f6f245f")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
+		(at 165.1 198.12 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69aa2b18-aa40-4aef-a9dd-e1862328a998")
+		(property "Reference" "R48"
+			(at 162.56 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 162.56 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 170.18 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 172.72 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
+			(at 175.26 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1002X"
+			(at 182.88 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 200.66 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 185.42 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 195.58 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(at 190.5 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 177.8 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 180.34 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 187.96 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 193.04 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
+			(at 198.12 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(at 177.8 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 185.42 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7604182a-7e29-4389-8485-cd2b6c81ec5d")
+		)
+		(pin "1"
+			(uuid "beb2778d-0697-4932-9f29-98b4ab7b39ba")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 220.98 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -6601,6 +8981,225 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 149.86 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "739c502d-5de5-481b-981f-2072e8c46a0a")
+		(property "Reference" "#PWR046"
+			(at 149.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 147.32 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 149.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fce4fb90-b732-4cd0-94fc-5aad3230ff9a")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_DIODES_DATA_BASE:D_APHHS1005CGCK")
+		(at 165.1 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "766e7a51-9967-4a36-95ac-3a0c9a0f8f5d")
+		(property "Reference" "D17"
+			(at 161.29 209.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8 V"
+			(at 161.29 212.4709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "diode_footprints:LED_GREEN_0402_1005Metric"
+			(at 157.48 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005CGCK"
+			(at 154.94 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green LED SMD 1.8 V"
+			(at 152.4 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Diode Type" "Green LED"
+			(at 149.86 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005CGCK"
+			(at 147.32 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 144.78 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "0.03"
+			(at 142.24 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "APHHS1005CGCK"
+			(at 139.7 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "D_APHHS1005CGCK"
+			(at 137.16 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005CGCK"
+			(at 134.62 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db3f817c-03da-490e-bd9d-5bad3b29c131")
+		)
+		(pin "1"
+			(uuid "7f9aa8a0-e0db-4c15-a3dd-5575d0d8e025")
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -6817,7 +9416,160 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(lib_id "UNITED_DIODES_DATA_BASE:D_APHHS1005CGCK")
+		(at 127 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81e11348-5ea2-49fc-9a3b-901a3b650cda")
+		(property "Reference" "D20"
+			(at 123.19 209.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8 V"
+			(at 123.19 212.4709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "diode_footprints:LED_GREEN_0402_1005Metric"
+			(at 119.38 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005CGCK"
+			(at 116.84 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green LED SMD 1.8 V"
+			(at 114.3 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Diode Type" "Green LED"
+			(at 111.76 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005CGCK"
+			(at 109.22 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 106.68 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "0.03"
+			(at 104.14 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "APHHS1005CGCK"
+			(at 101.6 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "D_APHHS1005CGCK"
+			(at 99.06 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005CGCK"
+			(at 96.52 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6069c460-a142-4471-8baf-aaf23694fb7f")
+		)
+		(pin "1"
+			(uuid "004d0e75-1b6b-4f99-96d0-9beef7481447")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GRM21BR61H106KE43L")
 		(at 214.63 27.94 0)
 		(mirror x)
 		(unit 1)
@@ -6843,7 +9595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+		(property "Footprint" "capacitor_footprints:C_0805_125_2012Metric"
 			(at 214.63 20.32 0)
 			(show_name yes)
 			(effects
@@ -6854,7 +9606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01.pdf"
 			(at 214.63 17.78 0)
 			(show_name yes)
 			(effects
@@ -6865,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+		(property "Description" "CAP SMD 10 µF X5R 10% 0805_125 50V"
 			(at 214.63 15.24 0)
 			(show_name yes)
 			(effects
@@ -6876,8 +9628,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNN#"
-			(at 214.63 5.08 0)
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 214.63 2.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6899,6 +9651,17 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 214.63 -7.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GRM21BR61H106KE43L"
 			(at 214.63 -5.08 0)
 			(show_name yes)
 			(effects
@@ -6909,7 +9672,51 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_CL31B106KBHNNN#"
+		(property "Manufacturer" "Murata Electronics"
+			(at 214.63 0 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0805_125"
+			(at 214.63 10.16 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "2012"
+			(at 214.63 7.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 214.63 5.08 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GRM21BR61H"
 			(at 214.63 -2.54 0)
 			(show_name yes)
 			(effects
@@ -6920,8 +9727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 214.63 2.54 0)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM21BR61H106KE43L"
+			(at 214.63 -10.16 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6931,58 +9738,9 @@
 				(hide yes)
 			)
 		)
-		(property "Case Code - in" "1206"
-			(at 214.63 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "3216"
-			(at 214.63 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 214.63 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "CL31B"
-			(at 214.63 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
-			(at 214.63 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Voltage Rating" "50V"
-			(at 214.63 -10.16 0)
+			(at 214.63 -12.7 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +9760,8 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 214.63 10.16 0)
+			(at 214.63 12.7 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,6 +9780,493 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d0cc83c-3cf7-4e15-a108-b110759ed7ac")
+		(property "Reference" "TP4"
+			(at 121.92 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed3c418a-2a44-4828-a850-ab07c9ed023c")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9de988de-beb1-4657-a022-048c55e4bdad")
+		(property "Reference" "TP7"
+			(at 121.92 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2a15b3f-f742-4fbc-9e18-2a79de497ab4")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TACTILE_SWITCHES_DATA_BASE:S_TS21-34-035-BK-160-SMT-TR")
+		(at 149.86 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a40ad52d-b2f2-4be8-8753-75e0af6bdeb2")
+		(property "Reference" "S1"
+			(at 147.32 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS21-34-035-BK-160-SMT-TR"
+			(at 146.05 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "tactile_switches_footprints:TS21"
+			(at 144.78 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts21.pdf"
+			(at 144.78 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TS21-34-035-BK-160-SMT-TR series,  2 positions tactile switch,  Black,  Vertical mounting,  Surface Mount,"
+			(at 144.78 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 144.78 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS21-34-035-BK-160-SMT-TR"
+			(at 144.78 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 144.78 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 144.78 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 144.78 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 144.78 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 144.78 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TS21-34-035-BK-160-SMT-TR"
+			(at 144.78 191.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "S_TS21-34-035-BK-160-SMT-TR"
+			(at 144.78 194.31 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TS21-34-035-BK-160-SMT-TR"
+			(at 144.78 196.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9710fded-679b-40e1-a03c-d892819742bd")
+		)
+		(pin "2"
+			(uuid "681fd012-a6b1-4c7c-bae9-24d547f296c8")
+		)
+		(pin "4"
+			(uuid "53a20193-77f8-4974-83dc-e3ad63f46207")
+		)
+		(pin "1"
+			(uuid "d45f661f-8eee-472b-8bf6-151e51672afe")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_DIODES_DATA_BASE:D_APHHS1005CGCK")
+		(at 152.4 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4167f45-65bf-4df3-b91d-f9d494065d11")
+		(property "Reference" "D18"
+			(at 148.59 209.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8 V"
+			(at 148.59 212.4709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "diode_footprints:LED_GREEN_0402_1005Metric"
+			(at 144.78 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/product.asp?catalog_name=LED&product_id=APHHS1005CGCK"
+			(at 142.24 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green LED SMD 1.8 V"
+			(at 139.7 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Diode Type" "Green LED"
+			(at 137.16 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005CGCK"
+			(at 134.62 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 132.08 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "0.03"
+			(at 129.54 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "APHHS1005CGCK"
+			(at 127 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "D_APHHS1005CGCK"
+			(at 124.46 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/APHHS1005CGCK"
+			(at 121.92 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1aa871d9-f5a9-4a24-9d60-352e78f6924b")
+		)
+		(pin "1"
+			(uuid "74d15a50-e323-4257-b5d6-348a72f85737")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -7303,6 +10549,143 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 165.1 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "add2adfd-4cad-4406-ac2f-2ba07d8730a1")
+		(property "Reference" "#PWR051"
+			(at 165.1 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 162.56 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 165.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab576b81-fb1d-4a25-9c9e-d99f42562573")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b15e7cb9-8b52-4301-91e0-de241de03c4b")
+		(property "Reference" "TP9"
+			(at 121.92 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae242fb-d70b-47bc-be0d-f2857b924735")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 182.88 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7362,6 +10745,77 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b63f31f3-a025-4416-b0d6-596848a8d61a")
+		(property "Reference" "TP6"
+			(at 121.92 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ca503e4-b187-4640-8d34-d45a3fab6163")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8055,6 +11509,77 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 127 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddc446d7-03e6-47c1-b3a7-7850c0008960")
+		(property "Reference" "TP1"
+			(at 121.92 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf315716-b950-43fd-88c0-c6d65e774cff")
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_KGM05AR71C393KH")
 		(at 182.88 109.22 270)
 		(unit 1)
@@ -8453,6 +11978,273 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
+		(at 127 198.12 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea940acf-0385-493d-b507-193d3a6aa52a")
+		(property "Reference" "R51"
+			(at 124.46 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 124.46 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
+			(at 132.08 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 134.62 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
+			(at 137.16 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1002X"
+			(at 144.78 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 162.56 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 147.32 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 157.48 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(at 152.4 198.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0402"
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "1005"
+			(at 142.24 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "ERJ-2RKF"
+			(at 149.86 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "100 ppm/°C"
+			(at 154.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Resistor"
+			(at 147.32 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0f9ae41-1e55-49a7-be7f-807e9a227b12")
+		)
+		(pin "1"
+			(uuid "c7cdf9d8-f0b2-401b-bdc3-76ff517c2fdc")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 139.7 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb53451-f2d6-4108-bd32-0d96e7295c32")
+		(property "Reference" "#PWR049"
+			(at 139.7 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 137.16 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfda5091-655e-4df4-9f5b-faf6cec52484")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D")
 		(at 219.71 55.88 0)
 		(mirror x)
@@ -8663,7 +12455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GRM21BR61H106KE43L")
 		(at 224.79 73.66 0)
 		(mirror x)
 		(unit 1)
@@ -8689,7 +12481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+		(property "Footprint" "capacitor_footprints:C_0805_125_2012Metric"
 			(at 224.79 66.04 0)
 			(show_name yes)
 			(effects
@@ -8700,7 +12492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01.pdf"
 			(at 224.79 63.5 0)
 			(show_name yes)
 			(effects
@@ -8711,7 +12503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+		(property "Description" "CAP SMD 10 µF X5R 10% 0805_125 50V"
 			(at 224.79 60.96 0)
 			(show_name yes)
 			(effects
@@ -8722,8 +12514,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNN#"
-			(at 224.79 50.8 0)
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 224.79 48.26 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8745,6 +12537,17 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 224.79 38.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GRM21BR61H106KE43L"
 			(at 224.79 40.64 0)
 			(show_name yes)
 			(effects
@@ -8755,7 +12558,51 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_CL31B106KBHNNN#"
+		(property "Manufacturer" "Murata Electronics"
+			(at 224.79 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0805_125"
+			(at 224.79 55.88 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "2012"
+			(at 224.79 53.34 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 224.79 50.8 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GRM21BR61H"
 			(at 224.79 43.18 0)
 			(show_name yes)
 			(effects
@@ -8766,8 +12613,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 224.79 48.26 0)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM21BR61H106KE43L"
+			(at 224.79 35.56 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8777,58 +12624,9 @@
 				(hide yes)
 			)
 		)
-		(property "Case Code - in" "1206"
-			(at 224.79 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "3216"
-			(at 224.79 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 224.79 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "CL31B"
-			(at 224.79 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
-			(at 224.79 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Voltage Rating" "50V"
-			(at 224.79 35.56 0)
+			(at 224.79 33.02 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,7 +12646,8 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 224.79 55.88 0)
+			(at 224.79 58.42 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +12672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_CL31B106KBHNNN#")
+		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GRM21BR61H106KE43L")
 		(at 222.25 50.8 0)
 		(mirror x)
 		(unit 1)
@@ -8899,7 +12698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "capacitor_footprints:C_1206_3216Metric"
+		(property "Footprint" "capacitor_footprints:C_0805_125_2012Metric"
 			(at 222.25 43.18 0)
 			(show_name yes)
 			(effects
@@ -8910,7 +12709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL31B106KBHNNN#"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01.pdf"
 			(at 222.25 40.64 0)
 			(show_name yes)
 			(effects
@@ -8921,7 +12720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP SMD 10 µF X7R 10% 1206 50V"
+		(property "Description" "CAP SMD 10 µF X5R 10% 0805_125 50V"
 			(at 222.25 38.1 0)
 			(show_name yes)
 			(effects
@@ -8932,8 +12731,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31B106KBHNNN#"
-			(at 222.25 27.94 0)
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 222.25 25.4 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8955,6 +12754,17 @@
 			)
 		)
 		(property "Tolerance" "10%"
+			(at 222.25 15.24 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_GRM21BR61H106KE43L"
 			(at 222.25 17.78 0)
 			(show_name yes)
 			(effects
@@ -8965,7 +12775,51 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "C_CL31B106KBHNNN#"
+		(property "Manufacturer" "Murata Electronics"
+			(at 222.25 22.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "0805_125"
+			(at 222.25 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "2012"
+			(at 222.25 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 222.25 27.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "GRM21BR61H"
 			(at 222.25 20.32 0)
 			(show_name yes)
 			(effects
@@ -8976,8 +12830,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 222.25 25.4 0)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GRM21BR61H106KE43L"
+			(at 222.25 12.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8987,58 +12841,9 @@
 				(hide yes)
 			)
 		)
-		(property "Case Code - in" "1206"
-			(at 222.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case Code - mm" "3216"
-			(at 222.25 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 222.25 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Series" "CL31B"
-			(at 222.25 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CL31/CL31B106KBHNNN#"
-			(at 222.25 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "Voltage Rating" "50V"
-			(at 222.25 12.7 0)
+			(at 222.25 10.16 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +12863,8 @@
 			)
 		)
 		(property "Capacitor Type" "Ceramic"
-			(at 222.25 33.02 0)
+			(at 222.25 35.56 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
