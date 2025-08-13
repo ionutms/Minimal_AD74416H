@@ -491,6 +491,10 @@
       "version": 4
     },
     "net_colors": {
+      "/AVCC": "rgb(0, 72, 0)",
+      "/AVDD_HI": "rgb(0, 72, 72)",
+      "/AVDD_LO": "rgb(0, 132, 132)",
+      "/AVSS": "rgb(0, 132, 0)",
       "/CCOMP_A": "rgb(0, 194, 0)",
       "/CCOMP_B": "rgb(0, 194, 194)",
       "/CCOMP_C": "rgb(194, 0, 194)",
@@ -521,6 +525,7 @@
       "/I{slash}OP_B": "rgb(0, 194, 194)",
       "/I{slash}OP_C": "rgb(194, 0, 194)",
       "/I{slash}OP_D": "rgb(221, 133, 0)",
+      "/LDO1V8": "rgb(128, 77, 0)",
       "/LKG_COMP_A": "rgb(0, 194, 0)",
       "/LKG_COMP_B": "rgb(0, 194, 194)",
       "/LKG_COMP_C": "rgb(194, 0, 194)",
