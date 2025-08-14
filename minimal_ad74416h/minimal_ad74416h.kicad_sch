@@ -1453,6 +1453,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UNITED_DIODES_DATA_BASE:D_BAT41KFILM"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100.0 V"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "diode_footprints:SOD_523"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat41.pdf"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky SMD 100.0 V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Diode Type" "Schottky"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BAT41KFILM"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maximum DC Current (A)" "1.0"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "BAT41KFILM"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "D_BAT41KFILM"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BAT41KFILM"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "D_BAT41KFILM_1_0"
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 1.905) (xy 1.27 1.905) (xy 1.27 0) (xy -1.27 1.905) (xy -1.27 -1.905)
+						(xy 1.27 0) (xy 1.27 -1.905) (xy 1.905 -1.905) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UNITED_IC_ADI:U_AD74416HBCPZ-RL7"
 			(pin_names
 				(offset 0.254)
@@ -3528,7 +3716,7 @@
 		(uuid "4e82f6a0-47b7-4a49-9c69-a0db69ad9215")
 	)
 	(junction
-		(at 156.21 149.86)
+		(at 149.86 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50c9eee0-5eb9-4a63-8dda-a98868b63362")
@@ -3558,7 +3746,7 @@
 		(uuid "6e7528fa-88d3-4841-8b4d-fcdc5353a61c")
 	)
 	(junction
-		(at 143.51 149.86)
+		(at 130.81 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73218aeb-8bdd-4c10-804d-42ca589c0e97")
@@ -3568,6 +3756,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "777ccc00-75df-4bb5-af2a-8c9718e6a1fe")
+	)
+	(junction
+		(at 165.1 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8211c821-373c-4b76-b957-9851cfddfe8a")
 	)
 	(junction
 		(at 177.8 55.88)
@@ -3612,16 +3806,16 @@
 		(uuid "a386904e-0e49-459f-8f78-642c5446b374")
 	)
 	(junction
+		(at 143.51 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c374aa-da0f-4d8e-94c1-e204297e581c")
+	)
+	(junction
 		(at 205.74 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1a2466b-bbef-4921-8725-bd54131437ee")
-	)
-	(junction
-		(at 156.21 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb30b477-8207-4717-8ae9-3b3e9a187439")
 	)
 	(junction
 		(at 198.12 224.79)
@@ -3634,6 +3828,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d387d35a-4ca5-458b-8de5-2cd07f928132")
+	)
+	(junction
+		(at 165.1 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4b2bea3-f719-4812-9584-fc153bbaa4a6")
 	)
 	(junction
 		(at 228.6 55.88)
@@ -3650,6 +3850,16 @@
 			(type default)
 		)
 		(uuid "0049a31d-d5c2-4614-8d85-afd40aeaadc6")
+	)
+	(wire
+		(pts
+			(xy 165.1 69.85) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00cf4e97-9683-43c5-a28d-19a1b1e11ae9")
 	)
 	(wire
 		(pts
@@ -3763,7 +3973,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 127) (xy 160.02 132.08)
+			(xy 160.02 119.38) (xy 160.02 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3793,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 149.86 116.84)
+			(xy 149.86 106.68) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3803,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 149.86) (xy 156.21 149.86)
+			(xy 142.24 123.19) (xy 143.51 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3833,7 +4043,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 144.78) (xy 156.21 149.86)
+			(xy 149.86 119.38) (xy 149.86 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3853,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 72.39) (xy 165.1 72.39)
+			(xy 157.48 72.39) (xy 154.94 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3863,7 +4073,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 129.54) (xy 170.18 127)
+			(xy 170.18 129.54) (xy 170.18 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3933,6 +4143,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 63.5) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9cd60f-e768-4150-9fc2-5dd08f2e22b1")
+	)
+	(wire
+		(pts
+			(xy 143.51 123.19) (xy 143.51 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c99d861-08d1-4d9c-a0af-b50e71cb994e")
+	)
+	(wire
+		(pts
 			(xy 220.98 162.56) (xy 241.3 162.56)
 		)
 		(stroke
@@ -3983,7 +4213,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 69.85) (xy 190.5 69.85)
+			(xy 154.94 69.85) (xy 165.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4090,16 +4320,6 @@
 			(type default)
 		)
 		(uuid "383f6282-4269-404a-ab08-62064a75bebd")
-	)
-	(wire
-		(pts
-			(xy 149.86 127) (xy 149.86 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b99533-1662-43e5-83d4-e5858941e9da")
 	)
 	(wire
 		(pts
@@ -4243,6 +4463,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 123.19) (xy 149.86 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b469356-5f41-4c2c-b66e-48a8514dbcb2")
+	)
+	(wire
+		(pts
 			(xy 238.76 72.39) (xy 241.3 72.39)
 		)
 		(stroke
@@ -4273,7 +4503,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 149.86) (xy 143.51 152.4)
+			(xy 130.81 123.19) (xy 130.81 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4393,6 +4623,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 46.99) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6f4288-233f-4d40-ae56-77f1e192378f")
+	)
+	(wire
+		(pts
 			(xy 213.36 55.88) (xy 215.9 55.88)
 		)
 		(stroke
@@ -4403,7 +4643,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 144.78) (xy 156.21 144.78)
+			(xy 149.86 144.78) (xy 185.42 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4453,7 +4693,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 151.13) (xy 139.7 149.86)
+			(xy 127 124.46) (xy 127 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4463,7 +4703,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 193.04 46.99)
+			(xy 154.94 46.99) (xy 165.1 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4603,13 +4843,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 152.4) (xy 143.51 152.4)
+			(xy 132.08 125.73) (xy 130.81 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78d83566-1c9f-4e6f-93a3-9326cebf0671")
+	)
+	(wire
+		(pts
+			(xy 143.51 125.73) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3ca0b8-2449-45e2-b61f-8fe65c94f480")
 	)
 	(wire
 		(pts
@@ -4723,16 +4973,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 152.4) (xy 154.94 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3495fa-992b-4bbe-9cd8-3194d712b506")
-	)
-	(wire
-		(pts
 			(xy 215.9 69.85) (xy 215.9 73.66)
 		)
 		(stroke
@@ -4763,7 +5003,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 114.3) (xy 160.02 116.84)
+			(xy 160.02 106.68) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4793,17 +5033,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 144.78) (xy 185.42 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96829761-c979-447d-a13b-6ae0e12170c5")
-	)
-	(wire
-		(pts
-			(xy 170.18 114.3) (xy 170.18 116.84)
+			(xy 170.18 106.68) (xy 170.18 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +5093,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 149.86) (xy 143.51 149.86)
+			(xy 127 123.19) (xy 130.81 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4940,6 +5170,16 @@
 			(type default)
 		)
 		(uuid "a480898c-ab04-4d52-9117-924e22ffb8b4")
+	)
+	(wire
+		(pts
+			(xy 149.86 123.19) (xy 149.86 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d43850-ef79-470e-b841-6d289376f3fa")
 	)
 	(wire
 		(pts
@@ -5103,16 +5343,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 149.86) (xy 156.21 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c13536cb-292f-463e-8a22-78d23a1f3b2c")
-	)
-	(wire
-		(pts
 			(xy 220.98 160.02) (xy 241.3 160.02)
 		)
 		(stroke
@@ -5253,7 +5483,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 149.86) (xy 143.51 149.86)
+			(xy 132.08 123.19) (xy 130.81 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5373,7 +5603,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 73.66) (xy 167.64 72.39)
+			(xy 157.48 73.66) (xy 157.48 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5403,7 +5633,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 50.8) (xy 167.64 49.53)
+			(xy 157.48 50.8) (xy 157.48 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5420,6 +5650,16 @@
 			(type default)
 		)
 		(uuid "f0e279d0-ff62-45c9-a64f-8de9a9c43b3c")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 193.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11d6789-c88f-40c2-98bc-78e662f5297d")
 	)
 	(wire
 		(pts
@@ -5503,7 +5743,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 49.53) (xy 165.1 49.53)
+			(xy 157.48 49.53) (xy 154.94 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5592,7 +5832,7 @@
 		(uuid "09d61f50-e84c-4312-859d-27618965318b")
 	)
 	(label "AVDD_LO"
-		(at 167.64 46.99 0)
+		(at 154.94 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5662,7 +5902,7 @@
 		(uuid "1b333301-661a-4b16-9731-83c221b138b1")
 	)
 	(label "DVCC"
-		(at 170.18 114.3 180)
+		(at 170.18 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5882,7 +6122,7 @@
 		(uuid "6ff629f8-68e2-4de9-bb7b-b04f5e3848f2")
 	)
 	(label "AVDD_HI"
-		(at 167.64 69.85 0)
+		(at 154.94 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6042,7 +6282,7 @@
 		(uuid "a8c4663e-c02c-4e8c-9c92-331deec82759")
 	)
 	(label "DVCC"
-		(at 160.02 114.3 180)
+		(at 160.02 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6252,7 +6492,7 @@
 		(uuid "f46f3378-ae30-4cbe-87f8-8b9299206f67")
 	)
 	(label "DVCC"
-		(at 149.86 114.3 180)
+		(at 149.86 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7937,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 165.1 46.99 90)
+		(at 154.94 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7945,7 +8185,7 @@
 		(dnp no)
 		(uuid "32598baf-0c3a-44a6-b605-7a71f7c886e7")
 		(property "Reference" "TP17"
-			(at 160.02 46.9899 90)
+			(at 149.86 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +8194,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.56 44.45 0)
+			(at 152.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +8204,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 170.18 44.45 0)
+			(at 160.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +8214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 44.45 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7984,7 +8224,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 167.64 44.45 0)
+			(at 157.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8000,6 +8240,158 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_DIODES_DATA_BASE:D_BAT41KFILM")
+		(at 165.1 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35ae03b9-4fe2-4996-a7b6-4c7d6cfd5971")
+		(property "Reference" "D21"
+			(at 161.29 56.8324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100.0 V"
+			(at 161.29 59.3724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diode_footprints:SOD_523"
+			(at 172.72 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat41.pdf"
+			(at 175.26 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky SMD 100.0 V"
+			(at 177.8 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Diode Type" "Schottky"
+			(at 180.34 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT41KFILM"
+			(at 182.88 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 185.42 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum DC Current (A)" "1.0"
+			(at 187.96 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "BAT41KFILM"
+			(at 190.5 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "D_BAT41KFILM"
+			(at 193.04 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BAT41KFILM"
+			(at 195.58 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bc74b56-d56f-4acb-b02e-b8ceb103a8be")
+		)
+		(pin "1"
+			(uuid "e8e68182-e804-4f5c-ad06-fb26140adfe8")
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -8411,7 +8803,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
-		(at 149.86 121.92 90)
+		(at 149.86 114.3 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8420,7 +8812,7 @@
 		(dnp no)
 		(uuid "451de6ac-0f1c-4791-856a-f98ba63f1b0b")
 		(property "Reference" "R1"
-			(at 147.32 120.6499 90)
+			(at 147.32 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8821,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 147.32 123.1899 90)
+			(at 147.32 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8830,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 154.94 121.92 0)
+			(at 154.94 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8449,7 +8841,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 157.48 121.92 0)
+			(at 157.48 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8460,7 +8852,7 @@
 			)
 		)
 		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
-			(at 160.02 121.92 0)
+			(at 160.02 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8471,7 +8863,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF1002X"
-			(at 167.64 121.92 0)
+			(at 167.64 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8482,7 +8874,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 185.42 121.92 0)
+			(at 185.42 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8493,7 +8885,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 170.18 121.92 0)
+			(at 170.18 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8504,7 +8896,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 180.34 121.92 0)
+			(at 180.34 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8515,7 +8907,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2RKF1002X"
-			(at 175.26 121.92 0)
+			(at 175.26 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8526,7 +8918,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 162.56 121.92 0)
+			(at 162.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,7 +8928,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 165.1 121.92 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8938,7 @@
 			)
 		)
 		(property "Series" "ERJ-2RKF"
-			(at 172.72 121.92 0)
+			(at 172.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8948,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "100 ppm/°C"
-			(at 177.8 121.92 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,7 +8958,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
-			(at 182.88 121.92 0)
+			(at 182.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8968,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 162.56 121.92 0)
+			(at 162.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8978,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 170.18 121.92 0)
+			(at 170.18 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +9004,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 167.64 73.66 0)
+		(at 157.48 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8620,7 +9012,7 @@
 		(dnp no)
 		(uuid "463e6149-0cbf-43f1-adf9-22d0132fd2f8")
 		(property "Reference" "#PWR057"
-			(at 167.64 80.01 0)
+			(at 157.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +9021,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 165.1 74.9299 0)
+			(at 154.94 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +9030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 73.66 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +9039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 73.66 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +9048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 167.64 73.66 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,7 +10528,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 139.7 151.13 0)
+		(at 127 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10144,7 +10536,7 @@
 		(dnp no)
 		(uuid "739c502d-5de5-481b-981f-2072e8c46a0a")
 		(property "Reference" "#PWR046"
-			(at 139.7 157.48 0)
+			(at 127 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10545,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 137.16 152.3999 0)
+			(at 124.46 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 151.13 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 151.13 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +10572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 139.7 151.13 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11749,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TACTILE_SWITCHES_DATA_BASE:S_TS21-34-035-BK-160-SMT-TR")
-		(at 149.86 151.13 270)
+		(at 137.16 124.46 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11367,7 +11759,7 @@
 		(fields_autoplaced yes)
 		(uuid "a40ad52d-b2f2-4be8-8753-75e0af6bdeb2")
 		(property "Reference" "S1"
-			(at 149.86 147.32 90)
+			(at 137.16 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +11767,7 @@
 			)
 		)
 		(property "Value" "TS21-34-035-BK-160-SMT-TR"
-			(at 149.86 147.32 90)
+			(at 137.16 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11384,7 +11776,7 @@
 			)
 		)
 		(property "Footprint" "tactile_switches_footprints:TS21"
-			(at 142.24 146.05 0)
+			(at 129.54 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11395,7 +11787,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts21.pdf"
-			(at 139.7 146.05 0)
+			(at 127 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11406,7 +11798,7 @@
 			)
 		)
 		(property "Description" "Same Sky TS21-34-035-BK-160-SMT-TR series,  2 positions tactile switch,  Black,  Vertical mounting,  Surface Mount,"
-			(at 137.16 146.05 0)
+			(at 124.46 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11417,7 +11809,7 @@
 			)
 		)
 		(property "Color" "Black"
-			(at 134.62 146.05 0)
+			(at 121.92 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11428,7 +11820,7 @@
 			)
 		)
 		(property "MPN" "TS21-34-035-BK-160-SMT-TR"
-			(at 132.08 146.05 0)
+			(at 119.38 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11439,7 +11831,7 @@
 			)
 		)
 		(property "Manufacturer" "Same Sky"
-			(at 129.54 146.05 0)
+			(at 116.84 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11450,7 +11842,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 127 146.05 0)
+			(at 114.3 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11461,7 +11853,7 @@
 			)
 		)
 		(property "Mounting Style" "Surface Mount"
-			(at 124.46 146.05 0)
+			(at 111.76 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11472,7 +11864,7 @@
 			)
 		)
 		(property "Number of Rows" "2"
-			(at 121.92 146.05 0)
+			(at 109.22 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11483,7 +11875,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 119.38 146.05 0)
+			(at 106.68 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11494,7 +11886,7 @@
 			)
 		)
 		(property "Series" "TS21-34-035-BK-160-SMT-TR"
-			(at 116.84 146.05 0)
+			(at 104.14 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11505,7 +11897,7 @@
 			)
 		)
 		(property "Symbol Name" "S_TS21-34-035-BK-160-SMT-TR"
-			(at 114.3 146.05 0)
+			(at 101.6 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11516,7 +11908,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TS21-34-035-BK-160-SMT-TR"
-			(at 111.76 146.05 0)
+			(at 99.06 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12531,7 +12923,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
-		(at 160.02 121.92 90)
+		(at 160.02 114.3 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12540,7 +12932,7 @@
 		(dnp no)
 		(uuid "c89c4b42-fda7-46c9-a4c5-db7ca365c9f6")
 		(property "Reference" "R2"
-			(at 157.48 120.6499 90)
+			(at 157.48 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,7 +12941,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 157.48 123.1899 90)
+			(at 157.48 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,7 +12950,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 165.1 121.92 0)
+			(at 165.1 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12569,7 +12961,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 167.64 121.92 0)
+			(at 167.64 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12580,7 +12972,7 @@
 			)
 		)
 		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
-			(at 170.18 121.92 0)
+			(at 170.18 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12591,7 +12983,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF1002X"
-			(at 177.8 121.92 0)
+			(at 177.8 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12602,7 +12994,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 195.58 121.92 0)
+			(at 195.58 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12613,7 +13005,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 180.34 121.92 0)
+			(at 180.34 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12624,7 +13016,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 190.5 121.92 0)
+			(at 190.5 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12635,7 +13027,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2RKF1002X"
-			(at 185.42 121.92 0)
+			(at 185.42 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12646,7 +13038,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 172.72 121.92 0)
+			(at 172.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,7 +13048,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 175.26 121.92 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12666,7 +13058,7 @@
 			)
 		)
 		(property "Series" "ERJ-2RKF"
-			(at 182.88 121.92 0)
+			(at 182.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12676,7 +13068,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "100 ppm/°C"
-			(at 187.96 121.92 0)
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12686,7 +13078,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
-			(at 193.04 121.92 0)
+			(at 193.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12696,7 +13088,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 172.72 121.92 0)
+			(at 172.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +13098,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 180.34 121.92 0)
+			(at 180.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,7 +13685,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 167.64 50.8 0)
+		(at 157.48 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13301,7 +13693,7 @@
 		(dnp no)
 		(uuid "dccd335c-337b-4467-8eea-83c9d9bb6073")
 		(property "Reference" "#PWR056"
-			(at 167.64 57.15 0)
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13310,7 +13702,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 165.1 52.0699 0)
+			(at 154.94 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,7 +13711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 50.8 0)
+			(at 157.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13328,7 +13720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 50.8 0)
+			(at 157.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13337,7 +13729,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 167.64 50.8 0)
+			(at 157.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13572,7 +13964,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 165.1 69.85 90)
+		(at 154.94 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13580,7 +13972,7 @@
 		(dnp no)
 		(uuid "dfae46a2-7151-44d3-b5a7-31784cf84a3b")
 		(property "Reference" "TP19"
-			(at 160.02 69.8499 90)
+			(at 149.86 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13589,7 +13981,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.56 67.31 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13599,7 +13991,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 170.18 67.31 0)
+			(at 160.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,7 +14001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 67.31 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13619,7 +14011,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 167.64 67.31 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,7 +14302,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2RKF1002X")
-		(at 170.18 121.92 90)
+		(at 170.18 114.3 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13919,7 +14311,7 @@
 		(dnp no)
 		(uuid "e80bc453-31f9-4cd6-9907-0bd8bdb24d98")
 		(property "Reference" "R3"
-			(at 167.64 120.6499 90)
+			(at 167.64 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13928,7 +14320,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 167.64 123.1899 90)
+			(at 167.64 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13937,7 +14329,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 175.26 121.92 0)
+			(at 175.26 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13948,7 +14340,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 177.8 121.92 0)
+			(at 177.8 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13959,7 +14351,7 @@
 			)
 		)
 		(property "Description" "RES SMD 10 kΩ 1% 0402 50V"
-			(at 180.34 121.92 0)
+			(at 180.34 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13970,7 +14362,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF1002X"
-			(at 187.96 121.92 0)
+			(at 187.96 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13981,7 +14373,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 205.74 121.92 0)
+			(at 205.74 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13992,7 +14384,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 190.5 121.92 0)
+			(at 190.5 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -14003,7 +14395,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 200.66 121.92 0)
+			(at 200.66 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -14014,7 +14406,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2RKF1002X"
-			(at 195.58 121.92 0)
+			(at 195.58 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -14025,7 +14417,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 182.88 121.92 0)
+			(at 182.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +14427,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 185.42 121.92 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14045,7 +14437,7 @@
 			)
 		)
 		(property "Series" "ERJ-2RKF"
-			(at 193.04 121.92 0)
+			(at 193.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14055,7 +14447,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "100 ppm/°C"
-			(at 198.12 121.92 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14065,7 +14457,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
-			(at 203.2 121.92 0)
+			(at 203.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14075,7 +14467,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 182.88 121.92 0)
+			(at 182.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,7 +14477,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 190.5 121.92 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,7 +14503,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 165.1 49.53 90)
+		(at 154.94 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14119,7 +14511,7 @@
 		(dnp no)
 		(uuid "e8760673-5ee4-490b-b32b-2984fb10881b")
 		(property "Reference" "TP18"
-			(at 160.02 49.5299 90)
+			(at 149.86 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14128,7 +14520,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.56 46.99 0)
+			(at 152.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14138,7 +14530,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 170.18 46.99 0)
+			(at 160.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14148,7 +14540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 46.99 0)
+			(at 154.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14158,7 +14550,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 167.64 46.99 0)
+			(at 157.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15371,7 +15763,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 165.1 72.39 90)
+		(at 154.94 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15379,7 +15771,7 @@
 		(dnp no)
 		(uuid "fd16e741-def1-445f-9833-84e6fc80ae5c")
 		(property "Reference" "TP20"
-			(at 160.02 72.3899 90)
+			(at 149.86 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15388,7 +15780,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.56 69.85 0)
+			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15398,7 +15790,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 170.18 69.85 0)
+			(at 160.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15408,7 +15800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 69.85 0)
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15418,7 +15810,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 167.64 69.85 0)
+			(at 157.48 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
