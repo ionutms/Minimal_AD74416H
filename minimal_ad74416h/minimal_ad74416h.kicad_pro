@@ -550,7 +550,14 @@
       "/VSENSEP_B": "rgb(0, 194, 194)",
       "/VSENSEP_C": "rgb(194, 0, 194)",
       "/VSENSEP_D": "rgb(221, 133, 0)",
-      "GNDA": "rgb(132, 132, 132)"
+      "/~{RESET}": "rgb(255, 92, 111)",
+      "GNDA": "rgb(132, 132, 132)",
+      "Net-(U1-SCLK)": "rgb(255, 92, 111)",
+      "Net-(U1-SDI)": "rgb(255, 92, 111)",
+      "Net-(U1-SDO)": "rgb(255, 92, 111)",
+      "Net-(U1-~{ADC_RDY})": "rgb(255, 92, 111)",
+      "Net-(U1-~{ALERT})": "rgb(255, 92, 111)",
+      "Net-(U1-~{SYNC})": "rgb(255, 92, 111)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
