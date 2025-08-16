@@ -1323,6 +1323,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UNITED_DIP_SWITCHES_DATA_BASE:S_416131160801"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "416131160801"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "dip_switches_footprints:416131160801"
+				(at 0 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/416131160801.pdf"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wurth Elektronik Vertical mounting,  Surface Mount,"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "416131160801"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "1"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "416131160801"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "S_416131160801"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/416131160801"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "S_416131160801_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UNITED_RESISTORS_DATA_BASE:R_CRM1206-FX-R150ELF"
 			(pin_names
 				(offset 0.254)
@@ -6801,16 +7044,18 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_MTMM-101-04-L-D-196")
+		(lib_id "UNITED_DIP_SWITCHES_DATA_BASE:S_416131160801")
 		(at 209.55 190.5 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "34b8b563-0d4c-40be-8546-0e38cfbfaf20")
-		(property "Reference" "J3"
-			(at 214.63 189.2299 90)
+		(property "Reference" "S3"
+			(at 210.82 189.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,8 +7063,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MTMM-101-04-L-D-196"
-			(at 214.63 191.7699 90)
+		(property "Value" "416131160801"
+			(at 210.82 191.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,8 +7072,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "connector_footprints:MTMM-101-04-L-D-196"
-			(at 215.9 185.42 0)
+		(property "Footprint" "dip_switches_footprints:416131160801"
+			(at 214.63 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6838,8 +7083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/mtmm_th.pdf?_gl=1*10xs2wh*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTQ5MDMyODEkbzEkZzEkdDE3NTQ5MDYwODAkajYwJGwwJGgw"
-			(at 218.44 185.42 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/416131160801.pdf"
+			(at 217.17 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6849,8 +7094,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec MTMM-1xx-04-L-D-196 series,  1 positions connector,  2.0 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
-			(at 220.98 185.42 0)
+		(property "Description" "Wurth Elektronik Vertical mounting,  Surface Mount,"
+			(at 219.71 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6861,7 +7106,7 @@
 			)
 		)
 		(property "Color" "Black"
-			(at 223.52 185.42 0)
+			(at 223.52 195.58 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6872,7 +7117,7 @@
 			)
 		)
 		(property "Contact Plating" "Tin"
-			(at 226.06 185.42 0)
+			(at 226.06 195.58 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6883,7 +7128,7 @@
 			)
 		)
 		(property "Current Rating (A)" "5.2"
-			(at 228.6 185.42 0)
+			(at 228.6 195.58 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6893,8 +7138,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MTMM-101-04-L-D-196"
-			(at 231.14 185.42 0)
+		(property "MPN" "416131160801"
+			(at 222.25 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6904,8 +7149,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtec"
-			(at 233.68 185.42 0)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 224.79 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6916,7 +7161,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 236.22 185.42 0)
+			(at 227.33 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6926,8 +7171,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
-			(at 238.76 185.42 0)
+		(property "Mounting Style" "Surface Mount"
+			(at 229.87 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6938,7 +7183,7 @@
 			)
 		)
 		(property "Number of Rows" "2"
-			(at 241.3 185.42 0)
+			(at 232.41 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6949,7 +7194,7 @@
 			)
 		)
 		(property "Pin Count" "1"
-			(at 243.84 185.42 0)
+			(at 234.95 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6960,7 +7205,7 @@
 			)
 		)
 		(property "Pitch (mm)" "2.0"
-			(at 246.38 185.42 0)
+			(at 246.38 195.58 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6970,8 +7215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "MTMM-1xx-04-L-D-196"
-			(at 248.92 185.42 0)
+		(property "Series" "416131160801"
+			(at 237.49 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6981,8 +7226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_MTMM-101-04-L-D-196"
-			(at 251.46 185.42 0)
+		(property "Symbol Name" "S_416131160801"
+			(at 240.03 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6992,8 +7237,8 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/MTMM-101-04-L-D-196"
-			(at 254 185.42 0)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/416131160801"
+			(at 242.57 190.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7004,7 +7249,7 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 256.54 185.42 0)
+			(at 256.54 195.58 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7023,19 +7268,19 @@
 		(instances
 			(project ""
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/010e8139-4c72-4154-a66e-8d0ded735c08"
-					(reference "J5")
+					(reference "S5")
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/0786ce20-9b4f-45a9-9d62-20c78d282fdc"
-					(reference "J3")
+					(reference "S3")
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/0d35b6da-5370-4b8d-bdb2-6a6466fd726d"
-					(reference "J4")
+					(reference "S4")
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/56f471d9-4771-4bab-9fc0-7f2502be0d29"
-					(reference "J6")
+					(reference "S6")
 					(unit 1)
 				)
 			)
