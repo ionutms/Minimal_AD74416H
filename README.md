@@ -98,13 +98,16 @@ The `docs` folder contains:
 
 ## Visuals
 
-Here are some images of the PCB design:
+The following images showcase the PCB design from different perspectives:
 
-![Top View](minimal_ad74416h/docs/pictures/minimal_ad74416h_top.png)
+![Top View](minimal_ad74416h/docs/pictures/2_minimal_ad74416h_top.png)
 *Top View of the PCB*
 
-![Side View](minimal_ad74416h/docs/pictures/minimal_ad74416h_side.png)
+![Side View](minimal_ad74416h/docs/pictures/1_minimal_ad74416h_side.png)
 *Side View of the PCB*
+
+![Bottom View](minimal_ad74416h/docs/pictures/3_minimal_ad74416h_bottom.png)
+*Bottom View of the PCB*
 
 ## License
 
