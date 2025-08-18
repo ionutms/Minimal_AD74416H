@@ -194,7 +194,7 @@ jobs:
               # Generate PCB render top view if PCB found
               if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
                 kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
-                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/${PROJECT_NAME}_top.png" \
+                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/2_${PROJECT_NAME}_top.png" \
                   --background transparent \
                   --quality high \
                   --zoom ${{ steps.kicad-config.outputs.top_view_zoom_factor }}
@@ -203,7 +203,7 @@ jobs:
               # Generate PCB render side view if PCB found
               if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
                 kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
-                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/${PROJECT_NAME}_side.png" \
+                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/1_${PROJECT_NAME}_side.png" \
                   --background transparent \
                   --quality high \
                   --rotate ${{ steps.kicad-config.outputs.side_view_rotate }} \
@@ -214,7 +214,7 @@ jobs:
               # Generate PCB render bottom view if PCB found
               if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
                 kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
-                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/${PROJECT_NAME}_bottom.png" \
+                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/3_${PROJECT_NAME}_bottom.png" \
                   --background transparent \
                   --quality high \
                   --side bottom \
