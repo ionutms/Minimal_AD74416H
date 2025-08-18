@@ -217,6 +217,7 @@ jobs:
                   -o "/kicad_project/$PROJECT_NAME/docs/pictures/${PROJECT_NAME}_bottom.png" \
                   --background transparent \
                   --quality high \
+                  --side bottom \
                   --zoom ${{ steps.kicad-config.outputs.bottom_view_zoom_factor }}
               fi"
 
