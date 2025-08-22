@@ -6533,7 +6533,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 137.16) (xy 185.42 137.16)
+			(xy 99.06 137.16) (xy 185.42 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6863,7 +6863,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 132.08) (xy 160.02 132.08)
+			(xy 99.06 132.08) (xy 160.02 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6943,7 +6943,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 144.78) (xy 149.86 144.78)
+			(xy 99.06 144.78) (xy 149.86 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7163,7 +7163,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 142.24) (xy 185.42 142.24)
+			(xy 99.06 142.24) (xy 185.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7473,6 +7473,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 147.32) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca009f4b-0f4c-47ea-94a7-a245cd4eb67b")
+	)
+	(wire
+		(pts
 			(xy 175.26 78.74) (xy 180.34 78.74)
 		)
 		(stroke
@@ -7493,7 +7503,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 148.59) (xy 102.87 147.32)
+			(xy 101.6 148.59) (xy 101.6 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7503,7 +7513,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 139.7) (xy 185.42 139.7)
+			(xy 99.06 139.7) (xy 185.42 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7683,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 134.62) (xy 185.42 134.62)
+			(xy 99.06 134.62) (xy 185.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7713,7 +7723,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 129.54) (xy 170.18 129.54)
+			(xy 99.06 129.54) (xy 170.18 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9107,7 +9117,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 102.87 134.62 90)
+		(at 99.06 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9116,7 +9126,7 @@
 		(fields_autoplaced yes)
 		(uuid "05adacc1-1dfe-454e-9adb-86edbead0451")
 		(property "Reference" "TP5"
-			(at 97.79 134.6199 90)
+			(at 93.98 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +9135,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 132.08 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,7 +9145,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 107.95 132.08 0)
+			(at 104.14 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,7 +9155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 132.08 0)
+			(at 99.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +9165,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 132.08 0)
+			(at 101.6 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +10065,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 102.87 139.7 90)
+		(at 99.06 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10064,7 +10074,7 @@
 		(fields_autoplaced yes)
 		(uuid "10eac7f5-d339-4930-ae26-19447dd69e99")
 		(property "Reference" "TP7"
-			(at 97.79 139.6999 90)
+			(at 93.98 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10083,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 137.16 0)
+			(at 96.52 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10083,7 +10093,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 107.95 137.16 0)
+			(at 104.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +10103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 137.16 0)
+			(at 99.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,7 +10113,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 137.16 0)
+			(at 101.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,7 +11664,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 102.87 132.08 90)
+		(at 99.06 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11663,7 +11673,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a8ac138-5abd-4c91-8474-53af196fd735")
 		(property "Reference" "TP4"
-			(at 97.79 132.0799 90)
+			(at 93.98 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11672,7 +11682,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 129.54 0)
+			(at 96.52 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11692,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 107.95 129.54 0)
+			(at 104.14 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11692,7 +11702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 129.54 0)
+			(at 99.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +11712,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 129.54 0)
+			(at 101.6 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13922,7 +13932,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 102.87 147.32 90)
+		(at 99.06 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13931,7 +13941,7 @@
 		(fields_autoplaced yes)
 		(uuid "722ca693-3ff3-4f98-a309-fa7f9f2788c3")
 		(property "Reference" "TP10"
-			(at 97.79 147.3199 90)
+			(at 93.98 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13940,7 +13950,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 144.78 0)
+			(at 96.52 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13950,7 +13960,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 107.95 144.78 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13960,7 +13970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 144.78 0)
+			(at 99.06 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13970,7 +13980,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 144.78 0)
+			(at 101.6 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14493,7 +14503,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 102.87 148.59 0)
+		(at 101.6 148.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14502,7 +14512,7 @@
 		(dnp no)
 		(uuid "7b3f6e8e-ed90-43ca-84ae-1cedca6c2a14")
 		(property "Reference" "#PWR055"
-			(at 102.87 154.94 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,7 +14521,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 105.41 149.8599 0)
+			(at 104.14 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14520,7 +14530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 148.59 0)
+			(at 101.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14529,7 +14539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 148.59 0)
+			(at 101.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14538,7 +14548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 102.87 148.59 0)
+			(at 101.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15684,7 +15694,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 102.87 137.16 90)
+		(at 99.06 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15693,7 +15703,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d0cc83c-3cf7-4e15-a108-b110759ed7ac")
 		(property "Reference" "TP6"
-			(at 97.79 137.1599 90)
+			(at 93.98 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15702,7 +15712,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 134.62 0)
+			(at 96.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15712,7 +15722,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 107.95 134.62 0)
+			(at 104.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15722,7 +15732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 134.62 0)
+			(at 99.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15732,7 +15742,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 134.62 0)
+			(at 101.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15755,7 +15765,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 102.87 144.78 90)
+		(at 99.06 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15764,7 +15774,7 @@
 		(fields_autoplaced yes)
 		(uuid "9de988de-beb1-4657-a022-048c55e4bdad")
 		(property "Reference" "TP9"
-			(at 97.79 144.7799 90)
+			(at 93.98 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15773,7 +15783,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 142.24 0)
+			(at 96.52 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15783,7 +15793,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 107.95 142.24 0)
+			(at 104.14 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +15803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 142.24 0)
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15803,7 +15813,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 142.24 0)
+			(at 101.6 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16716,7 +16726,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 102.87 142.24 90)
+		(at 99.06 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16725,7 +16735,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63f31f3-a025-4416-b0d6-596848a8d61a")
 		(property "Reference" "TP8"
-			(at 97.79 142.2399 90)
+			(at 93.98 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,7 +16744,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 139.7 0)
+			(at 96.52 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16744,7 +16754,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 107.95 139.7 0)
+			(at 104.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16754,7 +16764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 139.7 0)
+			(at 99.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16764,7 +16774,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 139.7 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18427,7 +18437,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 102.87 129.54 90)
+		(at 99.06 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18436,7 +18446,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddc446d7-03e6-47c1-b3a7-7850c0008960")
 		(property "Reference" "TP3"
-			(at 97.79 129.5399 90)
+			(at 93.98 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18445,7 +18455,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 100.33 127 0)
+			(at 96.52 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18455,7 +18465,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 107.95 127 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18465,7 +18475,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 127 0)
+			(at 99.06 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18475,7 +18485,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 127 0)
+			(at 101.6 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
