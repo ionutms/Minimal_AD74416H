@@ -542,6 +542,7 @@
       "/SENSELF_B": "rgb(0, 194, 194)",
       "/SENSELF_C": "rgb(194, 0, 194)",
       "/SENSELF_D": "rgb(221, 133, 0)",
+      "/VDD_24V": "rgb(0, 72, 72)",
       "/VIOUT_A": "rgb(0, 194, 0)",
       "/VIOUT_B": "rgb(0, 194, 194)",
       "/VIOUT_C": "rgb(194, 0, 194)",
