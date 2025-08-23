@@ -492,6 +492,7 @@
       "version": 4
     },
     "net_colors": {
+      "/5V0": "rgb(0, 72, 0)",
       "/AVCC": "rgb(0, 72, 0)",
       "/AVDD_HI": "rgb(0, 72, 72)",
       "/AVDD_LO": "rgb(0, 132, 132)",
@@ -531,6 +532,7 @@
       "/LKG_COMP_B": "rgb(0, 194, 194)",
       "/LKG_COMP_C": "rgb(194, 0, 194)",
       "/LKG_COMP_D": "rgb(221, 133, 0)",
+      "/MVDD": "rgb(204, 102, 0)",
       "/REFIO": "rgb(74, 228, 255)",
       "/SENSEHF_A": "rgb(0, 194, 0)",
       "/SENSEHF_B": "rgb(0, 194, 194)",
@@ -544,6 +546,7 @@
       "/VIOUT_B": "rgb(0, 194, 194)",
       "/VIOUT_C": "rgb(194, 0, 194)",
       "/VIOUT_D": "rgb(221, 133, 0)",
+      "/VOUT2": "rgb(0, 72, 0)",
       "/VSENSEN_A": "rgb(0, 194, 0)",
       "/VSENSEN_B": "rgb(0, 194, 194)",
       "/VSENSEN_C": "rgb(194, 0, 194)",
@@ -554,7 +557,9 @@
       "/VSENSEP_D": "rgb(221, 133, 0)",
       "/~{ALERT}": "rgb(255, 92, 111)",
       "/~{RESET}": "rgb(255, 92, 111)",
+      "GND": "rgb(72, 72, 72)",
       "GNDA": "rgb(132, 132, 132)",
+      "GNDD": "rgb(194, 194, 194)",
       "Net-(U1-SCLK)": "rgb(255, 92, 111)",
       "Net-(U1-SDI)": "rgb(255, 92, 111)",
       "Net-(U1-SDO)": "rgb(255, 92, 111)",
