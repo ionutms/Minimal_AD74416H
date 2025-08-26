@@ -492,6 +492,7 @@
       "version": 4
     },
     "net_colors": {
+      "/-15V0": "rgb(0, 132, 0)",
       "/5V0": "rgb(0, 72, 0)",
       "/AVCC": "rgb(0, 72, 0)",
       "/AVDD_HI": "rgb(0, 72, 72)",
@@ -718,6 +719,10 @@
     [
       "0d35b6da-5370-4b8d-bdb2-6a6466fd726d",
       "Front End Channel 4"
+    ],
+    [
+      "53b8d5c7-b371-4249-9a7e-dd90a62c14be",
+      "Power Supply and Digital Interface"
     ]
   ],
   "text_variables": {}
