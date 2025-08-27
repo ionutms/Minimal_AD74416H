@@ -9461,7 +9461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98463ece-ae2d-4f1f-899b-b42efb92a721")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 162.56 110.4899 90)
 			(effects
 				(font
@@ -9646,7 +9646,7 @@
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/0786ce20-9b4f-45a9-9d62-20c78d282fdc"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/0d35b6da-5370-4b8d-bdb2-6a6466fd726d"
@@ -10521,7 +10521,7 @@
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/0d35b6da-5370-4b8d-bdb2-6a6466fd726d"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/56f471d9-4771-4bab-9fc0-7f2502be0d29"
