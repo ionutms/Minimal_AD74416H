@@ -221,8 +221,8 @@ jobs:
                   --zoom ${{ steps.kicad-config.outputs.bottom_view_zoom_factor }}
               fi && \
 
-              # Generate Interactive HTML BOM if schematic found - using Docker image's wrapper
-              if [ '${{ steps.find-files.outputs.schematic_found }}' == 'true' ]; then
+              # Generate Interactive HTML BOM if PCB found - using Docker image's wrapper
+              if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
                 # Change to a writable directory to avoid permission issues
                 cd /tmp && \
                 
@@ -233,7 +233,7 @@ jobs:
                   --name-format=\"${PROJECT_NAME}_ibom\" \
                   --no-browser \
                   --dest-dir=/tmp \
-                  '/kicad_project/${{ steps.find-files.outputs.schematic_file }}' && \
+                  '/kicad_project/${{ steps.find-files.outputs.pcb_file }}' && \
                   
                 # Move the generated file to the documentation directory
                 if [ -f \"/tmp/${PROJECT_NAME}_ibom.html\" ]; then
