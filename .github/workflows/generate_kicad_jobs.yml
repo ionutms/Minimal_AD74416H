@@ -169,7 +169,7 @@ jobs:
               git clone https://github.com/ionutms/3D_Models_Vault.git /tmp/3D_Models_Vault && \
               
               # Install pip using system package manager, then install InteractiveHtmlBom and check version
-              apt-get update && apt-get install -y python3-pip && \
+              sudo apt-get update && sudo apt-get install -y python3-pip && \
               pip3 install InteractiveHtmlBom && \
               
               # Create necessary directories
