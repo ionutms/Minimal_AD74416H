@@ -223,32 +223,29 @@ jobs:
 
               # Generate Interactive HTML BOM if PCB found
               if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
-                # Install Python3 and pip if not available
-                if ! command -v python3 &> /dev/null; then
-                  apt-get update && apt-get install -y python3 python3-pip
-                fi && \
+                # Install required packages
+                apt-get update && apt-get install -y python3 python3-pip xvfb && \
                 
-                # Install InteractiveHtmlBom via pip (recommended method)
-                pip3 install InteractiveHtmlBom && \
+                # Clone the Interactive HTML BOM plugin
+                git clone --depth 1 https://github.com/openscopeproject/InteractiveHtmlBom.git /tmp/InteractiveHtmlBom && \
                 
-                # Generate the HTML BOM using the installed command
-                generate_interactive_bom \
+                # Install required Python packages
+                pip3 install wxpython jsonschema || echo 'wxpython install failed, continuing...' && \
+                
+                # Set up virtual display for headless operation
+                export DISPLAY=:99 && \
+                Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 & \
+                sleep 2 && \
+                
+                # Generate the HTML BOM with virtual display
+                python3 /tmp/InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py \
                   --dark-mode \
                   --show-fabrication \
                   --highlight-pin1 \
                   --no-browser \
                   --dest-dir \"/kicad_project/$PROJECT_NAME/docs/bom\" \
                   \"/kicad_project/${{ steps.find-files.outputs.pcb_file }}\" || \
-                  
-                # Fallback: Clone and use directly if pip install fails
-                (git clone --depth 1 https://github.com/openscopeproject/InteractiveHtmlBom.git /tmp/InteractiveHtmlBom && \
-                 python3 /tmp/InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py \
-                   --dark-mode \
-                   --show-fabrication \
-                   --highlight-pin1 \
-                   --no-browser \
-                   --dest-dir \"/kicad_project/$PROJECT_NAME/docs/bom\" \
-                   \"/kicad_project/${{ steps.find-files.outputs.pcb_file }}\")
+                  echo 'Interactive HTML BOM generation failed, continuing without it...'
               fi"
 
       - name: Check for generated files
