@@ -168,9 +168,11 @@ jobs:
               mkdir -p /tmp/3D_Models_Vault && \
               git clone https://github.com/ionutms/3D_Models_Vault.git /tmp/3D_Models_Vault && \
               
-              # Install InteractiveHtmlBom and check version
+              # Install pip if not available, then install InteractiveHtmlBom and check version
+              python3 -m ensurepip --upgrade && \
               python3 -m pip install InteractiveHtmlBom && \
               python3 -c 'import InteractiveHtmlBom; print(\"InteractiveHtmlBom version:\", InteractiveHtmlBom.__version__)' && \
+              
               
               # Create necessary directories
               mkdir -p /tmp/home/.config/kicad/9.0/colors \
