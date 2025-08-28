@@ -230,7 +230,7 @@ jobs:
                 generate_ibom \
                   --show-fields=Reference,Value,Footprint \
                   --group-fields=Value,Footprint \
-                  --output-name \"${PROJECT_NAME}_ibom.html\" \
+                  --name-format=\"${PROJECT_NAME}_ibom\" \
                   --no-browser \
                   --dest-dir=/tmp \
                   '/kicad_project/${{ steps.find-files.outputs.schematic_file }}' && \
