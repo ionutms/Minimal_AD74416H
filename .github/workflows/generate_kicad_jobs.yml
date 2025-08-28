@@ -150,7 +150,7 @@ jobs:
       # Pull Docker image before using it
       - name: Pull KiCad Docker image
         if: steps.find-files.outputs.project_found == 'true'
-        run: docker pull ionutms/kicad_9:V1.1
+        run: docker pull ionutms/kicad_9:V1.0
 
       # Modified to use temporary directory for 3D models
       - name: Generate KiCad outputs
@@ -162,7 +162,7 @@ jobs:
           docker run --rm -u $(id -u):$(id -g) \
             -v ${{ github.workspace }}:/kicad_project \
             -e HOME=/tmp/home \
-            ionutms/kicad_9:V1.1 \
+            ionutms/kicad_9:V1.0 \
             bash -c "set -e && \
               # Clone 3D models to a temporary directory to avoid ownership issues
               mkdir -p /tmp/3D_Models_Vault && \
