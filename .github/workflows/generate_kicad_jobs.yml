@@ -103,8 +103,8 @@ jobs:
         run: |
           # Set default values
           echo "side_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
-          echo "side_view_rotate="0,0,0"" >> $GITHUB_OUTPUT
-          echo "side_view_pan="0,0,0"" >> $GITHUB_OUTPUT
+          echo "side_view_rotate=\"0,0,0\"" >> $GITHUB_OUTPUT
+          echo "side_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
           echo "top_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
           echo "bottom_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
 
@@ -168,11 +168,6 @@ jobs:
               mkdir -p /tmp/3D_Models_Vault && \
               git clone https://github.com/ionutms/3D_Models_Vault.git /tmp/3D_Models_Vault && \
               
-              # Install pip using system package manager, then install InteractiveHtmlBom and check version
-              apt-get update && apt-get install -y python3-pip && \
-              pip3 install InteractiveHtmlBom && \
-              python3 -c 'import InteractiveHtmlBom; print("InteractiveHtmlBom version:", InteractiveHtmlBom.__version__)' && \
-              
               # Create necessary directories
               mkdir -p /tmp/home/.config/kicad/9.0/colors \
               /tmp/home/.local/share/kicad/9.0/3rdparty/colors && \
@@ -181,7 +176,7 @@ jobs:
               export HOME=/tmp/home && \
               
               # Configure KiCad to use 3D models from temporary location
-              echo '{"environment":{"vars":{"KICAD9_3D_MODELS_VAULT":"/tmp/3D_Models_Vault/"}}}' > /tmp/home/.config/kicad/9.0/kicad_common.json && \
+              echo '{\"environment\":{\"vars\":{\"KICAD9_3D_MODELS_VAULT\":\"/tmp/3D_Models_Vault/\"}}}' > /tmp/home/.config/kicad/9.0/kicad_common.json && \
               
               # Setup Gruvbox theme if schematic found
               if [ '${{ steps.find-files.outputs.schematic_found }}' == 'true' ]; then
@@ -193,7 +188,7 @@ jobs:
                   --output '/tmp/schematic.pdf' \
                   '/kicad_project/${{ steps.find-files.outputs.schematic_file }}' \
                   -t gruvbox && \
-                cp /tmp/schematic.pdf "/kicad_project/$PROJECT_NAME/docs/schematics/${PROJECT_NAME}_schematics.pdf"
+                cp /tmp/schematic.pdf \"/kicad_project/$PROJECT_NAME/docs/schematics/${PROJECT_NAME}_schematics.pdf\"
               fi && \
 
               # Generate PCB render top view if PCB found
