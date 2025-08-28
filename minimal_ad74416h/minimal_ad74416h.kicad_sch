@@ -20154,9 +20154,9 @@
 				(justify right)
 			)
 		)
-		(pin "MAX17570_VOUT" output
-			(at 152.4 66.04 0)
-			(uuid "af4aadc8-d523-4a3a-9088-3d853b47e32c")
+		(pin "~{ADC_RDY}" input
+			(at 152.4 106.68 0)
+			(uuid "d15d6f42-85eb-4c33-806a-301966ec6bd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20164,9 +20164,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{ADC_RDY}" input
-			(at 152.4 106.68 0)
-			(uuid "d15d6f42-85eb-4c33-806a-301966ec6bd7")
+		(pin "14V5" output
+			(at 152.4 66.04 0)
+			(uuid "1af67f1f-2724-4001-a252-fe71d712bca8")
 			(effects
 				(font
 					(size 1.27 1.27)
