@@ -223,27 +223,33 @@ jobs:
 
               # Generate Interactive HTML BOM if schematic found
               if [ '${{ steps.find-files.outputs.schematic_found }}' == 'true' ]; then
+                # Install virtual display for headless operation
+                apt-get update && apt-get install -y xvfb && \
+                
                 # Clone InteractiveHtmlBom repository
                 git clone --depth 1 https://github.com/openscopeproject/InteractiveHtmlBom.git /tmp/InteractiveHtmlBomRepo && \
                 
-                # First check what files are available in the repository
-                echo 'Checking repository structure:' && \
-                find /tmp/InteractiveHtmlBomRepo -name '*.py' | head -10 && \
-                
-                # Try to find the correct script
+                # Find the correct script
                 if [ -f '/tmp/InteractiveHtmlBomRepo/generate_interactive_bom.py' ]; then
                   SCRIPT_PATH='/tmp/InteractiveHtmlBomRepo/generate_interactive_bom.py'
                 elif [ -f '/tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/generate_interactive_bom.py' ]; then
                   SCRIPT_PATH='/tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/generate_interactive_bom.py'
-                elif [ -f '/tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/InteractiveHtmlBom.py' ]; then
-                  SCRIPT_PATH='/tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/InteractiveHtmlBom.py'
                 else
                   echo 'Could not find InteractiveHtmlBom script' && \
-                  find /tmp/InteractiveHtmlBomRepo -name '*.py' && \
+                  find /tmp/InteractiveHtmlBomRepo -name 'generate_interactive_bom.py' 2>/dev/null && \
                   exit 1
                 fi && \
                 
                 echo \"Using script: \$SCRIPT_PATH\" && \
+                
+                # Set up virtual display and generate the interactive HTML BOM
+                export DISPLAY=:99 && \
+                Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 & \
+                XVFB_PID=\$! && \
+                sleep 2 && \
+                
+                # Change to a writable directory to avoid permission issues
+                cd /tmp && \
                 
                 # Generate the interactive HTML BOM
                 python3 \"\$SCRIPT_PATH\" \
@@ -251,12 +257,19 @@ jobs:
                   --group-fields=Value,Footprint \
                   --output-name \"${PROJECT_NAME}_ibom.html\" \
                   --no-browser \
+                  --dest-dir=/tmp \
                   '/kicad_project/${{ steps.find-files.outputs.schematic_file }}' && \
                   
+                # Clean up Xvfb
+                kill \$XVFB_PID 2>/dev/null || true && \
+                  
                 # Move the generated file to the documentation directory
-                # The file might be generated in different locations, so search for it
-                find /tmp -name \"${PROJECT_NAME}_ibom.html\" -exec mv {} \"/kicad_project/$PROJECT_NAME/docs/schematics/\" \; || \
-                find . -name \"${PROJECT_NAME}_ibom.html\" -exec mv {} \"/kicad_project/$PROJECT_NAME/docs/schematics/\" \;
+                if [ -f \"/tmp/${PROJECT_NAME}_ibom.html\" ]; then
+                  mv \"/tmp/${PROJECT_NAME}_ibom.html\" \"/kicad_project/$PROJECT_NAME/docs/schematics/\"
+                else
+                  echo 'Generated BOM file not found in expected location'
+                  find /tmp -name '*ibom*.html' 2>/dev/null || true
+                fi
               fi"
 
       - name: Check for generated files
