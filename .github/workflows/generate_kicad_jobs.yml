@@ -169,7 +169,7 @@ jobs:
               git clone https://github.com/ionutms/3D_Models_Vault.git /tmp/3D_Models_Vault && \
               
               # Install InteractiveHtmlBom and check version
-              pip3 install InteractiveHtmlBom && \
+              python3 -m pip install InteractiveHtmlBom && \
               python3 -c 'import InteractiveHtmlBom; print(\"InteractiveHtmlBom version:\", InteractiveHtmlBom.__version__)' && \
               
               # Create necessary directories
