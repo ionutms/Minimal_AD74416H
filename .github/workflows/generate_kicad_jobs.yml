@@ -224,9 +224,9 @@ jobs:
               # Generate Interactive HTML BOM if schematic found
               if [ '${{ steps.find-files.outputs.schematic_found }}' == 'true' ]; then
                 # Clone InteractiveHtmlBom repository
-                git clone --depth 1 https://github.com/openscopeproject/InteractiveHtmlBom.git /tmp/InteractiveHtmlBom && \
+                git clone --depth 1 https://github.com/openscopeproject/InteractiveHtmlBom.git /tmp/InteractiveHtmlBomRepo && \
                 # Generate the interactive HTML BOM
-                python3 /tmp/InteractiveHtmlBom/InteractiveHtmlBom.py \
+                python3 /tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/InteractiveHtmlBom.py \
                   --show-fields=Reference,Value,Footprint \
                   --group-fields=Value,Footprint \
                   --output-name \"${PROJECT_NAME}_ibom.html\" \
