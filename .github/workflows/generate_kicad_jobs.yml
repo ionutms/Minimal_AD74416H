@@ -225,15 +225,38 @@ jobs:
               if [ '${{ steps.find-files.outputs.schematic_found }}' == 'true' ]; then
                 # Clone InteractiveHtmlBom repository
                 git clone --depth 1 https://github.com/openscopeproject/InteractiveHtmlBom.git /tmp/InteractiveHtmlBomRepo && \
+                
+                # First check what files are available in the repository
+                echo 'Checking repository structure:' && \
+                find /tmp/InteractiveHtmlBomRepo -name '*.py' | head -10 && \
+                
+                # Try to find the correct script
+                if [ -f '/tmp/InteractiveHtmlBomRepo/generate_interactive_bom.py' ]; then
+                  SCRIPT_PATH='/tmp/InteractiveHtmlBomRepo/generate_interactive_bom.py'
+                elif [ -f '/tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/generate_interactive_bom.py' ]; then
+                  SCRIPT_PATH='/tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/generate_interactive_bom.py'
+                elif [ -f '/tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/InteractiveHtmlBom.py' ]; then
+                  SCRIPT_PATH='/tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/InteractiveHtmlBom.py'
+                else
+                  echo 'Could not find InteractiveHtmlBom script' && \
+                  find /tmp/InteractiveHtmlBomRepo -name '*.py' && \
+                  exit 1
+                fi && \
+                
+                echo \"Using script: \$SCRIPT_PATH\" && \
+                
                 # Generate the interactive HTML BOM
-                python3 /tmp/InteractiveHtmlBomRepo/InteractiveHtmlBom/InteractiveHtmlBom.py \
+                python3 \"\$SCRIPT_PATH\" \
                   --show-fields=Reference,Value,Footprint \
                   --group-fields=Value,Footprint \
                   --output-name \"${PROJECT_NAME}_ibom.html\" \
                   --no-browser \
                   '/kicad_project/${{ steps.find-files.outputs.schematic_file }}' && \
+                  
                 # Move the generated file to the documentation directory
-                mv \"/tmp/${PROJECT_NAME}_ibom.html\" \"/kicad_project/$PROJECT_NAME/docs/schematics/\"
+                # The file might be generated in different locations, so search for it
+                find /tmp -name \"${PROJECT_NAME}_ibom.html\" -exec mv {} \"/kicad_project/$PROJECT_NAME/docs/schematics/\" \; || \
+                find . -name \"${PROJECT_NAME}_ibom.html\" -exec mv {} \"/kicad_project/$PROJECT_NAME/docs/schematics/\" \;
               fi"
 
       - name: Check for generated files
@@ -244,9 +267,10 @@ jobs:
           
           PDF_COUNT=$(find "${PROJECT_NAME}/docs/schematics" -type f -name "*.pdf" | wc -l || echo "0")
           PNG_COUNT=$(find "${PROJECT_NAME}/docs/pictures" -type f -name "*.png" | wc -l || echo "0")
-          TOTAL_COUNT=$((PDF_COUNT + PNG_COUNT))
+          HTML_COUNT=$(find "${PROJECT_NAME}/docs/schematics" -type f -name "*.html" | wc -l || echo "0")
+          TOTAL_COUNT=$((PDF_COUNT + PNG_COUNT + HTML_COUNT))
 
-          echo "Found $PDF_COUNT PDF files and $PNG_COUNT PNG files in ${PROJECT_NAME}/docs"
+          echo "Found $PDF_COUNT PDF files, $PNG_COUNT PNG files, and $HTML_COUNT HTML files in ${PROJECT_NAME}/docs"
           
           if [ "$TOTAL_COUNT" -gt 0 ]; then
             echo "files_generated=true" >> $GITHUB_OUTPUT
