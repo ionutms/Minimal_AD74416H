@@ -9392,12 +9392,6 @@
 		(uuid "20bdb112-17a1-48ab-af5c-8bbe221f4391")
 	)
 	(junction
-		(at 172.72 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23aa22a2-7587-4f13-8467-4065206b9260")
-	)
-	(junction
 		(at 139.7 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9584,12 +9578,6 @@
 		(uuid "84f834e8-541b-4fcd-a00c-3aef0d984eb4")
 	)
 	(junction
-		(at 53.34 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86bbceec-4172-4fb5-a1d3-e9f7b14b2aec")
-	)
-	(junction
 		(at 358.14 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9618,6 +9606,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8de86689-4d59-4f0a-bb30-648997968c88")
+	)
+	(junction
+		(at 86.36 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f35a20e-d373-47d0-8fd2-eceb8e7eca2a")
 	)
 	(junction
 		(at 73.66 193.04)
@@ -9692,10 +9686,10 @@
 		(uuid "c8738235-f73e-459b-b992-378438631d68")
 	)
 	(junction
-		(at 53.34 180.34)
+		(at 203.2 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca5c9aad-8610-43b3-b53c-235c236b139c")
+		(uuid "cdf43f69-21fc-4f56-b49c-20b6a1e13fb0")
 	)
 	(junction
 		(at 53.34 147.32)
@@ -9875,17 +9869,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 49.53 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "071fb2db-706a-496f-833f-09d2bed56dbf")
-	)
-	(wire
-		(pts
-			(xy 49.53 25.4) (xy 63.5 25.4)
+			(xy 38.1 25.4) (xy 63.5 25.4)
 		)
 		(stroke
 			(width 0)
@@ -9895,23 +9879,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 170.18) (xy 137.16 170.18)
+			(xy 218.44 172.72) (xy 177.8 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0872f304-d761-4351-af93-f1cb2c52f0cc")
-	)
-	(wire
-		(pts
-			(xy 50.8 27.94) (xy 49.53 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08d859ce-c106-42e2-833d-53cbada42559")
 	)
 	(wire
 		(pts
@@ -10035,16 +10009,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 172.72) (xy 88.9 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12e17fce-2b01-4689-a483-0a067746932e")
-	)
-	(wire
-		(pts
 			(xy 60.96 203.2) (xy 60.96 205.74)
 		)
 		(stroke
@@ -10055,17 +10019,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 25.4) (xy 381 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15979066-4c99-4fa5-9219-f6f6efbb5bfe")
-	)
-	(wire
-		(pts
-			(xy 172.72 53.34) (xy 172.72 25.4)
+			(xy 203.2 53.34) (xy 203.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -10085,7 +10039,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 25.4) (xy 172.72 25.4)
+			(xy 167.64 25.4) (xy 203.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -10305,6 +10259,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 208.28) (xy 50.8 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271e8f13-7263-47b0-9ecb-695828b7c9fc")
+	)
+	(wire
+		(pts
 			(xy 60.96 274.32) (xy 91.44 274.32)
 		)
 		(stroke
@@ -10325,7 +10289,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 177.8) (xy 53.34 180.34)
+			(xy 86.36 182.88) (xy 86.36 185.42)
 		)
 		(stroke
 			(width 0)
@@ -10375,6 +10339,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 172.72) (xy 88.9 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c473a04-90a8-46a0-b601-bacff06a355b")
+	)
+	(wire
+		(pts
 			(xy 86.36 256.54) (xy 91.44 256.54)
 		)
 		(stroke
@@ -10382,6 +10356,16 @@
 			(type default)
 		)
 		(uuid "2de707ae-6ac7-4561-8653-57c5ae5a099a")
+	)
+	(wire
+		(pts
+			(xy 38.1 254) (xy 50.8 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7ce0ce-7b83-4801-9d42-8823794298b1")
 	)
 	(wire
 		(pts
@@ -10395,26 +10379,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 208.28) (xy 50.8 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b12c64-ce23-4d14-b35f-2a8d61a64106")
-	)
-	(wire
-		(pts
-			(xy 49.53 160.02) (xy 88.9 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31537e16-dddb-4d91-b105-050925ae7216")
-	)
-	(wire
-		(pts
 			(xy 86.36 35.56) (xy 93.98 35.56)
 		)
 		(stroke
@@ -10422,6 +10386,16 @@
 			(type default)
 		)
 		(uuid "31b9296d-8f76-4265-b957-09bcd247957e")
+	)
+	(wire
+		(pts
+			(xy 38.1 132.08) (xy 60.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d05d51-a12f-4070-9fc1-f07094cb8430")
 	)
 	(wire
 		(pts
@@ -10465,16 +10439,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 162.56) (xy 88.9 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35acb759-4cba-4a83-a738-369bf753fea6")
-	)
-	(wire
-		(pts
 			(xy 142.24 228.6) (xy 165.1 228.6)
 		)
 		(stroke
@@ -10482,6 +10446,36 @@
 			(type default)
 		)
 		(uuid "35ea2128-de53-4486-8adf-2e7a72d003f5")
+	)
+	(wire
+		(pts
+			(xy 38.1 167.64) (xy 88.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fe0502-6a13-4af5-a4a9-a458fb2786a4")
+	)
+	(wire
+		(pts
+			(xy 38.1 231.14) (xy 50.8 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36013383-7006-4d4b-8850-5520d61b91d6")
+	)
+	(wire
+		(pts
+			(xy 203.2 25.4) (xy 381 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3678506e-1071-44c7-9340-d48652955bb9")
 	)
 	(wire
 		(pts
@@ -10495,7 +10489,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 162.56) (xy 165.1 165.1)
+			(xy 38.1 276.86) (xy 50.8 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fdf0f4-7923-4335-b74f-aead3803acc8")
+	)
+	(wire
+		(pts
+			(xy 205.74 165.1) (xy 205.74 167.64)
 		)
 		(stroke
 			(width 0)
@@ -10525,16 +10529,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 251.46) (xy 60.96 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c17fbe7-d448-41f9-aab6-a2259b0b0485")
-	)
-	(wire
-		(pts
 			(xy 111.76 35.56) (xy 114.3 35.56)
 		)
 		(stroke
@@ -10545,17 +10539,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 157.48) (xy 88.9 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c7bf7c6-3704-4225-839a-a03cbfacc374")
-	)
-	(wire
-		(pts
-			(xy 165.1 172.72) (xy 137.16 172.72)
+			(xy 205.74 175.26) (xy 177.8 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10615,23 +10599,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 139.7) (xy 86.36 139.7)
+			(xy 38.1 139.7) (xy 86.36 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "438bbc0e-63e3-42ab-9b33-74f8469a9941")
-	)
-	(wire
-		(pts
-			(xy 49.53 177.8) (xy 53.34 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e558ac-f3ba-4f83-90d7-f9e3685cc354")
 	)
 	(wire
 		(pts
@@ -10662,6 +10636,16 @@
 			(type default)
 		)
 		(uuid "47689ed7-e40b-4e59-84d2-e7f88785f4d1")
+	)
+	(wire
+		(pts
+			(xy 38.1 170.18) (xy 88.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cb6801-2ec1-4c0b-87c0-f70f98cc5501")
 	)
 	(wire
 		(pts
@@ -10755,16 +10739,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 254) (xy 50.8 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f94cc46-c503-4e3c-add6-f520b0e64a06")
-	)
-	(wire
-		(pts
 			(xy 152.4 203.2) (xy 152.4 208.28)
 		)
 		(stroke
@@ -10845,7 +10819,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 170.18) (xy 177.8 175.26)
+			(xy 218.44 172.72) (xy 218.44 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10895,7 +10869,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 185.42) (xy 152.4 186.69)
+			(xy 193.04 187.96) (xy 193.04 189.23)
 		)
 		(stroke
 			(width 0)
@@ -10912,16 +10886,6 @@
 			(type default)
 		)
 		(uuid "5e32449f-8028-4d24-995d-3ece31726977")
-	)
-	(wire
-		(pts
-			(xy 49.53 228.6) (xy 60.96 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e41e784-605b-4beb-85ee-c3315dd200df")
 	)
 	(wire
 		(pts
@@ -10945,33 +10909,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 205.74) (xy 60.96 205.74)
+			(xy 38.1 162.56) (xy 88.9 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f8e59f6-eddf-41e9-995e-84856d5673bd")
-	)
-	(wire
-		(pts
-			(xy 49.53 231.14) (xy 50.8 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60159b83-dfb0-4c4a-9659-be072f3c70bc")
-	)
-	(wire
-		(pts
-			(xy 49.53 175.26) (xy 88.9 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c31221-4c98-428b-8c69-e0de8c5b19e6")
+		(uuid "5f96e8fd-7bfe-400c-a49a-3649e9154bab")
 	)
 	(wire
 		(pts
@@ -10992,16 +10936,6 @@
 			(type default)
 		)
 		(uuid "64b064e7-a2b1-4630-bde0-15c227872866")
-	)
-	(wire
-		(pts
-			(xy 49.53 279.4) (xy 86.36 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "661940ad-1422-4189-9140-31ae495696f6")
 	)
 	(wire
 		(pts
@@ -11055,7 +10989,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 175.26) (xy 137.16 175.26)
+			(xy 38.1 228.6) (xy 60.96 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7041e4fa-2c76-4c43-8642-c6b2ff49f9f3")
+	)
+	(wire
+		(pts
+			(xy 193.04 177.8) (xy 177.8 177.8)
 		)
 		(stroke
 			(width 0)
@@ -11105,7 +11049,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 53.34) (xy 207.01 53.34)
+			(xy 215.9 53.34) (xy 213.36 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11132,6 +11076,16 @@
 			(type default)
 		)
 		(uuid "76d3d1c2-8d9e-4e4a-944a-7275d1b4d67b")
+	)
+	(wire
+		(pts
+			(xy 38.1 274.32) (xy 60.96 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7798bfd2-5607-41ca-8632-35b2e22c9e82")
 	)
 	(wire
 		(pts
@@ -11215,26 +11169,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 132.08) (xy 60.96 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7da818de-e383-4fcc-b142-1157c8caf0bd")
-	)
-	(wire
-		(pts
-			(xy 49.53 274.32) (xy 60.96 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e188ecf-33aa-44f4-9982-ae7652da26bc")
-	)
-	(wire
-		(pts
 			(xy 91.44 238.76) (xy 86.36 238.76)
 		)
 		(stroke
@@ -11255,7 +11189,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 167.64) (xy 137.16 167.64)
+			(xy 218.44 170.18) (xy 177.8 170.18)
 		)
 		(stroke
 			(width 0)
@@ -11265,7 +11199,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 53.34) (xy 172.72 53.34)
+			(xy 205.74 53.34) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11425,7 +11359,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 92.71) (xy 327.66 93.98)
+			(xy 327.66 90.17) (xy 327.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11505,6 +11439,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 251.46) (xy 60.96 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98639186-bc2a-4f8b-a6d7-78a38bfe3bf7")
+	)
+	(wire
+		(pts
 			(xy 66.04 148.59) (xy 66.04 144.78)
 		)
 		(stroke
@@ -11522,16 +11466,6 @@
 			(type default)
 		)
 		(uuid "9a019079-6c86-4ddc-8f99-377f7647817f")
-	)
-	(wire
-		(pts
-			(xy 49.53 170.18) (xy 88.9 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a62879c-bc62-46c0-8436-e8032c5fe789")
 	)
 	(wire
 		(pts
@@ -11655,6 +11589,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 175.26) (xy 88.9 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83d834f-7a17-4ace-a757-673ba6f3a1ef")
+	)
+	(wire
+		(pts
 			(xy 111.76 215.9) (xy 111.76 226.06)
 		)
 		(stroke
@@ -11672,6 +11616,16 @@
 			(type default)
 		)
 		(uuid "a8c77d6d-1f8a-48ec-869d-9989abb2bfef")
+	)
+	(wire
+		(pts
+			(xy 38.1 160.02) (xy 88.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d16b6f-86be-4967-87e1-248bd0c75bd2")
 	)
 	(wire
 		(pts
@@ -11695,7 +11649,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 88.9) (xy 292.1 90.17)
+			(xy 292.1 88.9) (xy 292.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11755,17 +11709,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 180.34) (xy 53.34 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0649711-ec75-425c-8677-180321762d40")
-	)
-	(wire
-		(pts
-			(xy 193.04 172.72) (xy 198.12 172.72)
+			(xy 238.76 175.26) (xy 243.84 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11785,7 +11729,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 170.18) (xy 198.12 170.18)
+			(xy 238.76 172.72) (xy 243.84 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11822,26 +11766,6 @@
 			(type default)
 		)
 		(uuid "b36e0d3d-0013-4317-a324-314182769342")
-	)
-	(wire
-		(pts
-			(xy 53.34 181.61) (xy 53.34 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b510682c-9430-4888-9088-7cba1b5d822c")
-	)
-	(wire
-		(pts
-			(xy 49.53 276.86) (xy 50.8 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b54b0207-137f-4f82-84fd-44044b0db11c")
 	)
 	(wire
 		(pts
@@ -11965,7 +11889,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 162.56) (xy 137.16 162.56)
+			(xy 193.04 165.1) (xy 177.8 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12045,7 +11969,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 172.72) (xy 165.1 175.26)
+			(xy 205.74 175.26) (xy 205.74 177.8)
 		)
 		(stroke
 			(width 0)
@@ -12175,16 +12099,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 53.34 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a5ecb9-b642-4ec7-90e2-73b38703b692")
-	)
-	(wire
-		(pts
 			(xy 116.84 193.04) (xy 129.54 193.04)
 		)
 		(stroke
@@ -12225,7 +12139,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 165.1) (xy 137.16 165.1)
+			(xy 205.74 167.64) (xy 177.8 167.64)
 		)
 		(stroke
 			(width 0)
@@ -12255,6 +12169,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 205.74) (xy 60.96 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef97e39-c9b5-437c-8be3-0e6e9983adb3")
+	)
+	(wire
+		(pts
 			(xy 261.62 66.04) (xy 261.62 67.31)
 		)
 		(stroke
@@ -12275,17 +12199,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 167.64) (xy 88.9 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3dda398-c9b6-42c2-80f6-ca08f1c1c6fa")
-	)
-	(wire
-		(pts
-			(xy 193.04 177.8) (xy 198.12 177.8)
+			(xy 238.76 180.34) (xy 243.84 180.34)
 		)
 		(stroke
 			(width 0)
@@ -12375,17 +12289,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 210.82) (xy 86.36 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db6f9705-bcf2-49df-9b8b-bdef3f795e18")
-	)
-	(wire
-		(pts
-			(xy 177.8 162.56) (xy 177.8 167.64)
+			(xy 218.44 165.1) (xy 218.44 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12405,7 +12309,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 185.42) (xy 177.8 186.69)
+			(xy 218.44 187.96) (xy 218.44 189.23)
 		)
 		(stroke
 			(width 0)
@@ -12422,16 +12326,6 @@
 			(type default)
 		)
 		(uuid "dea103b5-fce2-4541-8144-42a55963249a")
-	)
-	(wire
-		(pts
-			(xy 50.8 36.83) (xy 50.8 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df07e558-9880-4fbf-bd28-6d2c08c8a753")
 	)
 	(wire
 		(pts
@@ -12452,6 +12346,16 @@
 			(type default)
 		)
 		(uuid "e0bd3128-f0df-40ed-9d54-ae3b2b701cf1")
+	)
+	(wire
+		(pts
+			(xy 38.1 157.48) (xy 88.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11f4890-f6d9-40d7-a8c5-223fbf9e09e4")
 	)
 	(wire
 		(pts
@@ -12585,7 +12489,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 167.64) (xy 198.12 167.64)
+			(xy 238.76 170.18) (xy 243.84 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12595,7 +12499,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 162.56) (xy 198.12 162.56)
+			(xy 238.76 165.1) (xy 243.84 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12635,7 +12539,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 175.26) (xy 198.12 175.26)
+			(xy 238.76 177.8) (xy 243.84 177.8)
 		)
 		(stroke
 			(width 0)
@@ -12645,7 +12549,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 185.42) (xy 165.1 186.69)
+			(xy 205.74 187.96) (xy 205.74 189.23)
 		)
 		(stroke
 			(width 0)
@@ -12725,23 +12629,13 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 78.74) (xy 327.66 82.55)
+			(xy 327.66 78.74) (xy 327.66 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f93e2938-0174-4d1d-81c1-e46b81edf64d")
-	)
-	(wire
-		(pts
-			(xy 49.53 256.54) (xy 86.36 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf7830b-41bf-4a22-8b41-16f9da4679fd")
 	)
 	(wire
 		(pts
@@ -12804,7 +12698,7 @@
 		(uuid "03bb8280-7402-4971-86b0-d90b59b10326")
 	)
 	(label "~{ALERT}"
-		(at 137.16 167.64 0)
+		(at 177.8 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12854,7 +12748,7 @@
 		(uuid "1059a01d-0fd0-4b2a-8a10-164b6992c769")
 	)
 	(label "~{RESET}"
-		(at 137.16 172.72 0)
+		(at 177.8 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12943,15 +12837,15 @@
 		)
 		(uuid "2f55315e-a4b3-4f09-9677-2a9c077bdfed")
 	)
-	(label "MO"
-		(at 50.8 170.18 0)
+	(label "SCLK_ISO"
+		(at 50.8 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2ff8388c-7077-467c-a470-e4ade66544e1")
+		(uuid "31e9780b-a1c6-475c-9353-461383da29d5")
 	)
 	(label "~{RESET}"
 		(at 116.84 160.02 0)
@@ -12964,7 +12858,7 @@
 		(uuid "36eb072d-aa62-43e6-aae6-6bef4c26def3")
 	)
 	(label "SDI"
-		(at 193.04 170.18 180)
+		(at 238.76 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13013,8 +12907,18 @@
 		)
 		(uuid "450a20de-b638-44af-b17b-c413780a9b01")
 	)
+	(label "SDI_ISO"
+		(at 50.8 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49d38f74-b1aa-4551-a2f7-61147488c867")
+	)
 	(label "SDO"
-		(at 137.16 175.26 0)
+		(at 177.8 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13044,7 +12948,7 @@
 		(uuid "5bfbe405-feb6-4417-a9d1-55681fbc4044")
 	)
 	(label "SCLK"
-		(at 137.16 162.56 0)
+		(at 177.8 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13052,16 +12956,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d5d4148-f503-4634-bd49-d83105c8c95b")
-	)
-	(label "MI"
-		(at 50.8 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e220e98-8b7f-4d53-b336-6805b2d11f25")
 	)
 	(label "GPIO_E_ISO"
 		(at 86.36 231.14 180)
@@ -13084,7 +12978,7 @@
 		(uuid "61f4f2cc-7f42-42c7-a339-d19bf530e550")
 	)
 	(label "VOUT2"
-		(at 165.1 152.4 0)
+		(at 205.74 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13104,7 +12998,7 @@
 		(uuid "675cd8d8-fa57-4ed8-a757-d18fb3d5ad92")
 	)
 	(label "~{SYNC}"
-		(at 193.04 177.8 180)
+		(at 238.76 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13112,6 +13006,16 @@
 			(justify right bottom)
 		)
 		(uuid "6b8940b5-28b0-4892-ba50-c57d6c665440")
+	)
+	(label "SDO_ISO"
+		(at 50.8 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c566eab-a4db-4214-a1da-2e5679ae3887")
 	)
 	(label "GPIO_F_ISO"
 		(at 86.36 228.6 180)
@@ -13144,7 +13048,7 @@
 		(uuid "7664a846-a912-48f3-9638-1a8b3a17f967")
 	)
 	(label "SDI"
-		(at 137.16 170.18 0)
+		(at 177.8 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13154,7 +13058,7 @@
 		(uuid "77069d32-f89c-4408-b976-b90403ebe667")
 	)
 	(label "~{RESET}"
-		(at 193.04 172.72 180)
+		(at 238.76 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13183,18 +13087,8 @@
 		)
 		(uuid "78820b39-fc85-4004-89d1-e829f60e9691")
 	)
-	(label "MGPO3"
-		(at 50.8 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78aebbfe-9c92-459f-a2a5-dc11ba1ac4b9")
-	)
 	(label "~{ALERT}"
-		(at 193.04 167.64 180)
+		(at 238.76 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13203,7 +13097,7 @@
 		)
 		(uuid "7a754c15-2329-4147-9cdf-46db8523c23d")
 	)
-	(label "VDD_24V"
+	(label "24V0"
 		(at 167.64 25.4 0)
 		(effects
 			(font
@@ -13233,15 +13127,15 @@
 		)
 		(uuid "800ad1a4-6226-4759-9a79-df305a60936b")
 	)
-	(label "~{MSS}"
-		(at 50.8 175.26 0)
+	(label "~{RESET_ISO}"
+		(at 50.8 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "81f34e71-c0a3-40a1-8de6-46e1677ac143")
+		(uuid "81c9248a-b5fd-4857-8f25-fa3b52770b4f")
 	)
 	(label "VCC"
 		(at 292.1 40.64 0)
@@ -13264,7 +13158,7 @@
 		(uuid "82c56fb4-66fa-43e7-9b40-1d4bbd31d3f9")
 	)
 	(label "VOUT2"
-		(at 177.8 152.4 0)
+		(at 218.44 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13304,7 +13198,7 @@
 		(uuid "8b6ed9a5-48a0-4e74-918d-3a54751ce293")
 	)
 	(label "SDO"
-		(at 193.04 175.26 180)
+		(at 238.76 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13333,15 +13227,15 @@
 		)
 		(uuid "9b217f7d-8b41-4a67-8ee5-2c5b7d0a078f")
 	)
-	(label "MCK"
-		(at 50.8 167.64 0)
+	(label "~{ALERT_ISO}"
+		(at 50.8 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a4d484c2-553b-4cea-a28e-640f2369e77e")
+		(uuid "a0c02eca-da8f-4143-b134-be5a89926b91")
 	)
 	(label "SW2"
 		(at 115.57 71.12 0)
@@ -13383,6 +13277,16 @@
 		)
 		(uuid "af3c8b8a-aaf3-4763-88b9-9b5d05517ed5")
 	)
+	(label "~{SYNC_ISO}"
+		(at 50.8 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8a6a471-cdbb-44ff-8cc1-8a9dbc1f9e07")
+	)
 	(label "VOUT2"
 		(at 111.76 238.76 180)
 		(effects
@@ -13402,16 +13306,6 @@
 			(justify left bottom)
 		)
 		(uuid "bc82524e-3d02-41fd-acc1-d007370c8589")
-	)
-	(label "MGPI2"
-		(at 50.8 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1171182-a9c1-4e03-932d-d3ea54367882")
 	)
 	(label "~{MAX17570_RESET_ISO}"
 		(at 86.36 274.32 180)
@@ -13444,7 +13338,7 @@
 		(uuid "c573b789-74f5-49c5-9ba2-1f69dd2206a6")
 	)
 	(label "SGPO1"
-		(at 137.16 165.1 0)
+		(at 177.8 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13474,7 +13368,7 @@
 		(uuid "d44b9111-ab0f-45a8-9451-6f370811f20b")
 	)
 	(label "SCLK"
-		(at 193.04 162.56 180)
+		(at 238.76 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13544,7 +13438,7 @@
 		(uuid "f1820c0a-bcd8-4d44-948f-4b2b62dd2306")
 	)
 	(label "VOUT2"
-		(at 152.4 152.4 0)
+		(at 193.04 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13605,7 +13499,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape output)
-		(at 198.12 162.56 0)
+		(at 243.84 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13625,6 +13519,17 @@
 		)
 		(uuid "0ee19289-70e6-4444-b859-dc259b8c0569")
 	)
+	(hierarchical_label "~{ADC_RDY_ISO}"
+		(shape output)
+		(at 38.1 276.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f2d9cd5-d57b-49e0-8566-ca30d7216333")
+	)
 	(hierarchical_label "~{ADC_RDY}"
 		(shape input)
 		(at 165.1 276.86 0)
@@ -13635,6 +13540,17 @@
 			(justify left)
 		)
 		(uuid "1719ed56-74a3-4ff3-b927-c8ec27245e75")
+	)
+	(hierarchical_label "~{ALERT_ISO}"
+		(shape output)
+		(at 38.1 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1aca589c-f33a-4dcb-b85e-43a4970d4f5d")
 	)
 	(hierarchical_label "14V5"
 		(shape output)
@@ -13693,7 +13609,7 @@
 	)
 	(hierarchical_label "SDI"
 		(shape input)
-		(at 198.12 170.18 0)
+		(at 243.84 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13702,9 +13618,53 @@
 		)
 		(uuid "4a4c4896-13d1-4f64-8eb2-28e9c9fc2841")
 	)
+	(hierarchical_label "GPIO_F_ISO"
+		(shape bidirectional)
+		(at 38.1 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b14b2da-bf15-44cb-a433-9233a318528e")
+	)
+	(hierarchical_label "MVDD"
+		(shape input)
+		(at 38.1 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50d49948-e1a3-4e65-981e-c6bab5b35f37")
+	)
+	(hierarchical_label "PWRGD"
+		(shape output)
+		(at 38.1 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6347107c-3775-47c7-825c-53c60f896d85")
+	)
+	(hierarchical_label "GPIO_B_ISO"
+		(shape bidirectional)
+		(at 38.1 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d5a3f9a-1f92-40a4-ade7-20881d446efb")
+	)
 	(hierarchical_label "~{SYNC}"
 		(shape output)
-		(at 198.12 177.8 0)
+		(at 243.84 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13713,9 +13673,42 @@
 		)
 		(uuid "75a25ec4-e401-4993-9bbf-dcab64c8e935")
 	)
+	(hierarchical_label "~{SYNC_ISO}"
+		(shape input)
+		(at 38.1 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79ae1dc5-73ba-4f22-9c8a-26f3cc70cf35")
+	)
+	(hierarchical_label "SDO_ISO"
+		(shape output)
+		(at 38.1 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c73c06c-4e61-42fd-b5ba-7b747f8e03a9")
+	)
+	(hierarchical_label "SDI_ISO"
+		(shape input)
+		(at 38.1 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f3fd3e8-f42e-4384-945d-16c3c03e3dfc")
+	)
 	(hierarchical_label "~{ALERT}"
 		(shape input)
-		(at 198.12 167.64 0)
+		(at 243.84 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13726,7 +13719,7 @@
 	)
 	(hierarchical_label "~{RESET}"
 		(shape output)
-		(at 198.12 172.72 0)
+		(at 243.84 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13735,7 +13728,7 @@
 		)
 		(uuid "8c3f1a78-0c7a-48e5-91d6-6028d3018088")
 	)
-	(hierarchical_label "VDD_24V"
+	(hierarchical_label "24V0"
 		(shape output)
 		(at 381 25.4 0)
 		(effects
@@ -13745,6 +13738,28 @@
 			(justify left)
 		)
 		(uuid "96c3d967-e57f-4aea-bbda-f2b6eeeda2f6")
+	)
+	(hierarchical_label "GPIO_D_ISO"
+		(shape bidirectional)
+		(at 38.1 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e967eec-f052-42a0-a517-9b41f35fdc77")
+	)
+	(hierarchical_label "GPIO_C_ISO"
+		(shape bidirectional)
+		(at 38.1 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1d8631e-91b0-454f-97ba-5a5f79bf7354")
 	)
 	(hierarchical_label "GPIO_F"
 		(shape bidirectional)
@@ -13779,9 +13794,64 @@
 		)
 		(uuid "b1fa4b35-4e51-4b0c-bcff-468275b8df49")
 	)
+	(hierarchical_label "MGPI1"
+		(shape input)
+		(at 38.1 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3abce5e-9fd7-4c3d-8050-13db1c91b86f")
+	)
+	(hierarchical_label "~{RESET_ISO}"
+		(shape input)
+		(at 38.1 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf1bd89d-168e-4e00-8fc7-d6cc22516487")
+	)
+	(hierarchical_label "GPIO_A_ISO"
+		(shape bidirectional)
+		(at 38.1 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c23bf3e1-466d-4bfb-9ca0-f59e6d1e0af9")
+	)
+	(hierarchical_label "~{MAX17570_RESET_ISO}"
+		(shape output)
+		(at 38.1 274.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc53aa7c-44f7-4e21-8c0a-37c97eb25907")
+	)
+	(hierarchical_label "GPIO_E_ISO"
+		(shape bidirectional)
+		(at 38.1 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6bdf360-f6cd-4eb7-a4f9-cce38d5be8d1")
+	)
 	(hierarchical_label "SDO"
 		(shape output)
-		(at 198.12 175.26 0)
+		(at 243.84 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13790,79 +13860,31 @@
 		)
 		(uuid "e4a992b2-4ce9-41f7-b9b6-0dea01e616de")
 	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 274.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "002585cb-997f-4133-8e24-14f5d7162c06")
-		(property "Reference" "TP36"
-			(at 44.45 274.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "SCLK_ISO"
+		(shape input)
+		(at 38.1 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "TestPoint"
-			(at 46.99 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "e5e48d94-dcdf-4007-bb5e-43d9ea3fd5af")
+	)
+	(hierarchical_label "VINP"
+		(shape input)
+		(at 38.1 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8891da82-f15b-49a3-8e9a-695569c9bb32")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP36")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f8d7eeae-1c3c-4a26-b0ed-7eff80804f1f")
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 279.4 90)
+		(at 86.36 279.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13870,7 +13892,7 @@
 		(dnp no)
 		(uuid "041ed391-ff84-4b7a-9870-f053d7e22acc")
 		(property "Reference" "TP37"
-			(at 44.45 279.3999 90)
+			(at 81.28 279.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13879,7 +13901,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 46.99 276.86 0)
+			(at 83.82 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13889,7 +13911,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 276.86 0)
+			(at 91.44 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13899,7 +13921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 276.86 0)
+			(at 86.36 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13909,7 +13931,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 52.07 276.86 0)
+			(at 88.9 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13925,76 +13947,6 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "TP37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05388519-257c-413c-83a1-b31536a518cf")
-		(property "Reference" "TP24"
-			(at 44.45 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "351917e4-5963-4685-9d9f-7520ed798bc4")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -14129,76 +14081,6 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "#PWR14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 208.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "092cffa8-b312-43af-8df6-5c1f1767e5f8")
-		(property "Reference" "TP38"
-			(at 44.45 208.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a47797c0-1e75-4bf1-9049-85c5995088e7")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -14478,76 +14360,6 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ea18209-6853-4652-a688-b1ceef6a4084")
-		(property "Reference" "TP41"
-			(at 44.45 231.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5593aa0-303f-491c-ad22-2c30f67755a6")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -15148,77 +14960,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d49762b-7c97-4d25-b504-480bedc293aa")
-		(property "Reference" "TP20"
-			(at 44.45 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9e46821-0542-44a1-adb6-9aedb8955638")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 177.8 90)
+		(at 86.36 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15226,7 +14968,7 @@
 		(dnp no)
 		(uuid "20146ce1-e01f-4294-ae54-4bd854305c61")
 		(property "Reference" "TP31"
-			(at 44.45 177.7999 90)
+			(at 81.28 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15235,7 +14977,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 46.99 175.26 0)
+			(at 83.82 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15245,7 +14987,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 175.26 0)
+			(at 91.44 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15255,7 +14997,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 175.26 0)
+			(at 86.36 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15265,7 +15007,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 52.07 175.26 0)
+			(at 88.9 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15858,76 +15600,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 276.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25f8448a-d1d2-4454-96b4-6b4966a6ac5e")
-		(property "Reference" "TP35"
-			(at 44.45 276.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94652be8-90d6-4948-a895-f1320f32c02a")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 86.36 186.69 0)
 		(unit 1)
@@ -15989,76 +15661,6 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "#PWR12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c01e8d1-5d2d-46c0-a844-a808c19ac917")
-		(property "Reference" "TP29"
-			(at 44.45 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "945a84c9-c44f-460f-807a-f43215bc0c34")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -19116,78 +18718,8 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 167.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57ac0fda-1b1f-408c-ba50-066be291623c")
-		(property "Reference" "TP30"
-			(at 44.45 167.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c578417-3269-482e-87a9-52b64549aba7")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2GEJ104X")
-		(at 177.8 180.34 90)
+		(at 218.44 182.88 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19197,7 +18729,7 @@
 		(fields_autoplaced yes)
 		(uuid "57eecb66-cc69-49ec-b657-93367345c47c")
 		(property "Reference" "R74"
-			(at 180.34 179.0699 90)
+			(at 220.98 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19206,7 +18738,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 180.34 181.6099 90)
+			(at 220.98 184.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19215,7 +18747,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 182.88 180.34 0)
+			(at 223.52 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19226,7 +18758,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 185.42 180.34 0)
+			(at 226.06 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19237,7 +18769,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 kΩ 5% 0402 50V"
-			(at 187.96 180.34 0)
+			(at 228.6 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19248,7 +18780,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GEJ104X"
-			(at 195.58 180.34 0)
+			(at 236.22 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19259,7 +18791,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 210.82 180.34 0)
+			(at 251.46 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19270,7 +18802,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 198.12 180.34 0)
+			(at 238.76 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19281,7 +18813,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 205.74 180.34 0)
+			(at 246.38 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19292,7 +18824,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2GEJ104X"
-			(at 203.2 180.34 0)
+			(at 243.84 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19303,7 +18835,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 190.5 180.34 0)
+			(at 231.14 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19313,7 +18845,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 193.04 180.34 0)
+			(at 233.68 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19323,7 +18855,7 @@
 			)
 		)
 		(property "Series" "ERJ-2GEJ"
-			(at 200.66 180.34 0)
+			(at 241.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19333,7 +18865,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2GEJ104X"
-			(at 208.28 180.34 0)
+			(at 248.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19343,7 +18875,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 190.5 180.34 0)
+			(at 231.14 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19353,7 +18885,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 198.12 180.34 0)
+			(at 238.76 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19363,7 +18895,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200 ppm/°C"
-			(at 210.82 180.34 0)
+			(at 251.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19990,7 +19522,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2GEJ104X")
-		(at 165.1 180.34 90)
+		(at 205.74 182.88 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19999,7 +19531,7 @@
 		(dnp no)
 		(uuid "5cfd4d11-1010-4869-9c25-5022a45b35f7")
 		(property "Reference" "R62"
-			(at 167.64 179.0699 90)
+			(at 208.28 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20008,7 +19540,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 167.64 181.6099 90)
+			(at 208.28 184.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20017,7 +19549,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 170.18 180.34 0)
+			(at 210.82 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20028,7 +19560,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 172.72 180.34 0)
+			(at 213.36 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20039,7 +19571,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 kΩ 5% 0402 50V"
-			(at 175.26 180.34 0)
+			(at 215.9 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20050,7 +19582,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GEJ104X"
-			(at 182.88 180.34 0)
+			(at 223.52 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20061,7 +19593,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 198.12 180.34 0)
+			(at 238.76 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20072,7 +19604,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 185.42 180.34 0)
+			(at 226.06 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20083,7 +19615,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 193.04 180.34 0)
+			(at 233.68 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20094,7 +19626,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2GEJ104X"
-			(at 190.5 180.34 0)
+			(at 231.14 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -20105,7 +19637,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 177.8 180.34 0)
+			(at 218.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20115,7 +19647,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 180.34 180.34 0)
+			(at 220.98 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20125,7 +19657,7 @@
 			)
 		)
 		(property "Series" "ERJ-2GEJ"
-			(at 187.96 180.34 0)
+			(at 228.6 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20135,7 +19667,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2GEJ104X"
-			(at 195.58 180.34 0)
+			(at 236.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20145,7 +19677,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 177.8 180.34 0)
+			(at 218.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20155,7 +19687,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 185.42 180.34 0)
+			(at 226.06 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20165,7 +19697,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200 ppm/°C"
-			(at 198.12 180.34 0)
+			(at 238.76 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20745,76 +20277,6 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "R76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61de6496-86a9-4849-ab5b-ba18543e54fe")
-		(property "Reference" "TP33"
-			(at 44.45 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bd93f69-cbfd-4b62-a212-3252410b4ad0")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -21412,7 +20874,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2GEJ104X")
-		(at 177.8 157.48 90)
+		(at 218.44 160.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21422,7 +20884,7 @@
 		(fields_autoplaced yes)
 		(uuid "66ec2565-5e98-425b-ba33-b266029bda49")
 		(property "Reference" "R63"
-			(at 180.34 156.2099 90)
+			(at 220.98 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21431,7 +20893,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 180.34 158.7499 90)
+			(at 220.98 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21440,7 +20902,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 182.88 157.48 0)
+			(at 223.52 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21451,7 +20913,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 185.42 157.48 0)
+			(at 226.06 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21462,7 +20924,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 kΩ 5% 0402 50V"
-			(at 187.96 157.48 0)
+			(at 228.6 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21473,7 +20935,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GEJ104X"
-			(at 195.58 157.48 0)
+			(at 236.22 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21484,7 +20946,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 210.82 157.48 0)
+			(at 251.46 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21495,7 +20957,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 198.12 157.48 0)
+			(at 238.76 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21506,7 +20968,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 205.74 157.48 0)
+			(at 246.38 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21517,7 +20979,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2GEJ104X"
-			(at 203.2 157.48 0)
+			(at 243.84 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21528,7 +20990,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 190.5 157.48 0)
+			(at 231.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21538,7 +21000,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 193.04 157.48 0)
+			(at 233.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21548,7 +21010,7 @@
 			)
 		)
 		(property "Series" "ERJ-2GEJ"
-			(at 200.66 157.48 0)
+			(at 241.3 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21558,7 +21020,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2GEJ104X"
-			(at 208.28 157.48 0)
+			(at 248.92 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21568,7 +21030,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 190.5 157.48 0)
+			(at 231.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21578,7 +21040,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 198.12 157.48 0)
+			(at 238.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21588,7 +21050,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200 ppm/°C"
-			(at 210.82 157.48 0)
+			(at 251.46 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21614,7 +21076,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 180.34 90)
+		(at 86.36 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21622,7 +21084,7 @@
 		(dnp no)
 		(uuid "67375893-6e92-4489-a29f-2163f16ae3e8")
 		(property "Reference" "TP34"
-			(at 44.45 180.3399 90)
+			(at 81.28 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21631,7 +21093,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 46.99 177.8 0)
+			(at 83.82 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21641,7 +21103,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 177.8 0)
+			(at 91.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21651,7 +21113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 177.8 0)
+			(at 86.36 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21661,7 +21123,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 52.07 177.8 0)
+			(at 88.9 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21839,72 +21301,6 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b381dc9-9844-4db6-a765-55a266bbc864")
-		(property "Reference" "#PWR052"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eeca7596-332a-4be4-b650-e23bd2107852")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -22323,146 +21719,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70a2efa9-6594-4272-9d1a-ba305ed5334d")
-		(property "Reference" "TP19"
-			(at 44.45 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "570546a9-dcb6-4c6e-8b27-93518ae270a0")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71abc0fa-f12f-43cb-8b9d-b0168ef9d947")
-		(property "Reference" "TP26"
-			(at 44.45 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45763090-7464-472d-bb04-c52399babccc")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UNITED_INDUCTORS_DATA_BASE:L_XFL3012-104ME")
 		(at 129.54 116.84 0)
 		(unit 1)
@@ -22827,6 +22083,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "72cef5c8-3dcd-4a74-8f29-83e7b5dbc4d0")
 		(property "Reference" "#PWR094"
 			(at 281.94 50.8 0)
@@ -22879,76 +22136,6 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75254130-4867-42b0-a093-468bc2c3b7cf")
-		(property "Reference" "TP21"
-			(at 44.45 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4361b8e9-4fbf-4aeb-a67e-5e486f54166a")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -23230,78 +22417,8 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "783d1c0f-c656-45db-8623-14be0fd2e458")
-		(property "Reference" "TP23"
-			(at 44.45 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b35470a-b4ac-4004-ab62-caf99102cde2")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2GEJ104X")
-		(at 152.4 157.48 90)
+		(at 193.04 160.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23310,7 +22427,7 @@
 		(dnp no)
 		(uuid "785f88db-b820-49bd-9360-7b3e21973d90")
 		(property "Reference" "R73"
-			(at 154.94 156.2099 90)
+			(at 195.58 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23319,7 +22436,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 154.94 158.7499 90)
+			(at 195.58 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23328,7 +22445,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 157.48 157.48 0)
+			(at 198.12 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23339,7 +22456,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 160.02 157.48 0)
+			(at 200.66 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23350,7 +22467,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 kΩ 5% 0402 50V"
-			(at 162.56 157.48 0)
+			(at 203.2 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23361,7 +22478,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GEJ104X"
-			(at 170.18 157.48 0)
+			(at 210.82 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23372,7 +22489,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 185.42 157.48 0)
+			(at 226.06 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23383,7 +22500,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 172.72 157.48 0)
+			(at 213.36 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23394,7 +22511,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 180.34 157.48 0)
+			(at 220.98 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23405,7 +22522,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2GEJ104X"
-			(at 177.8 157.48 0)
+			(at 218.44 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23416,7 +22533,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 165.1 157.48 0)
+			(at 205.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23426,7 +22543,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 167.64 157.48 0)
+			(at 208.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23436,7 +22553,7 @@
 			)
 		)
 		(property "Series" "ERJ-2GEJ"
-			(at 175.26 157.48 0)
+			(at 215.9 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23446,7 +22563,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2GEJ104X"
-			(at 182.88 157.48 0)
+			(at 223.52 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23456,7 +22573,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 165.1 157.48 0)
+			(at 205.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23466,7 +22583,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 172.72 157.48 0)
+			(at 213.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23476,7 +22593,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200 ppm/°C"
-			(at 185.42 157.48 0)
+			(at 226.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23713,78 +22830,8 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79d11f33-d787-401e-aea2-cd9fe679772f")
-		(property "Reference" "TP22"
-			(at 44.45 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "845311f9-5d35-4e46-a74a-2fccebc86459")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2GEJ104X")
-		(at 152.4 180.34 90)
+		(at 193.04 182.88 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23794,7 +22841,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a06da3b-2edc-4970-83e7-49ce8d80e23d")
 		(property "Reference" "R75"
-			(at 154.94 179.0699 90)
+			(at 195.58 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23803,7 +22850,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 154.94 181.6099 90)
+			(at 195.58 184.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23812,7 +22859,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 157.48 180.34 0)
+			(at 198.12 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23823,7 +22870,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 160.02 180.34 0)
+			(at 200.66 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23834,7 +22881,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 kΩ 5% 0402 50V"
-			(at 162.56 180.34 0)
+			(at 203.2 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23845,7 +22892,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GEJ104X"
-			(at 170.18 180.34 0)
+			(at 210.82 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23856,7 +22903,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 185.42 180.34 0)
+			(at 226.06 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23867,7 +22914,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 172.72 180.34 0)
+			(at 213.36 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23878,7 +22925,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 180.34 180.34 0)
+			(at 220.98 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23889,7 +22936,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2GEJ104X"
-			(at 177.8 180.34 0)
+			(at 218.44 182.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -23900,7 +22947,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 165.1 180.34 0)
+			(at 205.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23910,7 +22957,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 167.64 180.34 0)
+			(at 208.28 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23920,7 +22967,7 @@
 			)
 		)
 		(property "Series" "ERJ-2GEJ"
-			(at 175.26 180.34 0)
+			(at 215.9 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23930,7 +22977,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2GEJ104X"
-			(at 182.88 180.34 0)
+			(at 223.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23940,7 +22987,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 165.1 180.34 0)
+			(at 205.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23950,7 +22997,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 172.72 180.34 0)
+			(at 213.36 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23960,7 +23007,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200 ppm/°C"
-			(at 185.42 180.34 0)
+			(at 226.06 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24045,72 +23092,6 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "#PWR5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 53.34 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d4a311e-dd13-4b43-8b9f-05e75528ac2e")
-		(property "Reference" "#PWR0100"
-			(at 53.34 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 53.34 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 53.34 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc5d0e95-acb0-46d4-a777-ca25d723f224")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -24919,78 +23900,8 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 251.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83722f43-4f36-4b60-9453-636f7a412bd3")
-		(property "Reference" "TP45"
-			(at 44.45 251.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "352d1b1d-9e4d-48bf-82d3-963f699f9379")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
-		(at 327.66 93.98 0)
+		(at 327.66 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24999,7 +23910,7 @@
 		(fields_autoplaced yes)
 		(uuid "84192dc9-3b79-4914-b540-0a906ab93a57")
 		(property "Reference" "#PWR091"
-			(at 327.66 100.33 0)
+			(at 327.66 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25008,7 +23919,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 327.66 99.06 0)
+			(at 327.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25016,7 +23927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 93.98 0)
+			(at 327.66 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25025,7 +23936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 93.98 0)
+			(at 327.66 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25034,7 +23945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 327.66 93.98 0)
+			(at 327.66 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25630,7 +24541,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_RESISTORS_DATA_BASE:R_ERJ-2GEJ104X")
-		(at 165.1 157.48 90)
+		(at 205.74 160.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25639,7 +24550,7 @@
 		(dnp no)
 		(uuid "88c07034-6e93-41ba-aa5e-859d69f9ee51")
 		(property "Reference" "R61"
-			(at 167.64 156.2099 90)
+			(at 208.28 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25648,7 +24559,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 167.64 158.7499 90)
+			(at 208.28 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25657,7 +24568,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 170.18 157.48 0)
+			(at 210.82 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25668,7 +24579,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 172.72 157.48 0)
+			(at 213.36 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25679,7 +24590,7 @@
 			)
 		)
 		(property "Description" "RES SMD 100 kΩ 5% 0402 50V"
-			(at 175.26 157.48 0)
+			(at 215.9 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25690,7 +24601,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GEJ104X"
-			(at 182.88 157.48 0)
+			(at 223.52 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25701,7 +24612,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 198.12 157.48 0)
+			(at 238.76 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25712,7 +24623,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 185.42 157.48 0)
+			(at 226.06 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25723,7 +24634,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 193.04 157.48 0)
+			(at 233.68 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25734,7 +24645,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2GEJ104X"
-			(at 190.5 157.48 0)
+			(at 231.14 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25745,7 +24656,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 177.8 157.48 0)
+			(at 218.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25755,7 +24666,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 180.34 157.48 0)
+			(at 220.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25765,7 +24676,7 @@
 			)
 		)
 		(property "Series" "ERJ-2GEJ"
-			(at 187.96 157.48 0)
+			(at 228.6 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25775,7 +24686,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2GEJ104X"
-			(at 195.58 157.48 0)
+			(at 236.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25785,7 +24696,7 @@
 			)
 		)
 		(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
-			(at 177.8 157.48 0)
+			(at 218.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25795,7 +24706,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 185.42 157.48 0)
+			(at 226.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25805,7 +24716,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "200 ppm/°C"
-			(at 198.12 157.48 0)
+			(at 238.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26712,7 +25623,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 165.1 186.69 0)
+		(at 205.74 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26721,7 +25632,7 @@
 		(fields_autoplaced yes)
 		(uuid "95abc74e-6758-4f44-a15c-dc086efa7953")
 		(property "Reference" "#PWR081"
-			(at 165.1 193.04 0)
+			(at 205.74 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26730,7 +25641,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 167.64 187.9599 0)
+			(at 208.28 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26739,7 +25650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 186.69 0)
+			(at 205.74 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26748,7 +25659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 186.69 0)
+			(at 205.74 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26757,7 +25668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 165.1 186.69 0)
+			(at 205.74 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26976,78 +25887,8 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97ddf4a5-1cf5-48d7-898b-caef2ad1c622")
-		(property "Reference" "TP27"
-			(at 44.45 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "275036df-cc78-4ab7-a603-9cd79171b708")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
-		(at 177.8 186.69 0)
+		(at 218.44 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27056,7 +25897,7 @@
 		(fields_autoplaced yes)
 		(uuid "981d5001-e807-4138-b320-60464e090e76")
 		(property "Reference" "#PWR082"
-			(at 177.8 193.04 0)
+			(at 218.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27065,7 +25906,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 180.34 187.9599 0)
+			(at 220.98 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27074,7 +25915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 186.69 0)
+			(at 218.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27083,7 +25924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 186.69 0)
+			(at 218.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27092,7 +25933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 177.8 186.69 0)
+			(at 218.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28178,76 +27019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 228.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1de9576-855f-43c9-ab07-e26fc64f4cea")
-		(property "Reference" "TP42"
-			(at 44.45 228.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d97e7ba0-7c4f-4ced-9681-599dc7cc98b4")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CAPACITORS_CGA2B2NP02A_DATA_BASE:C_CGA2B2NP02A221J050BA")
 		(at 246.38 58.42 90)
 		(mirror x)
@@ -28439,6 +27210,72 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 53.34 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d68155-4564-4901-878c-df2c691f97cf")
+		(property "Reference" "#PWR0101"
+			(at 53.34 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 53.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69041f9b-c6a0-4f49-aeaf-455f7e0cb479")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -29016,146 +27853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 205.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b18aeaf2-25cc-49b8-9353-b8d4d14f7258")
-		(property "Reference" "TP39"
-			(at 44.45 205.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e672964-037c-4ded-832d-43ffcfe6652b")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3877c9b-7666-4731-b8e3-3f4eb8d72599")
-		(property "Reference" "TP32"
-			(at 44.45 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21c0c51f-ba66-4c25-ba9d-30a70252f9bb")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 139.7 82.55 0)
 		(unit 1)
@@ -29223,7 +27920,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_SOLDER_JUMPERS:SolderJumper_2_Bridged")
-		(at 203.2 53.34 0)
+		(at 209.55 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29232,7 +27929,7 @@
 		(fields_autoplaced yes)
 		(uuid "b54722ba-5d6c-4c83-806a-5de6ac553bd7")
 		(property "Reference" "JP2"
-			(at 203.2 49.53 0)
+			(at 209.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29240,7 +27937,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 203.2 55.88 0)
+			(at 209.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29249,7 +27946,7 @@
 			)
 		)
 		(property "Footprint" "solder_jumper_footprints:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 203.2 63.5 0)
+			(at 209.55 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29259,7 +27956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 58.42 0)
+			(at 209.55 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29269,7 +27966,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 203.2 60.96 0)
+			(at 209.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31457,7 +30154,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 210.82 90)
+		(at 86.36 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31465,7 +30162,7 @@
 		(dnp no)
 		(uuid "d1ad53b3-df66-4a61-8232-f1941cade0f8")
 		(property "Reference" "TP40"
-			(at 44.45 210.8199 90)
+			(at 81.28 210.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31474,7 +30171,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 46.99 208.28 0)
+			(at 83.82 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31484,7 +30181,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 208.28 0)
+			(at 91.44 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31494,7 +30191,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 208.28 0)
+			(at 86.36 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31504,7 +30201,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 52.07 208.28 0)
+			(at 88.9 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32960,7 +31657,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 152.4 186.69 0)
+		(at 193.04 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32969,7 +31666,7 @@
 		(fields_autoplaced yes)
 		(uuid "e02b86fa-9ac4-4ed5-af5f-3066927ec54c")
 		(property "Reference" "#PWR080"
-			(at 152.4 193.04 0)
+			(at 193.04 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32978,7 +31675,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 154.94 187.9599 0)
+			(at 195.58 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32987,7 +31684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 186.69 0)
+			(at 193.04 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32996,7 +31693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 186.69 0)
+			(at 193.04 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33005,7 +31702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 152.4 186.69 0)
+			(at 193.04 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33093,7 +31790,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 292.1 90.17 0)
+		(at 292.1 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33102,7 +31799,7 @@
 		(fields_autoplaced yes)
 		(uuid "e342453e-e9d1-4c65-8102-40a1f89bbeb2")
 		(property "Reference" "#PWR090"
-			(at 292.1 96.52 0)
+			(at 292.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33111,7 +31808,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 292.1 95.25 0)
+			(at 292.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33119,7 +31816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 90.17 0)
+			(at 292.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33128,7 +31825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 90.17 0)
+			(at 292.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33137,7 +31834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 292.1 90.17 0)
+			(at 292.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33158,74 +31855,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 53.34 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3e3bd22-2f66-4be9-bc1d-0b81e354ba5d")
-		(property "Reference" "#PWR068"
-			(at 53.34 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 53.34 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 53.34 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08bf9cd0-5a6d-4b2c-93d3-480050754123")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 256.54 90)
+		(at 86.36 256.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33233,7 +31864,7 @@
 		(dnp no)
 		(uuid "e5106471-2631-4b2e-aa46-523493b41cba")
 		(property "Reference" "TP46"
-			(at 44.45 256.5399 90)
+			(at 81.28 256.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33242,7 +31873,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 46.99 254 0)
+			(at 83.82 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33252,7 +31883,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 254 0)
+			(at 91.44 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33262,7 +31893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 254 0)
+			(at 86.36 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33272,7 +31903,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 52.07 254 0)
+			(at 88.9 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34441,76 +33072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 49.53 254 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcdfff89-e08e-4ec6-b7e8-5c5b0b1cada7")
-		(property "Reference" "TP44"
-			(at 44.45 253.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.99 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 54.61 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d682365-9fd8-484a-8b5f-2e219c4de20c")
-		)
-		(instances
-			(project "minimal_ad74416h"
-				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/53b8d5c7-b371-4249-9a7e-dd90a62c14be"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 111.76 38.1 0)
 		(unit 1)
@@ -34644,7 +33205,7 @@
 	)
 	(symbol
 		(lib_id "RESISTORS_ERJ-2RKF_DATA_BASE:R_ERJ-2RKF4022X")
-		(at 327.66 87.63 270)
+		(at 327.66 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34653,7 +33214,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe41ab9e-f7e3-45d0-b6dd-8da178fc9881")
 		(property "Reference" "R5"
-			(at 330.2 86.3599 90)
+			(at 330.2 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34662,7 +33223,7 @@
 			)
 		)
 		(property "Value" "40.2 kΩ"
-			(at 330.2 88.8999 90)
+			(at 330.2 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34671,7 +33232,7 @@
 			)
 		)
 		(property "Footprint" "resistor_footprints:R_0402_1005Metric"
-			(at 322.58 87.63 0)
+			(at 322.58 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34682,7 +33243,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 320.04 87.63 0)
+			(at 320.04 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34693,7 +33254,7 @@
 			)
 		)
 		(property "Description" "RES SMD 40.2 kΩ 1% 0402 50V"
-			(at 317.5 87.63 0)
+			(at 317.5 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34704,7 +33265,7 @@
 			)
 		)
 		(property "Case Code - in" "0402"
-			(at 314.96 87.63 0)
+			(at 314.96 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34715,7 +33276,7 @@
 			)
 		)
 		(property "Case Code - mm" "1005"
-			(at 312.42 87.63 0)
+			(at 312.42 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34726,7 +33287,7 @@
 			)
 		)
 		(property "Component Type" "Resistor"
-			(at 309.88 87.63 0)
+			(at 309.88 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34737,7 +33298,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF4022X"
-			(at 307.34 87.63 0)
+			(at 307.34 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34748,7 +33309,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 304.8 87.63 0)
+			(at 304.8 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34759,7 +33320,7 @@
 			)
 		)
 		(property "Series" "ERJ-2RKF"
-			(at 302.26 87.63 0)
+			(at 302.26 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34770,7 +33331,7 @@
 			)
 		)
 		(property "Symbol Name" "R_ERJ-2RKF4022X"
-			(at 299.72 87.63 0)
+			(at 299.72 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34781,7 +33342,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "100 ppm/°C"
-			(at 297.18 87.63 0)
+			(at 297.18 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34792,7 +33353,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 294.64 87.63 0)
+			(at 294.64 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34803,7 +33364,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF4022X"
-			(at 292.1 87.63 0)
+			(at 292.1 85.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -34814,7 +33375,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 289.56 87.63 0)
+			(at 289.56 85.09 0)
 			(show_name yes)
 			(effects
 				(font
