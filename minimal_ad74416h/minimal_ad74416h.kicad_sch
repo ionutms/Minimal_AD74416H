@@ -6271,7 +6271,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 124.46) (xy 167.64 124.46)
+			(xy 160.02 129.54) (xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6481,7 +6481,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 116.84) (xy 167.64 116.84)
+			(xy 160.02 121.92) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7241,7 +7241,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 121.92) (xy 167.64 121.92)
+			(xy 160.02 127) (xy 167.64 127)
 		)
 		(stroke
 			(width 0)
@@ -7741,7 +7741,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 119.38) (xy 167.64 119.38)
+			(xy 160.02 124.46) (xy 167.64 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7908,6 +7908,16 @@
 			(type default)
 		)
 		(uuid "c0dacc8a-6558-486e-8592-cabbbcd41070")
+	)
+	(wire
+		(pts
+			(xy 160.02 119.38) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1578606-879e-42eb-a938-62e5e65a220b")
 	)
 	(wire
 		(pts
@@ -8510,7 +8520,7 @@
 		(uuid "0ffdb711-ca34-4197-8718-5133c8f7f796")
 	)
 	(label "5V0"
-		(at 167.64 121.92 0)
+		(at 167.64 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8670,7 +8680,7 @@
 		(uuid "2c00c68b-0790-4de1-8895-2430534ce0a0")
 	)
 	(label "-15V0"
-		(at 167.64 124.46 0)
+		(at 167.64 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8859,6 +8869,16 @@
 		)
 		(uuid "5390af73-42a8-43ae-a3aa-efcf78e1aa15")
 	)
+	(label "DO_VDD"
+		(at 167.64 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "579397ce-6781-44b5-9458-8c19dd346c18")
+	)
 	(label "VIOUT_A"
 		(at 323.85 109.22 0)
 		(effects
@@ -8990,7 +9010,7 @@
 		(uuid "79a9ef8b-c054-450d-8778-34cffac0298e")
 	)
 	(label "AVDD_LO"
-		(at 167.64 119.38 0)
+		(at 167.64 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9530,7 +9550,7 @@
 		(uuid "ecfe94dd-e4ec-4b72-8454-17495bd7d3cb")
 	)
 	(label "24V0"
-		(at 167.64 116.84 0)
+		(at 167.64 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22262,7 +22282,7 @@
 			)
 		)
 		(pin "-15V0" output
-			(at 160.02 124.46 0)
+			(at 160.02 129.54 0)
 			(uuid "92055c11-f6c4-4544-9337-0bf971d5aa53")
 			(effects
 				(font
@@ -22272,7 +22292,7 @@
 			)
 		)
 		(pin "5V0" output
-			(at 160.02 121.92 0)
+			(at 160.02 127 0)
 			(uuid "3f56da9d-58b7-4dc5-a43e-cc59dc470fde")
 			(effects
 				(font
@@ -22282,7 +22302,7 @@
 			)
 		)
 		(pin "24V0" output
-			(at 160.02 116.84 0)
+			(at 160.02 121.92 0)
 			(uuid "2171dc55-1fea-47d4-a3bc-514bc0a78f09")
 			(effects
 				(font
@@ -22312,7 +22332,7 @@
 			)
 		)
 		(pin "14V5" output
-			(at 160.02 119.38 0)
+			(at 160.02 124.46 0)
 			(uuid "1af67f1f-2724-4001-a252-fe71d712bca8")
 			(effects
 				(font
@@ -22499,6 +22519,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "DO_VDD" output
+			(at 160.02 119.38 0)
+			(uuid "754e1bf8-0a0d-4ee2-a5d4-dc36e37c0122")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
