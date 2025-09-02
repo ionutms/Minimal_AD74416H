@@ -19,12 +19,15 @@ Key features include:
   - Analog Input (Voltage or Current)
   - Analog Output (Voltage or Current)
   - Digital Input
-  - Resistance Temperature Detector (RTD) and Thermocouple measurements
+  - Digital Output
+  - 2- or 3-wire Resistance Temperature Detector (RTD) and Thermocouple measurements
 - **HART Compatibility:** Each channel has an integrated HART (Highway Addressable Remote Transducer) modem.
-- **High-Performance Conversion:** 16-bit DACs per channel and a single 24-bit, Σ-Δ ADC with 50 Hz and 60 Hz rejection.
+- **Integrated Converters:** The device includes a 16-bit digital-to-analog converter (DAC) per channel and a single 24-bit sigma-delta (Σ-Δ) analog-to-digital converter (ADC).
+- **Communication:** All input, output, and HART communications for the four channels are handled through a single SPI-compatible interface. It is possible to address up to four AD74416H devices on a single SPI bus.
+- **Power Efficiency:** It features adaptive power switching, which can lower power dissipation by up to 40%.
 - **Robustness and Diagnostics:** Features on-chip diagnostics like open-circuit and short-circuit detection and an internal temperature sensor.
-- **Communication:** Uses a Serial Peripheral Interface (SPI) for configuration and data transfer.
 - **Operating Temperature Range:** -40°C to +105°C.
+- **Package:** Available in a 64-lead LFCSP package.
 
 ## Project Structure
 
