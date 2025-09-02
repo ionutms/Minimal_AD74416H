@@ -4,24 +4,27 @@
 
 This repository contains a minimal KiCad design project for the Analog Devices AD74416H, a quad-channel, software-configurable input and output device with HART modem capabilities. The project includes schematic designs and PCB layout files for implementing this versatile analog I/O device.
 
+## Disclaimer
+
+> [!NOTE]
+> This project is provided "as is" and without any warranty, express or implied. For more details, please see the [LICENSE](LICENSE) file.
+
 ## About the AD74416H
 
-The AD74416H is a highly integrated, 16-bit, quad-channel, software-configurable input/output device designed for process control applications. Key features include:
+The AD74416H from Analog Devices is a quad-channel, software-configurable input/output solution for building and process control applications. It integrates a 24-bit, sigma-delta (Σ-Δ) analog-to-digital converter (ADC) and four 16-bit digital-to-analog converters (DACs).
 
-- Quad-channel configurable analog I/O
-- Software-selectable input/output modes:
-  - 0 V to 10 V voltage output
-  - 0 mA to 24 mA current output
-  - 0 mA to 20 mA current output
-  - ±10 V voltage input
-  - 0 mA to 24 mA current input
-  - Resistance measurement (RTD)
-  - Digital input/output
-- Integrated HART modem for communication
-- High precision 16-bit DACs and ADCs
-- Wide supply voltage range
-- Integrated diagnostic features
-- Compact 64-pin LFCSP package
+Key features include:
+
+- **Software-Configurable Channels:** Each of the four channels can be independently configured as:
+  - Analog Input (Voltage or Current)
+  - Analog Output (Voltage or Current)
+  - Digital Input
+  - Resistance Temperature Detector (RTD) and Thermocouple measurements
+- **HART Compatibility:** Each channel has an integrated HART (Highway Addressable Remote Transducer) modem.
+- **High-Performance Conversion:** 16-bit DACs per channel and a single 24-bit, Σ-Δ ADC with 50 Hz and 60 Hz rejection.
+- **Robustness and Diagnostics:** Features on-chip diagnostics like open-circuit and short-circuit detection and an internal temperature sensor.
+- **Communication:** Uses a Serial Peripheral Interface (SPI) for configuration and data transfer.
+- **Operating Temperature Range:** -40°C to +105°C.
 
 ## Project Structure
 
@@ -33,13 +36,14 @@ minimal_ad74416h/
 ├── fp-lib-table                     # Footprint library table
 ├── sym-lib-table                    # Symbol library table
 ├── Front End Channel 1.kicad_sch    # Channel-specific schematic
+├── Power Supply and Digital Interface.kicad_sch # Power and interface schematic
 ├── docs/                            # Documentation files
 │   ├── pictures/                    # Images and photos
 │   └── schematics/                  # Schematic PDF exports
 └── KiCAD_Symbols_Generator/         # Submodule for symbol generation from CSV data
 ```
 
-## Features
+## Project Features
 
 This design provides a minimal implementation of the AD74416H with:
 
@@ -60,7 +64,7 @@ This design provides a minimal implementation of the AD74416H with:
 
 1. **Clone the repository** (including submodules):
    ```bash
-   git clone --recursive https://github.com/your-username/Minimal_AD74416H.git
+   git clone --recursive https://github.com/ionutms/Minimal_AD74416H.git
    ```
    
    If you've already cloned the repository without submodules, initialize them with:
@@ -82,9 +86,44 @@ This design provides a minimal implementation of the AD74416H with:
 
 ### Project Files
 
-- **Main schematic**: `minimal_ad74416h.kicad_sch` - Contains the primary circuit design
-- **PCB layout**: `minimal_ad74416h.kicad_pcb` - Physical board design file
+- **Main schematic**: `minimal_ad74416h.kicad_sch` - Contains the primary circuit design with the AD74416H and support components
+- **Channel schematic**: `Front End Channel 1.kicad_sch` - Detailed implementation of one channel with protection and filtering
+- **Power schematic**: `Power Supply and Digital Interface.kicad_sch` - Power supply and digital interface circuits
+- **PCB layout**: `minimal_ad74416h.kicad_pcb` - Physical board design file with proper component placement
 - **Project configuration**: `minimal_ad74416h.kicad_pro` - KiCad project settings
+
+## Dependencies
+
+This project has the following dependencies:
+
+### 1. KiCAD Symbols Generator
+
+This repository uses [KiCAD_Symbols_Generator](https://github.com/ionutms/KiCAD_Symbols_Generator) as a submodule for custom symbol generation.
+
+To initialize the submodule after cloning this repository:
+
+```bash
+git submodule update --init --recursive
+```
+
+### 2. 3D Models
+
+This project requires the [3D_Models_Vault](https://github.com/ionutms/3D_Models_Vault) repository for 3D models.
+
+#### Setup for KiCAD 9:
+
+1. Clone the 3D models repository:
+   ```bash
+   git clone https://github.com/ionutms/3D_Models_Vault.git
+   ```
+
+2. In KiCAD 9, add an environment variable:
+   - Variable name: `KICAD9_3D_MODELS_VAULT`
+   - Variable value: Full path to where you cloned the 3D_Models_Vault repository
+
+## Usage
+
+After setting up the dependencies, open the project in KiCad 9 to access all features including the 3D models.
 
 ## Symbol Generator Submodule
 

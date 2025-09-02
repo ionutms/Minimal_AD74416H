@@ -17,7 +17,6 @@
   (lib (name "npn_transistor_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/npn_transistor_footprints.pretty")(options "")(descr ""))
   (lib (name "resistor_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/resistor_footprints.pretty")(options "")(descr ""))
   (lib (name "solder_jumper_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/solder_jumper_footprints.pretty")(options "")(descr ""))
-  (lib (name "switches_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/switches_footprints.pretty")(options "")(descr ""))
   (lib (name "tactile_switches_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/tactile_switches_footprints.pretty")(options "")(descr ""))
   (lib (name "test_point_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/test_point_footprints.pretty")(options "")(descr ""))
   (lib (name "texas_instruments_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/texas_instruments_footprints.pretty")(options "")(descr ""))
