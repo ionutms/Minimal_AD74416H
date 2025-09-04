@@ -5944,6 +5944,15 @@
 		(uuid "18d000b2-9d31-4fc2-904c-0cd9c81fe098")
 	)
 	(bus_entry
+		(at 88.9 187.96)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e269dc0-ec92-4e87-a303-76df15e30800")
+	)
+	(bus_entry
 		(at 88.9 170.18)
 		(size -2.54 2.54)
 		(stroke
@@ -6095,6 +6104,15 @@
 			(type default)
 		)
 		(uuid "9c217995-9823-4bcf-8105-7f73d14bfda3")
+	)
+	(bus_entry
+		(at 88.9 190.5)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d701435-826e-41a6-b21b-0e7c69b8d43b")
 	)
 	(bus_entry
 		(at 271.78 187.96)
@@ -6578,6 +6596,16 @@
 			(type default)
 		)
 		(uuid "1cb820ab-a5b5-4e9b-969e-717581e09dd4")
+	)
+	(bus
+		(pts
+			(xy 88.9 187.96) (xy 88.9 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2093e19a-8788-42b9-8594-2446b0c19f82")
 	)
 	(wire
 		(pts
@@ -7701,6 +7729,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 193.04) (xy 86.36 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91878bac-718a-4a9a-a401-999bc8126308")
+	)
+	(wire
+		(pts
 			(xy 274.32 182.88) (xy 287.02 182.88)
 		)
 		(stroke
@@ -8309,6 +8347,16 @@
 		)
 		(uuid "cac66bba-bc16-45c4-ae31-36c651398d7e")
 	)
+	(bus
+		(pts
+			(xy 88.9 185.42) (xy 88.9 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb241b6f-6fbf-4765-8da9-3ec8ef1e0c65")
+	)
 	(wire
 		(pts
 			(xy 228.6 106.68) (xy 231.14 106.68)
@@ -8358,6 +8406,16 @@
 			(type default)
 		)
 		(uuid "cf0b9464-8efa-49fe-afa5-c1865855a545")
+	)
+	(wire
+		(pts
+			(xy 60.96 190.5) (xy 86.36 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6bd536-3a5d-4558-b7e8-605df95c84ce")
 	)
 	(wire
 		(pts
@@ -9399,6 +9457,16 @@
 		)
 		(uuid "5b363d09-df85-4cf8-87f6-c60859a56249")
 	)
+	(label "SCL_ISO"
+		(at 83.82 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cd371fe-cdbc-4117-8807-f4319945d052")
+	)
 	(label "VIOUT_B"
 		(at 328.93 149.86 0)
 		(effects
@@ -9808,6 +9876,16 @@
 			(justify left bottom)
 		)
 		(uuid "b53f2104-83aa-4fdc-a4d1-95e381524d9c")
+	)
+	(label "SDA_ISO"
+		(at 83.82 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5b1f5ef-14f9-43e6-bfbf-6ca0490363a7")
 	)
 	(label "SENSELF_A"
 		(at 328.93 124.46 0)
@@ -13525,6 +13603,76 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 60.96 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45c564bd-4a9d-428f-abfe-a1318c35bea2")
+		(property "Reference" "TP36"
+			(at 55.88 193.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.42 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "562f2038-5aa2-404a-b441-ab85e10b719c")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 281.94 76.2 0)
 		(mirror y)
@@ -16573,6 +16721,76 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(at 60.96 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fd5c539-d54d-4589-8040-ee6efa9b8752")
+		(property "Reference" "TP35"
+			(at 55.88 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.42 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 66.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de72bc88-f069-4972-ace5-6d374de59692")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "TP35")
 					(unit 1)
 				)
 			)
