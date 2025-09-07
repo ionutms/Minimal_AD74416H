@@ -26,4 +26,5 @@
   (lib (name "usb_type_c_connector_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/usb_type_c_connector_footprints.pretty")(options "")(descr ""))
   (lib (name "dip_switches_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/dip_switches_footprints.pretty")(options "")(descr ""))
   (lib (name "nxp_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/nxp_footprints.pretty")(options "")(descr ""))
+  (lib (name "nexperia_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/nexperia_footprints.pretty")(options "")(descr ""))
 )

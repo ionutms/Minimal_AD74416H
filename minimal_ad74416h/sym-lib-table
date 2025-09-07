@@ -289,4 +289,5 @@
   (lib (name "UNITED_UFL_CONNECTORS_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/symbols/UNITED_UFL_CONNECTORS_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "UNITED_USB_TYPE_C_CONNECTORS_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/symbols/UNITED_USB_TYPE_C_CONNECTORS_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "UNITED_IC_NXP")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/symbols/UNITED_IC_NXP.kicad_sym")(options "")(descr ""))
+  (lib (name "UNITED_IC_NEXPERIA")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/symbols/UNITED_IC_NEXPERIA.kicad_sym")(options "")(descr ""))
 )
