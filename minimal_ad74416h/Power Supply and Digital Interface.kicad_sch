@@ -7136,7 +7136,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UNITED_IC_ADI:U_ADP1031ACPZ-2-R7"
+		(symbol "UNITED_IC_ADI:U_ADP1031ACPZ-3-R7"
 			(pin_names
 				(offset 0.254)
 			)
@@ -7152,7 +7152,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ADP1031ACPZ-2-R7"
+			(property "Value" "ADP1031ACPZ-3-R7"
 				(at 10.16 66.04 0)
 				(effects
 					(font
@@ -7181,7 +7181,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Three-Channel, Isolated Micropower Management Unit with Seven Digital Isolators (VOUT1=Adjustable, VOUT2=5 V, VOUT3=Adjustable)"
+			(property "Description" "Three-Channel, Isolated Micropower Management Unit with Seven Digital Isolators (VOUT1=Adjustable, VOUT2=3.3 V, VOUT3=Adjustable)"
 				(at 10.16 -66.04 0)
 				(effects
 					(font
@@ -7191,7 +7191,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ADP1031ACPZ-2-R7"
+			(property "MPN" "ADP1031ACPZ-3-R7"
 				(at 10.16 -71.12 0)
 				(effects
 					(font
@@ -7201,7 +7201,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "U_ADP1031ACPZ-2-R7_0_1"
+			(symbol "U_ADP1031ACPZ-3-R7_0_1"
 				(pin unspecified line
 					(at -12.7 58.42 0)
 					(length 2.54)
@@ -7815,7 +7815,7 @@
 					)
 				)
 			)
-			(symbol "U_ADP1031ACPZ-2-R7_1_1"
+			(symbol "U_ADP1031ACPZ-3-R7_1_1"
 				(rectangle
 					(start -10.16 60.96)
 					(end 10.16 -60.96)
@@ -12121,7 +12121,7 @@
 		)
 	)
 	(bus_alias "POWER_BUS"
-		(members "24V0" "5V0" "14V5" "-15V0" "DO_VDD")
+		(members "24V0" "3V3" "14V5" "-15V0" "DO_VDD" "5V0")
 	)
 	(junction
 		(at 177.8 91.44)
@@ -12542,7 +12542,7 @@
 		(uuid "154ee4c1-cbb5-4516-8445-4713c91f7277")
 	)
 	(bus_entry
-		(at 187.96 152.4)
+		(at 160.02 152.4)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -12551,7 +12551,7 @@
 		(uuid "1aa48a97-6d0f-4a32-9823-8953e1350738")
 	)
 	(bus_entry
-		(at 187.96 149.86)
+		(at 160.02 149.86)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -12560,7 +12560,7 @@
 		(uuid "1c306451-7c9e-40a5-8a4f-14f23a6783a2")
 	)
 	(bus_entry
-		(at 187.96 154.94)
+		(at 160.02 154.94)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -12614,8 +12614,8 @@
 		(uuid "66e2b62d-bc7c-41dc-9710-9684101fffd6")
 	)
 	(bus_entry
-		(at 187.96 190.5)
-		(size -2.54 2.54)
+		(at 187.96 198.12)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -12632,7 +12632,7 @@
 		(uuid "8d2e2fad-99bf-443f-9bf5-e35526e0500f")
 	)
 	(bus_entry
-		(at 187.96 157.48)
+		(at 160.02 157.48)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -12650,8 +12650,8 @@
 		(uuid "a01b694a-ce08-47eb-aafa-d4ae612b3054")
 	)
 	(bus_entry
-		(at 187.96 193.04)
-		(size -2.54 2.54)
+		(at 187.96 195.58)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -12935,7 +12935,7 @@
 	)
 	(bus
 		(pts
-			(xy 187.96 142.24) (xy 187.96 149.86)
+			(xy 187.96 203.2) (xy 187.96 198.12)
 		)
 		(stroke
 			(width 0)
@@ -13045,7 +13045,7 @@
 	)
 	(bus
 		(pts
-			(xy 187.96 149.86) (xy 187.96 152.4)
+			(xy 160.02 149.86) (xy 160.02 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13155,13 +13155,13 @@
 	)
 	(bus
 		(pts
-			(xy 243.84 142.24) (xy 243.84 203.2)
+			(xy 160.02 157.48) (xy 160.02 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2086a81c-cffb-4403-9925-d9ffcffeb713")
+		(uuid "20b717c9-8dd2-4b2f-bed2-04d8e55e8e1d")
 	)
 	(wire
 		(pts
@@ -13272,6 +13272,16 @@
 			(type default)
 		)
 		(uuid "2a6c2723-6490-4f30-88e9-804e3624e62c")
+	)
+	(bus
+		(pts
+			(xy 187.96 172.72) (xy 187.96 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc9b3e1-9e5b-4f1c-bb9b-ee8a2bfd58da")
 	)
 	(wire
 		(pts
@@ -13605,7 +13615,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 152.4) (xy 185.42 152.4)
+			(xy 139.7 152.4) (xy 157.48 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13715,7 +13725,7 @@
 	)
 	(bus
 		(pts
-			(xy 243.84 142.24) (xy 187.96 142.24)
+			(xy 187.96 203.2) (xy 381 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13835,7 +13845,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 149.86) (xy 185.42 149.86)
+			(xy 139.7 149.86) (xy 157.48 149.86)
 		)
 		(stroke
 			(width 0)
@@ -14145,7 +14155,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 147.32) (xy 185.42 147.32)
+			(xy 139.7 147.32) (xy 157.48 147.32)
 		)
 		(stroke
 			(width 0)
@@ -14172,6 +14182,16 @@
 			(type default)
 		)
 		(uuid "97e74cc1-91d4-46e6-971c-ff17b4090280")
+	)
+	(bus
+		(pts
+			(xy 187.96 172.72) (xy 160.02 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e6d12f-2fb7-482a-934e-93cf8ff77dab")
 	)
 	(wire
 		(pts
@@ -14245,7 +14265,7 @@
 	)
 	(bus
 		(pts
-			(xy 187.96 152.4) (xy 187.96 154.94)
+			(xy 160.02 152.4) (xy 160.02 154.94)
 		)
 		(stroke
 			(width 0)
@@ -14255,7 +14275,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 154.94) (xy 185.42 154.94)
+			(xy 139.7 154.94) (xy 157.48 154.94)
 		)
 		(stroke
 			(width 0)
@@ -14443,16 +14463,6 @@
 		)
 		(uuid "afafdecc-3806-430f-a539-441177538c46")
 	)
-	(bus
-		(pts
-			(xy 187.96 154.94) (xy 187.96 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1f7ef78-afef-4839-83de-0546637acfc8")
-	)
 	(wire
 		(pts
 			(xy 314.96 91.44) (xy 314.96 93.98)
@@ -14622,16 +14632,6 @@
 			(type default)
 		)
 		(uuid "c1eb061f-9637-4115-b40b-b3cac8315a67")
-	)
-	(bus
-		(pts
-			(xy 187.96 193.04) (xy 187.96 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c22ea9ab-907d-47e4-815e-d8b05f53b319")
 	)
 	(wire
 		(pts
@@ -14995,7 +14995,7 @@
 	)
 	(bus
 		(pts
-			(xy 187.96 157.48) (xy 187.96 190.5)
+			(xy 160.02 157.48) (xy 160.02 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15062,16 +15062,6 @@
 			(type default)
 		)
 		(uuid "f3fe65eb-fe8d-4238-b958-9721c09f69ff")
-	)
-	(bus
-		(pts
-			(xy 243.84 203.2) (xy 381 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49d6197-fa7b-4deb-b02d-abdca2a1a567")
 	)
 	(wire
 		(pts
@@ -15163,6 +15153,16 @@
 		)
 		(uuid "fdc0ac08-becb-42b7-a508-14a76829fb6a")
 	)
+	(bus
+		(pts
+			(xy 187.96 198.12) (xy 187.96 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde73d3d-d6d0-4590-a813-780bf6dbbe70")
+	)
 	(wire
 		(pts
 			(xy 111.76 74.93) (xy 111.76 73.66)
@@ -15193,7 +15193,7 @@
 		)
 		(uuid "ff534ac9-adb2-429a-a091-058ba111439e")
 	)
-	(label "5V0"
+	(label "3V3"
 		(at 137.16 180.34 180)
 		(effects
 			(font
@@ -15223,7 +15223,7 @@
 		)
 		(uuid "06c78a81-b3ec-4461-a3e5-67f218b72ee9")
 	)
-	(label "5V0"
+	(label "3V3"
 		(at 337.82 96.52 0)
 		(effects
 			(font
@@ -15233,7 +15233,7 @@
 		)
 		(uuid "081b4a61-097c-4f19-b863-dc2959e1cb14")
 	)
-	(label "5V0"
+	(label "3V3"
 		(at 363.22 96.52 0)
 		(effects
 			(font
@@ -15283,7 +15283,7 @@
 		)
 		(uuid "1059a01d-0fd0-4b2a-8a10-164b6992c769")
 	)
-	(label "5V0"
+	(label "3V3"
 		(at 193.04 66.04 0)
 		(effects
 			(font
@@ -15534,12 +15534,12 @@
 		(uuid "8e1fe33f-be7d-4fac-8179-c977d7ca4af9")
 	)
 	(label "{DIGITAL_INTERFACE}"
-		(at 190.5 142.24 0)
+		(at 185.42 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "902f8f3d-92d3-431e-b570-1237db89f40f")
 	)
@@ -23122,7 +23122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_IC_ADI:U_ADP1031ACPZ-2-R7")
+		(lib_id "UNITED_IC_ADI:U_ADP1031ACPZ-3-R7")
 		(at 127 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23139,7 +23139,7 @@
 				)
 			)
 		)
-		(property "Value" "ADP1031ACPZ-2-R7"
+		(property "Value" "ADP1031ACPZ-3-R7"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -23148,7 +23148,7 @@
 			)
 		)
 		(property "Footprint" "analog_devices_footprints:CP-41-1_ADI"
-			(at 137.16 187.96 0)
+			(at 137.16 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23158,27 +23158,27 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1031.pdf"
+			(at 137.16 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Three-Channel, Isolated Micropower Management Unit with Seven Digital Isolators (VOUT1=Adjustable, VOUT2=3.3 V, VOUT3=Adjustable)"
+			(at 137.16 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADP1031ACPZ-3-R7"
 			(at 137.16 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Three-Channel, Isolated Micropower Management Unit with Seven Digital Isolators (VOUT1=Adjustable, VOUT2=5 V, VOUT3=Adjustable)"
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ADP1031ACPZ-2-R7"
-			(at 137.16 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
