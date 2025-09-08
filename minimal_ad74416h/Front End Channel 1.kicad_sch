@@ -4116,6 +4116,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 203.2) (xy 182.88 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cc1e8f-ebd5-4e7e-95a4-0cade8578203")
+	)
+	(wire
+		(pts
 			(xy 127 101.6) (xy 152.4 101.6)
 		)
 		(stroke
@@ -4925,7 +4935,7 @@
 		(uuid "02cf92f1-1a59-4583-91db-51cf37b7fb75")
 	)
 	(label "SENSEHF"
-		(at 166.37 152.4 0)
+		(at 165.1 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4935,7 +4945,7 @@
 		(uuid "2ed24b2d-2704-4c01-aed9-1b349fa87997")
 	)
 	(label "CCOMP"
-		(at 166.37 127 0)
+		(at 165.1 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4943,6 +4953,16 @@
 			(justify left bottom)
 		)
 		(uuid "3cca7ab8-d6f9-4dc3-893c-d4732427b1aa")
+	)
+	(label "EN_10K"
+		(at 165.1 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "447fec3a-a0c9-4af4-bc45-605b262b56fc")
 	)
 	(label "DO_SRC_GATE"
 		(at 166.37 63.5 0)
@@ -4955,7 +4975,7 @@
 		(uuid "53c66701-fa45-4951-96e9-0af7913b6f76")
 	)
 	(label "VIOUT"
-		(at 166.37 139.7 0)
+		(at 165.1 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4985,7 +5005,7 @@
 		(uuid "6ec3aed0-b2c3-4e68-b219-bb46087123a9")
 	)
 	(label "SENSELF"
-		(at 166.37 177.8 0)
+		(at 165.1 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5015,7 +5035,7 @@
 		(uuid "d2775802-4710-4cf7-85a7-6d284bba5e38")
 	)
 	(label "VSENSEN"
-		(at 166.37 241.3 0)
+		(at 165.1 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5166,6 +5186,17 @@
 			(justify right)
 		)
 		(uuid "c6dfee66-3317-4587-9701-bb1eddeaa4c8")
+	)
+	(hierarchical_label "EN_10K"
+		(shape bidirectional)
+		(at 127 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e122ea20-f6bd-49f3-bc7f-a04978a999c8")
 	)
 	(hierarchical_label "DO_SRC_SNS"
 		(shape bidirectional)
