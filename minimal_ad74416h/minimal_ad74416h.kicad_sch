@@ -5,6 +5,470 @@
 	(uuid "996c4afa-af57-455f-b0b6-e0f996045a90")
 	(paper "A3")
 	(lib_symbols
+		(symbol "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TBP02R1-381-04BE"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Blue"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Tin"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "8.0"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TBP02R1-381-04BE"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Same Sky"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Through Hole"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "1"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "4"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "3.81"
+				(at 5.08 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "TBP02R1-381"
+				(at 5.08 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_TBP02R1-381-04BE"
+				(at 5.08 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
+				(at 5.08 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -50.8 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_TBP02R1-381-04BE_0_0"
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_TBP02R1-381-04BE_1_0"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-1750mil"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MB"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "mouse-bite-50mil-1750mil"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-1750mil"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mouse-bite-50mil-1750mil_1_1"
+				(arc
+					(start -9.9097 2.54)
+					(mid -7.6077 0)
+					(end -9.9097 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -9.9097 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.096 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 3.81) (xy -8.382 3.81) (xy -8.382 4.572) (xy -9.906 3.81) (xy -8.382 3.048) (xy -8.382 3.81)
+						(xy -7.366 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 3.81) (xy 8.89 3.81) (xy 8.89 3.048) (xy 10.414 3.81) (xy 8.89 4.572) (xy 8.89 3.81)
+						(xy 7.874 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.604 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.414 -2.54)
+					(mid 8.1117 0)
+					(end 10.414 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1750 mill"
+					(at 0.254 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.254)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -602,10 +1066,76 @@
 		(members "VINP" "MVDD")
 	)
 	(junction
+		(at 299.72 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec4c280-87cf-4da2-b7cc-4bde0349bbff")
+	)
+	(junction
+		(at 299.72 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3063d793-36ac-4d2b-9dbb-3a93550d17ed")
+	)
+	(junction
+		(at 299.72 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3738c90f-11c5-4a5f-b57e-5b33358bb9c0")
+	)
+	(junction
+		(at 299.72 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a02e565-bc43-4a01-9fd6-df0c8437c392")
+	)
+	(junction
+		(at 299.72 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "433a8740-60ad-4854-aa96-a7e54f8eb384")
+	)
+	(junction
 		(at 170.18 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43b90bd0-3282-4775-95f4-a2428f8490fd")
+	)
+	(junction
+		(at 299.72 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b4a52ed-27d2-4f55-97de-c065bde37f23")
+	)
+	(junction
+		(at 299.72 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba919da-54dc-4b7b-8111-9e66f81eabcb")
+	)
+	(junction
+		(at 299.72 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50553747-5d14-4396-a599-df8c07753885")
+	)
+	(junction
+		(at 299.72 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa603c5-7615-45a8-86fb-1dd8a560fd75")
+	)
+	(junction
+		(at 299.72 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "631d327b-8887-41a5-8f16-dcdebabb02a9")
+	)
+	(junction
+		(at 299.72 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c5759f-5e59-4058-8938-3cec0a6a756a")
 	)
 	(junction
 		(at 170.18 119.38)
@@ -618,6 +1148,36 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9769ab82-129a-406a-9a64-cb91a0a7ba66")
+	)
+	(junction
+		(at 299.72 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae447b4d-a63a-47ba-8067-8c796aa8c612")
+	)
+	(junction
+		(at 299.72 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b18c6404-8a3c-4f8b-941b-ba9bf76ed029")
+	)
+	(junction
+		(at 299.72 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b69e894f-0b80-45f6-9c13-37dcd418f123")
+	)
+	(junction
+		(at 299.72 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd269365-7515-4051-a3f8-63aeba6eba51")
+	)
+	(junction
+		(at 299.72 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0e7546d-a6e9-49b5-94bb-72c2cbef4f78")
 	)
 	(junction
 		(at 45.72 134.62)
@@ -1060,6 +1620,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 134.62) (xy 314.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07caa58a-6d27-4a0e-aa5a-dbcdd87745c4")
+	)
+	(wire
+		(pts
 			(xy 170.18 101.6) (xy 170.18 104.14)
 		)
 		(stroke
@@ -1290,6 +1860,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 170.18) (xy 314.96 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b58a704-a9f3-44ee-9c11-fe0d289518cf")
+	)
+	(wire
+		(pts
 			(xy 287.02 162.56) (xy 299.72 162.56)
 		)
 		(stroke
@@ -1297,6 +1877,16 @@
 			(type default)
 		)
 		(uuid "2e8948b9-9907-4c76-9288-e71cd723287f")
+	)
+	(wire
+		(pts
+			(xy 299.72 109.22) (xy 314.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0c98a8-f5a0-40b7-8200-4066b7d58ee9")
 	)
 	(wire
 		(pts
@@ -1420,6 +2010,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 193.04) (xy 314.96 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4780dab0-0eb8-41ea-abf1-532b11d32b81")
+	)
+	(wire
+		(pts
 			(xy 287.02 185.42) (xy 309.88 185.42)
 		)
 		(stroke
@@ -1427,6 +2027,16 @@
 			(type default)
 		)
 		(uuid "4d8ce5b7-c316-4a6a-b151-2e35fd2bbeda")
+	)
+	(wire
+		(pts
+			(xy 299.72 132.08) (xy 314.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9b7144-9755-4502-a51b-8fabf45c8a58")
 	)
 	(wire
 		(pts
@@ -1520,6 +2130,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 106.68) (xy 314.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5930e5d0-f5cb-4cd1-858f-56b462d0f0ba")
+	)
+	(wire
+		(pts
 			(xy 157.48 116.84) (xy 144.78 116.84)
 		)
 		(stroke
@@ -1597,6 +2217,16 @@
 			(type default)
 		)
 		(uuid "68bb7b48-4918-429c-ab05-104080266390")
+	)
+	(wire
+		(pts
+			(xy 299.72 137.16) (xy 314.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696d4191-ce54-4def-9cdf-2258851a372e")
 	)
 	(wire
 		(pts
@@ -1688,6 +2318,16 @@
 		)
 		(uuid "77ab9f4b-1348-42fa-af1e-4cbeeebd2de7")
 	)
+	(wire
+		(pts
+			(xy 299.72 165.1) (xy 314.96 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79298614-4d0a-4777-ba9e-8e92e8b2b967")
+	)
 	(bus
 		(pts
 			(xy 160.02 200.66) (xy 160.02 203.2)
@@ -1707,6 +2347,16 @@
 			(type default)
 		)
 		(uuid "7cf10df7-7d62-4338-8df5-d199439fcb26")
+	)
+	(wire
+		(pts
+			(xy 299.72 167.64) (xy 314.96 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebbf01b-c330-4378-8063-868e8ba0fa80")
 	)
 	(wire
 		(pts
@@ -1968,6 +2618,16 @@
 		)
 		(uuid "a21d3181-53b2-45df-bc82-d0cf74d5848d")
 	)
+	(wire
+		(pts
+			(xy 299.72 104.14) (xy 314.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37aa9f6-20f4-437e-9415-01e2b19a21da")
+	)
 	(bus
 		(pts
 			(xy 71.12 157.48) (xy 71.12 160.02)
@@ -2047,6 +2707,16 @@
 			(type default)
 		)
 		(uuid "b3a506e0-45e7-4dfe-93f7-2cd7019be1b7")
+	)
+	(wire
+		(pts
+			(xy 299.72 162.56) (xy 314.96 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ebf760-94ae-4084-9903-a4a7a051670c")
 	)
 	(wire
 		(pts
@@ -2168,6 +2838,16 @@
 		)
 		(uuid "c512220e-0a98-44aa-827f-9227c29b298f")
 	)
+	(wire
+		(pts
+			(xy 299.72 101.6) (xy 314.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f83716-1ca1-4b06-997e-52b2dda74de4")
+	)
 	(bus
 		(pts
 			(xy 71.12 162.56) (xy 71.12 165.1)
@@ -2268,6 +2948,16 @@
 		)
 		(uuid "d363b140-4fe7-4224-acb4-e99bed90ae5a")
 	)
+	(wire
+		(pts
+			(xy 299.72 195.58) (xy 314.96 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c12422-4945-4c53-9864-964b24620b8c")
+	)
 	(bus
 		(pts
 			(xy 160.02 154.94) (xy 160.02 172.72)
@@ -2307,6 +2997,16 @@
 			(type default)
 		)
 		(uuid "d99d23a0-cb10-4a58-aec8-ae617a360552")
+	)
+	(wire
+		(pts
+			(xy 299.72 198.12) (xy 314.96 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1203d7-afa2-48ea-abba-04ef7842162f")
 	)
 	(wire
 		(pts
@@ -2520,6 +3220,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 200.66) (xy 314.96 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd79280d-4bb5-41f3-9dba-6032d2144e1e")
+	)
+	(wire
+		(pts
 			(xy 287.02 127) (xy 309.88 127)
 		)
 		(stroke
@@ -2537,6 +3247,16 @@
 			(type default)
 		)
 		(uuid "fe5458e3-a318-4118-815c-afa54b553893")
+	)
+	(wire
+		(pts
+			(xy 299.72 139.7) (xy 314.96 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff02c2f0-8f3c-4e06-8da6-88b3a0a0c320")
 	)
 	(bus
 		(pts
@@ -3751,7 +4471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 193.04 270)
 		(mirror x)
 		(unit 1)
@@ -3761,7 +4481,7 @@
 		(dnp no)
 		(uuid "0790d706-527b-460b-bcd2-079a0eae6e2e")
 		(property "Reference" "TP2"
-			(at 304.8 193.0399 90)
+			(at 300.99 191.7701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,6 +4887,242 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE")
+		(at 320.04 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec14d9c-dc29-483a-858a-1b51c75756cb")
+		(property "Reference" "J1"
+			(at 323.85 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP02R1-381-04BE"
+			(at 323.85 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
+			(at 325.12 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
+			(at 325.12 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 325.12 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Blue"
+			(at 325.12 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 325.12 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 325.12 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP02R1-381-04BE"
+			(at 325.12 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 325.12 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 325.12 135.89 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 325.12 138.43 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 325.12 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 325.12 143.51 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 325.12 146.05 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TBP02R1-381"
+			(at 325.12 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_TBP02R1-381-04BE"
+			(at 325.12 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
+			(at 325.12 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 325.12 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "596640a4-743f-427b-9f03-db339edfd7d5")
+		)
+		(pin "4"
+			(uuid "3a1d2f17-b051-4417-a452-4bbd205e9824")
+		)
+		(pin "3"
+			(uuid "44caf2de-eaca-41ca-b23c-741cad8e1046")
+		)
+		(pin "1"
+			(uuid "010c2130-9bbc-41e4-83b1-e3c6f105cf23")
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 175.26 96.52 0)
 		(unit 1)
@@ -4445,7 +5401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 195.58 270)
 		(mirror x)
 		(unit 1)
@@ -4455,7 +5411,7 @@
 		(dnp no)
 		(uuid "301f6c5d-3f2e-4864-8f7c-8ee51fbc6548")
 		(property "Reference" "TP4"
-			(at 304.8 195.5799 90)
+			(at 300.99 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +5679,243 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE")
+		(at 320.04 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4619be93-1c84-4bc5-a870-5be37afdc3fb")
+		(property "Reference" "J3"
+			(at 323.85 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP02R1-381-04BE"
+			(at 323.85 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
+			(at 325.12 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
+			(at 325.12 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 325.12 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Blue"
+			(at 325.12 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 325.12 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 325.12 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP02R1-381-04BE"
+			(at 325.12 191.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 325.12 194.31 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 325.12 196.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 325.12 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 325.12 201.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 325.12 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 325.12 207.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TBP02R1-381"
+			(at 325.12 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_TBP02R1-381-04BE"
+			(at 325.12 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
+			(at 325.12 214.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 325.12 217.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a4b364e-89f0-4e5f-b4c4-70a8d0f050ba")
+		)
+		(pin "4"
+			(uuid "a5c8a24a-32d6-4f1e-ac2a-3565f3f86a68")
+		)
+		(pin "3"
+			(uuid "e9bf133c-21f3-46c6-ba97-2ff7873272a7")
+		)
+		(pin "1"
+			(uuid "1a79fc28-2374-4eb1-83d4-833da9aec84c")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 167.64 270)
 		(mirror x)
 		(unit 1)
@@ -4733,7 +5925,7 @@
 		(dnp no)
 		(uuid "4f14d7df-f42a-4cc7-a734-aedbcfad0e28")
 		(property "Reference" "TP12"
-			(at 304.8 167.6399 90)
+			(at 300.99 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +6126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 101.6 270)
 		(mirror x)
 		(unit 1)
@@ -4944,7 +6136,7 @@
 		(dnp no)
 		(uuid "5f686775-182d-4d82-bdf8-de56e9ba0b63")
 		(property "Reference" "TP1"
-			(at 304.8 101.5999 90)
+			(at 300.99 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +6540,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 137.16 270)
 		(mirror x)
 		(unit 1)
@@ -5358,7 +6550,7 @@
 		(dnp no)
 		(uuid "6fd6fd7c-2347-4bd5-aaad-35ff18b1728d")
 		(property "Reference" "TP11"
-			(at 304.8 137.1599 90)
+			(at 300.99 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +7033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 162.56 270)
 		(mirror x)
 		(unit 1)
@@ -5851,7 +7043,7 @@
 		(dnp no)
 		(uuid "79dd7e66-7149-4fd2-9b16-c6aff01d82ae")
 		(property "Reference" "TP16"
-			(at 304.8 162.5599 90)
+			(at 300.99 161.2901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +7382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 198.12 270)
 		(mirror x)
 		(unit 1)
@@ -6200,7 +7392,7 @@
 		(dnp no)
 		(uuid "92d8de0c-dd17-4d99-a4e4-500e1b7a3523")
 		(property "Reference" "TP6"
-			(at 304.8 198.1199 90)
+			(at 300.99 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,6 +7875,242 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE")
+		(at 320.04 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b295ea6b-2557-4cd9-bc67-a431aa0af235")
+		(property "Reference" "J4"
+			(at 323.85 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP02R1-381-04BE"
+			(at 323.85 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
+			(at 325.12 207.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
+			(at 325.12 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 325.12 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Blue"
+			(at 325.12 214.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 325.12 217.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 325.12 219.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP02R1-381-04BE"
+			(at 325.12 222.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 325.12 224.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 325.12 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 325.12 229.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 325.12 232.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 325.12 234.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 325.12 237.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TBP02R1-381"
+			(at 325.12 240.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_TBP02R1-381-04BE"
+			(at 325.12 242.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
+			(at 325.12 245.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 325.12 247.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9352a877-ccb9-4500-8d0e-ef7db9e57b68")
+		)
+		(pin "4"
+			(uuid "7842d561-9fa5-4897-8299-8f938f42583c")
+		)
+		(pin "3"
+			(uuid "1e42f364-d310-40cd-96b0-ac810e34d4c5")
+		)
+		(pin "1"
+			(uuid "2e60c623-ab10-43e5-b596-020a9b1b07be")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
 		(at 43.18 165.1 90)
 		(unit 1)
@@ -6753,7 +8181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 106.68 270)
 		(mirror x)
 		(unit 1)
@@ -6763,7 +8191,7 @@
 		(dnp no)
 		(uuid "b6c9d306-8ab3-4bd7-8105-80b1bba6f69d")
 		(property "Reference" "TP5"
-			(at 304.8 106.6799 90)
+			(at 300.99 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +8456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 170.18 270)
 		(mirror x)
 		(unit 1)
@@ -7038,7 +8466,7 @@
 		(dnp no)
 		(uuid "be70a226-da15-4712-92b9-7b9a739c9b6c")
 		(property "Reference" "TP10"
-			(at 304.8 170.1799 90)
+			(at 300.99 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,6 +8668,242 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE")
+		(at 320.04 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6762d71-e16e-4f7b-ae1d-065b74e38b50")
+		(property "Reference" "J2"
+			(at 323.85 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP02R1-381-04BE"
+			(at 323.85 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
+			(at 325.12 146.05 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
+			(at 325.12 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 325.12 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Blue"
+			(at 325.12 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 325.12 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 325.12 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP02R1-381-04BE"
+			(at 325.12 161.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 325.12 163.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 325.12 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 325.12 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 325.12 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 325.12 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 325.12 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TBP02R1-381"
+			(at 325.12 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_TBP02R1-381-04BE"
+			(at 325.12 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
+			(at 325.12 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 325.12 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01b40075-e84b-432e-b4e5-3c6125b321c1")
+		)
+		(pin "4"
+			(uuid "b17cb584-77ea-4b8f-9724-64b0cb7ee41c")
+		)
+		(pin "3"
+			(uuid "e410470e-2d1e-4e81-8f9e-1e71e0ec92e3")
+		)
+		(pin "1"
+			(uuid "e60871ee-736e-4d4e-91e8-056745df621e")
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 144.78 172.72 0)
 		(mirror y)
@@ -7381,7 +9045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 132.08 270)
 		(mirror x)
 		(unit 1)
@@ -7391,7 +9055,7 @@
 		(dnp no)
 		(uuid "cf7fcc72-9cce-4250-b213-7b49e7011881")
 		(property "Reference" "TP15"
-			(at 304.8 132.0799 90)
+			(at 300.99 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +9187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 200.66 270)
 		(mirror x)
 		(unit 1)
@@ -7533,7 +9197,7 @@
 		(dnp no)
 		(uuid "db1b0ed7-8625-4ed4-8de7-d2fec431a2ca")
 		(property "Reference" "TP8"
-			(at 304.8 200.6599 90)
+			(at 300.99 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,7 +9258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 134.62 270)
 		(mirror x)
 		(unit 1)
@@ -7604,7 +9268,7 @@
 		(dnp no)
 		(uuid "de2a169f-85bf-4a97-a8c9-7eff0b034dc2")
 		(property "Reference" "TP13"
-			(at 304.8 134.6199 90)
+			(at 300.99 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +9329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 109.22 270)
 		(mirror x)
 		(unit 1)
@@ -7675,7 +9339,7 @@
 		(dnp no)
 		(uuid "df65bbc3-712c-48d2-99ea-f6893133c91a")
 		(property "Reference" "TP7"
-			(at 304.8 109.2199 90)
+			(at 300.99 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +9679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 165.1 270)
 		(mirror x)
 		(unit 1)
@@ -8025,7 +9689,7 @@
 		(dnp no)
 		(uuid "e638af83-999d-4ec0-a7f5-7006bb757773")
 		(property "Reference" "TP14"
-			(at 304.8 165.0999 90)
+			(at 300.99 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +9820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 139.7 270)
 		(mirror x)
 		(unit 1)
@@ -8166,7 +9830,7 @@
 		(dnp no)
 		(uuid "ef7d3a64-e7bb-4098-8142-edb4cb7a6e97")
 		(property "Reference" "TP9"
-			(at 304.8 139.6999 90)
+			(at 300.99 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,6 +9955,73 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "TP60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-1750mil")
+		(at 105.41 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0bd1d80-3419-4c9b-aa9a-6f78476046ea")
+		(property "Reference" "MB1"
+			(at 105.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "mouse-bite-50mil-1750mil"
+			(at 105.41 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-1750mil"
+			(at 105.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "MB1")
 					(unit 1)
 				)
 			)
@@ -8434,7 +10165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 299.72 104.14 270)
 		(mirror x)
 		(unit 1)
@@ -8444,7 +10175,7 @@
 		(dnp no)
 		(uuid "f9d57c6b-5f3a-49b8-a144-d3b2776f21bd")
 		(property "Reference" "TP3"
-			(at 304.8 104.1399 90)
+			(at 300.99 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
