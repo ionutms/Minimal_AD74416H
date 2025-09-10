@@ -33,17 +33,24 @@ Key features include:
 
 ```
 minimal_ad74416h/
-├── minimal_ad74416h.kicad_sch       # Main schematic file
-├── minimal_ad74416h.kicad_pcb       # PCB layout file
-├── minimal_ad74416h.kicad_pro       # Project configuration file
-├── fp-lib-table                     # Footprint library table
-├── sym-lib-table                    # Symbol library table
-├── Front End Channel 1.kicad_sch    # Channel-specific schematic
-├── Power Supply and Digital Interface.kicad_sch # Power and interface schematic
-├── docs/                            # Documentation files
-│   ├── pictures/                    # Images and photos
-│   └── schematics/                  # Schematic PDF exports
-└── KiCAD_Symbols_Generator/         # Submodule for symbol generation from CSV data
+├── minimal_ad74416h.kicad_pro                     # Project configuration file
+├── minimal_ad74416h.kicad_sch                     # Main schematic file
+├── AD74416H.kicad_sch                             # AD74416H symbol definition
+├── Front End Channel 1.kicad_sch                  # Channel-specific schematic
+├── Power Supply and Digital Interface.kicad_sch   # Power and interface schematic
+├── minimal_ad74416h.kicad_pcb                     # PCB layout file
+├── fp-lib-table                                   # Footprint library table
+├── sym-lib-table                                  # Symbol library table
+├── docs/                                          # Documentation files
+│   ├── bom/                                       # Bill of Materials
+│   │   └── minimal_ad74416h_ibom.html             # Interactive BOM file
+│   ├── pictures/                                  # Images and photos
+│   │   ├── 1_minimal_ad74416h_side.png            # Side view of PCB
+│   │   ├── 2_minimal_ad74416h_top.png             # Top view of PCB
+│   │   └── 3_minimal_ad74416h_bottom.png          # Bottom view of PCB
+│   └── schematics/                                # Schematic PDF exports
+│       └── minimal_ad74416h_schematics.pdf        # Complete schematics PDF
+└── KiCAD_Symbols_Generator/                       # Submodule for symbol generation from CSV data
 ```
 
 ## Project Features
