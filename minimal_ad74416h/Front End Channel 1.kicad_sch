@@ -9097,7 +9097,7 @@
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/56f471d9-4771-4bab-9fc0-7f2502be0d29"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -9957,7 +9957,7 @@
 		(instances
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/010e8139-4c72-4154-a66e-8d0ded735c08"
-					(reference "R54")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/0786ce20-9b4f-45a9-9d62-20c78d282fdc"
