@@ -507,6 +507,8 @@
       "/5V0": "rgb(0, 72, 0)",
       "/AD0": "rgb(73, 53, 255)",
       "/AD1": "rgb(73, 53, 255)",
+      "/AD74416H/24V0": "rgb(72, 72, 72)",
+      "/AD74416H/3V3": "rgb(194, 194, 194)",
       "/AVCC": "rgb(0, 72, 0)",
       "/AVDD_HI": "rgb(0, 72, 72)",
       "/AVDD_LO": "rgb(0, 132, 132)",
@@ -555,6 +557,7 @@
       "/P1_5": "rgb(134, 255, 64)",
       "/P1_6": "rgb(166, 255, 64)",
       "/P1_7": "rgb(198, 255, 64)",
+      "/Power Supply and Digital Interface/VINP": "rgb(204, 102, 0)",
       "/REFIO": "rgb(74, 228, 255)",
       "/SENSEHF_A": "rgb(0, 194, 0)",
       "/SENSEHF_B": "rgb(0, 194, 194)",
@@ -741,10 +744,6 @@
     [
       "0d35b6da-5370-4b8d-bdb2-6a6466fd726d",
       "Front End Channel 4"
-    ],
-    [
-      "53b8d5c7-b371-4249-9a7e-dd90a62c14be",
-      "Power Supply and Digital Interface"
     ],
     [
       "31f46f6a-0bfc-4ecd-bee8-e46e4c2e5b44",
