@@ -1422,7 +1422,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UNITED_CONNECTORS_DATA_BASE:J_FW-33-04-G-D-370-160"
+		(symbol "UNITED_CONNECTORS_DATA_BASE:J_FW-33-05-F-D-248-160"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1438,7 +1438,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FW-33-04-G-D-370-160"
+			(property "Value" "FW-33-05-F-D-248-160"
 				(at 5.08 -44.45 0)
 				(effects
 					(font
@@ -1447,7 +1447,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "connector_footprints:FW-33-04-G-D-370-160"
+			(property "Footprint" "connector_footprints:FW-33-05-F-D-248-160"
 				(at 5.08 -46.99 0)
 				(show_name)
 				(effects
@@ -1458,7 +1458,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_th.pdf?_gl=1*13f8b1s*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTc1MTM2MzIkbzUkZzEkdDE3NTc1MTczNTEkajE2JGwwJGgw"
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1mheflh*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk0MTUxODQkbzckZzEkdDE3NTk0MTc0NDAkajYwJGwwJGgw"
 				(at 5.08 -49.53 0)
 				(show_name)
 				(effects
@@ -1469,7 +1469,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec FW-xx-04-G-D-370-160 series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Gold plated"
+			(property "Description" "Samtec FW-xx-05-F-D-248-160 series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
 				(at 5.08 -52.07 0)
 				(show_name)
 				(effects
@@ -1513,7 +1513,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "FW-33-04-G-D-370-160"
+			(property "MPN" "FW-33-05-F-D-248-160"
 				(at 5.08 -62.23 0)
 				(show_name)
 				(effects
@@ -1546,7 +1546,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mounting Style" "Through Hole"
+			(property "Mounting Style" "Surface Mount"
 				(at 5.08 -69.85 0)
 				(show_name)
 				(effects
@@ -1590,7 +1590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "FW-xx-04-G-D-370-160"
+			(property "Series" "FW-xx-05-F-D-248-160"
 				(at 5.08 -80.01 0)
 				(show_name)
 				(effects
@@ -1601,7 +1601,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "J_FW-33-04-G-D-370-160"
+			(property "Symbol Name" "J_FW-33-05-F-D-248-160"
 				(at 5.08 -82.55 0)
 				(show_name)
 				(effects
@@ -1612,7 +1612,7 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-33-04-G-D-370-160"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-33-05-F-D-248-160"
 				(at 5.08 -85.09 0)
 				(show_name)
 				(effects
@@ -1634,7 +1634,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "J_FW-33-04-G-D-370-160_0_0"
+			(symbol "J_FW-33-05-F-D-248-160_0_0"
 				(pin unspecified line
 					(at -5.08 40.64 0)
 					(length 2.54)
@@ -2824,7 +2824,7 @@
 					)
 				)
 			)
-			(symbol "J_FW-33-04-G-D-370-160_1_0"
+			(symbol "J_FW-33-05-F-D-248-160_1_0"
 				(rectangle
 					(start -2.54 43.18)
 					(end 2.54 -43.18)
@@ -16248,7 +16248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-33-04-G-D-370-160")
+		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_FW-33-05-F-D-248-160")
 		(at 101.6 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16265,7 +16265,7 @@
 				)
 			)
 		)
-		(property "Value" "FW-33-04-G-D-370-160"
+		(property "Value" "FW-33-05-F-D-248-160"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -16273,7 +16273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FW-33-04-G-D-370-160"
+		(property "Footprint" "connector_footprints:FW-33-05-F-D-248-160"
 			(at 106.68 199.39 0)
 			(show_name yes)
 			(effects
@@ -16284,7 +16284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_th.pdf?_gl=1*13f8b1s*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTc1MTM2MzIkbzUkZzEkdDE3NTc1MTczNTEkajE2JGwwJGgw"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1mheflh*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk0MTUxODQkbzckZzEkdDE3NTk0MTc0NDAkajYwJGwwJGgw"
 			(at 106.68 201.93 0)
 			(show_name yes)
 			(effects
@@ -16295,7 +16295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FW-xx-04-G-D-370-160 series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Gold plated"
+		(property "Description" "Samtec FW-xx-05-F-D-248-160 series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
 			(at 106.68 204.47 0)
 			(show_name yes)
 			(effects
@@ -16339,7 +16339,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FW-33-04-G-D-370-160"
+		(property "MPN" "FW-33-05-F-D-248-160"
 			(at 106.68 214.63 0)
 			(show_name yes)
 			(effects
@@ -16372,7 +16372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Through Hole"
+		(property "Mounting Style" "Surface Mount"
 			(at 106.68 222.25 0)
 			(show_name yes)
 			(effects
@@ -16416,7 +16416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "FW-xx-04-G-D-370-160"
+		(property "Series" "FW-xx-05-F-D-248-160"
 			(at 106.68 232.41 0)
 			(show_name yes)
 			(effects
@@ -16427,7 +16427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FW-33-04-G-D-370-160"
+		(property "Symbol Name" "J_FW-33-05-F-D-248-160"
 			(at 106.68 234.95 0)
 			(show_name yes)
 			(effects
@@ -16438,7 +16438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-33-04-G-D-370-160"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-33-05-F-D-248-160"
 			(at 106.68 237.49 0)
 			(show_name yes)
 			(effects
