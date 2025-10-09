@@ -13346,7 +13346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c7a56b3-447c-4277-9dcc-c2533c7212aa")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 193.04 137.1599 90)
 			(effects
 				(font
@@ -13531,7 +13531,7 @@
 		(instances
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/31f46f6a-0bfc-4ecd-bee8-e46e4c2e5b44"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -15979,7 +15979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5adf25e0-75ad-46fc-aa5a-d8daa19cf82e")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 203.2 137.1599 90)
 			(effects
 				(font
@@ -16164,7 +16164,7 @@
 		(instances
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/31f46f6a-0bfc-4ecd-bee8-e46e4c2e5b44"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -20935,7 +20935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e80bc453-31f9-4cd6-9907-0bd8bdb24d98")
-		(property "Reference" "R15"
+		(property "Reference" "R13"
 			(at 142.24 170.1799 90)
 			(effects
 				(font
@@ -21120,7 +21120,7 @@
 		(instances
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/31f46f6a-0bfc-4ecd-bee8-e46e4c2e5b44"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
