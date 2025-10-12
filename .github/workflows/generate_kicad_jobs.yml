@@ -463,32 +463,14 @@ jobs:
               "sha": "${{ github.sha }}"
             }
 
-      - name: Check for symbol check requirements
-        id: symbol-check
-        if: steps.check-files.outputs.files_generated == 'true'
-        run: |
-          # Check if docs/pictures directory exists and has files
-          PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
-          PICTURES_PATH="${PROJECT_NAME}/docs/pictures"
-          
-          if [ -d "$PICTURES_PATH" ] && [ -n "$(ls -A $PICTURES_PATH/*.png 2>/dev/null)" ]; then
-            echo "symbol_check_needed=true" >> $GITHUB_OUTPUT
-            echo "Found pictures to check in $PICTURES_PATH"
-            
-            # Output the path for later use
-            echo "pictures_path=$PICTURES_PATH" >> $GITHUB_OUTPUT
-          else
-            echo "symbol_check_needed=false" >> $GITHUB_OUTPUT
-            echo "No pictures found to check"
-          fi
-
       - name: Run Symbol Check
-        if: steps.symbol-check.outputs.symbol_check_needed == 'true'
+        if: steps.check-files.outputs.files_generated == 'true'
         run: |
           # Get repository information
           SOURCE_REPO="${{ github.repository }}"
           SOURCE_REF="${{ github.sha }}"
-          PICTURES_PATH="${{ steps.symbol-check.outputs.pictures_path }}"
+          PROJECT_NAME="${{ steps.find-files.outputs.project_name }}"
+          PICTURES_PATH="$PROJECT_NAME/docs/pictures"
           
           echo "Running symbol check for repository: $SOURCE_REPO"
           echo "Source ref: $SOURCE_REF"
