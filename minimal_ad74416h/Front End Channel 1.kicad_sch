@@ -5,6 +5,307 @@
 	(uuid "60dca0b3-781e-492e-9f02-81cc2d7320cb")
 	(paper "A3")
 	(lib_symbols
+		(symbol "CONNECTORS_FW-xx-01-G-D-160-160_DATA_BASE:J_FW-02-01-G-D-160-160"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FW-02-01-G-D-160-160"
+				(at 5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:FW-02-01-G-D-160-160"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_th.pdf?_gl=1*12wer0i*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NjA4NTY2ODgkbzE3JGcxJHQxNzYwODU5NDQxJGo2MCRsMCRoMA.."
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec FW-xx-01-G-D-160-160 series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Gold plated"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Gold"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FW-02-01-G-D-160-160"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Through Hole"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "FW-xx-01-G-D-160-160"
+				(at 5.08 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_FW-02-01-G-D-160-160"
+				(at 5.08 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-02-01-G-D-160-160"
+				(at 5.08 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_FW-02-01-G-D-160-160_0_0"
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_FW-02-01-G-D-160-160_1_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UNITED_CAPACITORS_DATA_BASE:C_CC0603JRNPO9BN221"
 			(pin_names
 				(offset 0.254)
@@ -3999,6 +4300,12 @@
 		(uuid "252be3bc-8e66-467d-ab20-9b1ebda93845")
 	)
 	(junction
+		(at 241.3 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a28e02c-c9d9-40e2-9e21-b0767e7d0a48")
+	)
+	(junction
 		(at 205.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4047,6 +4354,12 @@
 		(uuid "909ea9c9-974b-4d2f-8b48-232d8f168338")
 	)
 	(junction
+		(at 238.76 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95a46403-498d-4191-9955-242b1117d96b")
+	)
+	(junction
 		(at 215.9 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4065,6 +4378,12 @@
 		(uuid "b4440042-c4cb-4ff7-a999-d036773c5b30")
 	)
 	(junction
+		(at 238.76 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8002ba8-a773-4d95-89c7-2fbea7125e97")
+	)
+	(junction
 		(at 203.2 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4075,6 +4394,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d24c5fc8-9afd-40fb-aef6-fc4aae4d714e")
+	)
+	(junction
+		(at 241.3 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3292a97-b285-4fb0-ac22-c8eb1e071793")
 	)
 	(junction
 		(at 203.2 50.8)
@@ -4113,6 +4438,16 @@
 			(type default)
 		)
 		(uuid "017bac29-9259-4b88-a62b-348d46e2ccff")
+	)
+	(wire
+		(pts
+			(xy 241.3 152.4) (xy 254 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039ec88f-41f3-41b0-8ca4-8c71d59cda15")
 	)
 	(wire
 		(pts
@@ -4163,6 +4498,16 @@
 			(type default)
 		)
 		(uuid "0d84b6a1-f480-4f90-978b-beb72e4caedf")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.13) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f02a46f-5a79-4952-bf46-c6e92b07e746")
 	)
 	(wire
 		(pts
@@ -4256,6 +4601,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 139.7) (xy 241.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f95129-c0c9-4497-8d54-10f47445ac3e")
+	)
+	(wire
+		(pts
 			(xy 203.2 101.6) (xy 203.2 139.7)
 		)
 		(stroke
@@ -4323,6 +4678,16 @@
 			(type default)
 		)
 		(uuid "4bbba012-5b0f-4f6c-84b6-eb5b708bcd8b")
+	)
+	(wire
+		(pts
+			(xy 241.3 139.7) (xy 254 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6c0b10-c9d7-4061-bbe2-fc0113397236")
 	)
 	(wire
 		(pts
@@ -4746,6 +5111,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 139.7) (xy 241.3 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd076b6-9707-4de4-b9ae-a550955330da")
+	)
+	(wire
+		(pts
 			(xy 203.2 139.7) (xy 215.9 139.7)
 		)
 		(stroke
@@ -4796,7 +5171,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 139.7) (xy 241.3 139.7)
+			(xy 228.6 139.7) (xy 238.76 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4913,6 +5288,26 @@
 			(type default)
 		)
 		(uuid "f3c0602a-8f39-499a-8eca-2280c83027a3")
+	)
+	(wire
+		(pts
+			(xy 238.76 151.13) (xy 238.76 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6eed1f4-901d-4a88-9baf-335493a5c325")
+	)
+	(wire
+		(pts
+			(xy 238.76 139.7) (xy 238.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4c08e4-3f86-4bfb-bd5e-9e5182db80d2")
 	)
 	(wire
 		(pts
@@ -5145,7 +5540,7 @@
 	)
 	(hierarchical_label "I{slash}ON"
 		(shape bidirectional)
-		(at 241.3 152.4 0)
+		(at 254 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5211,7 +5606,7 @@
 	)
 	(hierarchical_label "I{slash}OP"
 		(shape bidirectional)
-		(at 241.3 139.7 0)
+		(at 254 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8889,6 +9284,255 @@
 				)
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/56f471d9-4771-4bab-9fc0-7f2502be0d29"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_FW-xx-01-G-D-160-160_DATA_BASE:J_FW-02-01-G-D-160-160")
+		(at 240.03 146.05 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cc9d3e4-0ce5-4836-ad47-1fdfdd638a18")
+		(property "Reference" "J6"
+			(at 245.11 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FW-02-01-G-D-160-160"
+			(at 245.11 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "connector_footprints:FW-02-01-G-D-160-160"
+			(at 247.65 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_th.pdf?_gl=1*12wer0i*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NjA4NTY2ODgkbzE3JGcxJHQxNzYwODU5NDQxJGo2MCRsMCRoMA.."
+			(at 250.19 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FW-xx-01-G-D-160-160 series,  2 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Gold plated"
+			(at 252.73 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 255.27 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Gold"
+			(at 257.81 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 260.35 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FW-02-01-G-D-160-160"
+			(at 262.89 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 265.43 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 267.97 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 270.51 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 273.05 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 275.59 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 278.13 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FW-xx-01-G-D-160-160"
+			(at 280.67 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FW-02-01-G-D-160-160"
+			(at 283.21 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-02-01-G-D-160-160"
+			(at 285.75 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 288.29 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22b9c718-ffea-4755-827d-8b6d08321060")
+		)
+		(pin "3"
+			(uuid "25a57c4f-ecd7-492d-8618-f6786e78e04a")
+		)
+		(pin "2"
+			(uuid "625e3b1a-373d-40a8-a540-a6ea68e114a9")
+		)
+		(pin "4"
+			(uuid "ab28f541-9b89-4508-b48f-384dba53b0fa")
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/010e8139-4c72-4154-a66e-8d0ded735c08"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/0786ce20-9b4f-45a9-9d62-20c78d282fdc"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/0d35b6da-5370-4b8d-bdb2-6a6466fd726d"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90/56f471d9-4771-4bab-9fc0-7f2502be0d29"
+					(reference "J8")
 					(unit 1)
 				)
 			)
