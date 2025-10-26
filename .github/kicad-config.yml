@@ -61,11 +61,7 @@ views:
     pan: '0,0,0'
     light_elevation: 10
     side: 'back'
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 94a254e4c4e47a9ca1fe8e8a4b4b0f643cf10045
 defaults:
   zoom_factor: 1.0
   rotate: '0,0,0'
