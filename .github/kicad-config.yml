@@ -61,15 +61,6 @@ views:
     pan: '0,0,0'
     light_elevation: 10
     side: 'back'
-    
-  test:
-    prefix: '8_'
-    suffix: '_test'
-    zoom_factor: 1
-    rotate: '0,0,0'
-    pan: '0,0,0'
-    light_elevation: 60
-    side: 'top'
 
 defaults:
   zoom_factor: 1.0
