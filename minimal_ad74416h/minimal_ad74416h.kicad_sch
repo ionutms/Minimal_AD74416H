@@ -1494,6 +1494,327 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TERMINAL_BLOCKS_TBP02P1-381_DATA_BASE:J_TBP02P1-381-04BE"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TBP02P1-381-04BE"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "terminal_block_footprints:TBP02P1-381-04BE"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Blue"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Tin"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "8.0"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TBP02P1-381-04BE"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Same Sky"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Through Hole"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "1"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "4"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "3.81"
+				(at 5.08 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "TBP02P1-381"
+				(at 5.08 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_TBP02P1-381-04BE"
+				(at 5.08 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+				(at 5.08 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -50.8 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_TBP02P1-381-04BE_0_0"
+				(circle
+					(center 0 3.81)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.81)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 4.318) (xy -0.508 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.778) (xy -0.508 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.762) (xy -0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -3.302) (xy -0.508 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "J_TBP02P1-381-04BE_1_0"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE"
 			(pin_names
 				(offset 0.254)
@@ -3537,7 +3858,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 127) (xy 327.66 127)
+			(xy 312.42 127) (xy 335.28 127)
 		)
 		(stroke
 			(width 0)
@@ -3987,7 +4308,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 162.56) (xy 327.66 162.56)
+			(xy 312.42 162.56) (xy 335.28 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4017,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 101.6) (xy 327.66 101.6)
+			(xy 312.42 101.6) (xy 335.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4227,7 +4548,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 185.42) (xy 327.66 185.42)
+			(xy 312.42 185.42) (xy 335.28 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4267,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 124.46) (xy 327.66 124.46)
+			(xy 312.42 124.46) (xy 335.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 99.06) (xy 327.66 99.06)
+			(xy 312.42 99.06) (xy 335.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4617,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 129.54) (xy 327.66 129.54)
+			(xy 312.42 129.54) (xy 335.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4797,7 +5118,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 157.48) (xy 327.66 157.48)
+			(xy 312.42 157.48) (xy 335.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4857,7 +5178,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 160.02) (xy 327.66 160.02)
+			(xy 312.42 160.02) (xy 335.28 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5277,7 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 96.52) (xy 327.66 96.52)
+			(xy 312.42 96.52) (xy 335.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5507,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 154.94) (xy 327.66 154.94)
+			(xy 312.42 154.94) (xy 335.28 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5797,7 +6118,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 93.98) (xy 327.66 93.98)
+			(xy 312.42 93.98) (xy 335.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5897,7 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 187.96) (xy 327.66 187.96)
+			(xy 312.42 187.96) (xy 335.28 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5997,7 +6318,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 190.5) (xy 327.66 190.5)
+			(xy 312.42 190.5) (xy 335.28 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6407,7 +6728,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 193.04) (xy 327.66 193.04)
+			(xy 312.42 193.04) (xy 335.28 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6457,7 +6778,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 132.08) (xy 327.66 132.08)
+			(xy 312.42 132.08) (xy 335.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8238,6 +8559,228 @@
 		)
 	)
 	(symbol
+		(lib_id "TERMINAL_BLOCKS_TBP02P1-381_DATA_BASE:J_TBP02P1-381-04BE")
+		(at 368.3 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1315de83-f52d-441e-ab95-88cb86ead858")
+		(property "Reference" "J11"
+			(at 368.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP02P1-381-04BE"
+			(at 368.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "terminal_block_footprints:TBP02P1-381-04BE"
+			(at 373.38 138.43 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+			(at 373.38 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 373.38 143.51 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Blue"
+			(at 373.38 146.05 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 373.38 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 373.38 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP02P1-381-04BE"
+			(at 373.38 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 373.38 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 373.38 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 373.38 161.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 373.38 163.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 373.38 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 373.38 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TBP02P1-381"
+			(at 373.38 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_TBP02P1-381-04BE"
+			(at 373.38 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+			(at 373.38 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 373.38 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 157.48 96.52 0)
 		(mirror y)
@@ -8376,7 +8919,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE")
-		(at 332.74 97.79 0)
+		(at 340.36 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8385,7 +8928,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ec14d9c-dc29-483a-858a-1b51c75756cb")
 		(property "Reference" "J1"
-			(at 336.55 96.5199 0)
+			(at 344.17 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8394,7 +8937,7 @@
 			)
 		)
 		(property "Value" "TBP02R1-381-04BE"
-			(at 336.55 99.0599 0)
+			(at 344.17 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8403,7 +8946,7 @@
 			)
 		)
 		(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
-			(at 337.82 107.95 0)
+			(at 345.44 107.95 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8414,7 +8957,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
-			(at 337.82 110.49 0)
+			(at 345.44 110.49 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8425,7 +8968,7 @@
 			)
 		)
 		(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
-			(at 337.82 113.03 0)
+			(at 345.44 113.03 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8436,7 +8979,7 @@
 			)
 		)
 		(property "Color" "Blue"
-			(at 337.82 115.57 0)
+			(at 345.44 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8447,7 +8990,7 @@
 			)
 		)
 		(property "Contact Plating" "Tin"
-			(at 337.82 118.11 0)
+			(at 345.44 118.11 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8458,7 +9001,7 @@
 			)
 		)
 		(property "Current Rating (A)" "8.0"
-			(at 337.82 120.65 0)
+			(at 345.44 120.65 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8469,7 +9012,7 @@
 			)
 		)
 		(property "MPN" "TBP02R1-381-04BE"
-			(at 337.82 123.19 0)
+			(at 345.44 123.19 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8480,7 +9023,7 @@
 			)
 		)
 		(property "Manufacturer" "Same Sky"
-			(at 337.82 125.73 0)
+			(at 345.44 125.73 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8491,7 +9034,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 337.82 128.27 0)
+			(at 345.44 128.27 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8502,7 +9045,7 @@
 			)
 		)
 		(property "Mounting Style" "Through Hole"
-			(at 337.82 130.81 0)
+			(at 345.44 130.81 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8513,7 +9056,7 @@
 			)
 		)
 		(property "Number of Rows" "1"
-			(at 337.82 133.35 0)
+			(at 345.44 133.35 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8524,7 +9067,7 @@
 			)
 		)
 		(property "Pin Count" "4"
-			(at 337.82 135.89 0)
+			(at 345.44 135.89 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8535,7 +9078,7 @@
 			)
 		)
 		(property "Pitch (mm)" "3.81"
-			(at 337.82 138.43 0)
+			(at 345.44 138.43 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8546,7 +9089,7 @@
 			)
 		)
 		(property "Series" "TBP02R1-381"
-			(at 337.82 140.97 0)
+			(at 345.44 140.97 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8557,7 +9100,7 @@
 			)
 		)
 		(property "Symbol Name" "J_TBP02R1-381-04BE"
-			(at 337.82 143.51 0)
+			(at 345.44 143.51 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8568,7 +9111,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
-			(at 337.82 146.05 0)
+			(at 345.44 146.05 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8579,7 +9122,7 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 337.82 148.59 0)
+			(at 345.44 148.59 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8675,6 +9218,228 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TERMINAL_BLOCKS_TBP02P1-381_DATA_BASE:J_TBP02P1-381-04BE")
+		(at 368.3 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2855dd11-afd7-42ec-a180-95234d4756c7")
+		(property "Reference" "J12"
+			(at 368.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP02P1-381-04BE"
+			(at 368.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "terminal_block_footprints:TBP02P1-381-04BE"
+			(at 373.38 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+			(at 373.38 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 373.38 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Blue"
+			(at 373.38 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 373.38 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 373.38 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP02P1-381-04BE"
+			(at 373.38 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 373.38 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 373.38 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 373.38 191.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 373.38 194.31 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 373.38 196.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 373.38 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TBP02P1-381"
+			(at 373.38 201.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_TBP02P1-381-04BE"
+			(at 373.38 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+			(at 373.38 207.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 373.38 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -9099,7 +9864,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE")
-		(at 332.74 158.75 0)
+		(at 340.36 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9108,7 +9873,7 @@
 		(fields_autoplaced yes)
 		(uuid "4619be93-1c84-4bc5-a870-5be37afdc3fb")
 		(property "Reference" "J4"
-			(at 336.55 157.4799 0)
+			(at 344.17 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,7 +9882,7 @@
 			)
 		)
 		(property "Value" "TBP02R1-381-04BE"
-			(at 336.55 160.0199 0)
+			(at 344.17 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,7 +9891,7 @@
 			)
 		)
 		(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
-			(at 337.82 168.91 0)
+			(at 345.44 168.91 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9137,7 +9902,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
-			(at 337.82 171.45 0)
+			(at 345.44 171.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9148,7 +9913,7 @@
 			)
 		)
 		(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
-			(at 337.82 173.99 0)
+			(at 345.44 173.99 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9159,7 +9924,7 @@
 			)
 		)
 		(property "Color" "Blue"
-			(at 337.82 176.53 0)
+			(at 345.44 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9170,7 +9935,7 @@
 			)
 		)
 		(property "Contact Plating" "Tin"
-			(at 337.82 179.07 0)
+			(at 345.44 179.07 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9181,7 +9946,7 @@
 			)
 		)
 		(property "Current Rating (A)" "8.0"
-			(at 337.82 181.61 0)
+			(at 345.44 181.61 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9192,7 +9957,7 @@
 			)
 		)
 		(property "MPN" "TBP02R1-381-04BE"
-			(at 337.82 184.15 0)
+			(at 345.44 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9203,7 +9968,7 @@
 			)
 		)
 		(property "Manufacturer" "Same Sky"
-			(at 337.82 186.69 0)
+			(at 345.44 186.69 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9214,7 +9979,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 337.82 189.23 0)
+			(at 345.44 189.23 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9225,7 +9990,7 @@
 			)
 		)
 		(property "Mounting Style" "Through Hole"
-			(at 337.82 191.77 0)
+			(at 345.44 191.77 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9236,7 +10001,7 @@
 			)
 		)
 		(property "Number of Rows" "1"
-			(at 337.82 194.31 0)
+			(at 345.44 194.31 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9247,7 +10012,7 @@
 			)
 		)
 		(property "Pin Count" "4"
-			(at 337.82 196.85 0)
+			(at 345.44 196.85 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9258,7 +10023,7 @@
 			)
 		)
 		(property "Pitch (mm)" "3.81"
-			(at 337.82 199.39 0)
+			(at 345.44 199.39 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9269,7 +10034,7 @@
 			)
 		)
 		(property "Series" "TBP02R1-381"
-			(at 337.82 201.93 0)
+			(at 345.44 201.93 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9280,7 +10045,7 @@
 			)
 		)
 		(property "Symbol Name" "J_TBP02R1-381-04BE"
-			(at 337.82 204.47 0)
+			(at 345.44 204.47 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9291,7 +10056,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
-			(at 337.82 207.01 0)
+			(at 345.44 207.01 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9302,7 +10067,7 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 337.82 209.55 0)
+			(at 345.44 209.55 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9399,6 +10164,228 @@
 			(project "minimal_ad74416h"
 				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TERMINAL_BLOCKS_TBP02P1-381_DATA_BASE:J_TBP02P1-381-04BE")
+		(at 368.3 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50949276-d688-48b1-b276-f7cbe278aef1")
+		(property "Reference" "J10"
+			(at 368.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP02P1-381-04BE"
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "terminal_block_footprints:TBP02P1-381-04BE"
+			(at 373.38 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+			(at 373.38 110.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 373.38 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Blue"
+			(at 373.38 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 373.38 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 373.38 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP02P1-381-04BE"
+			(at 373.38 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 373.38 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 373.38 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 373.38 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 373.38 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 373.38 135.89 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 373.38 138.43 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TBP02P1-381"
+			(at 373.38 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_TBP02P1-381-04BE"
+			(at 373.38 143.51 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+			(at 373.38 146.05 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 373.38 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -10744,6 +11731,228 @@
 		)
 	)
 	(symbol
+		(lib_id "TERMINAL_BLOCKS_TBP02P1-381_DATA_BASE:J_TBP02P1-381-04BE")
+		(at 368.3 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de41f36-8d6b-47ef-926f-bd39a6efdb40")
+		(property "Reference" "J13"
+			(at 368.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP02P1-381-04BE"
+			(at 368.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "terminal_block_footprints:TBP02P1-381-04BE"
+			(at 373.38 199.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+			(at 373.38 201.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 373.38 204.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Blue"
+			(at 373.38 207.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 373.38 209.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 373.38 212.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TBP02P1-381-04BE"
+			(at 373.38 214.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 373.38 217.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 373.38 219.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 373.38 222.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 373.38 224.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 373.38 227.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 373.38 229.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "TBP02P1-381"
+			(at 373.38 232.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_TBP02P1-381-04BE"
+			(at 373.38 234.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+			(at 373.38 237.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 373.38 240.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "minimal_ad74416h"
+				(path "/996c4afa-af57-455f-b0b6-e0f996045a90"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
 		(at 312.42 190.5 270)
 		(mirror x)
@@ -11373,7 +12582,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE")
-		(at 332.74 189.23 0)
+		(at 340.36 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11382,7 +12591,7 @@
 		(fields_autoplaced yes)
 		(uuid "b295ea6b-2557-4cd9-bc67-a431aa0af235")
 		(property "Reference" "J2"
-			(at 336.55 187.9599 0)
+			(at 344.17 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11391,7 +12600,7 @@
 			)
 		)
 		(property "Value" "TBP02R1-381-04BE"
-			(at 336.55 190.4999 0)
+			(at 344.17 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,7 +12609,7 @@
 			)
 		)
 		(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
-			(at 337.82 199.39 0)
+			(at 345.44 199.39 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11411,7 +12620,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
-			(at 337.82 201.93 0)
+			(at 345.44 201.93 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11422,7 +12631,7 @@
 			)
 		)
 		(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
-			(at 337.82 204.47 0)
+			(at 345.44 204.47 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11433,7 +12642,7 @@
 			)
 		)
 		(property "Color" "Blue"
-			(at 337.82 207.01 0)
+			(at 345.44 207.01 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11444,7 +12653,7 @@
 			)
 		)
 		(property "Contact Plating" "Tin"
-			(at 337.82 209.55 0)
+			(at 345.44 209.55 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11455,7 +12664,7 @@
 			)
 		)
 		(property "Current Rating (A)" "8.0"
-			(at 337.82 212.09 0)
+			(at 345.44 212.09 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11466,7 +12675,7 @@
 			)
 		)
 		(property "MPN" "TBP02R1-381-04BE"
-			(at 337.82 214.63 0)
+			(at 345.44 214.63 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11477,7 +12686,7 @@
 			)
 		)
 		(property "Manufacturer" "Same Sky"
-			(at 337.82 217.17 0)
+			(at 345.44 217.17 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11488,7 +12697,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 337.82 219.71 0)
+			(at 345.44 219.71 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11499,7 +12708,7 @@
 			)
 		)
 		(property "Mounting Style" "Through Hole"
-			(at 337.82 222.25 0)
+			(at 345.44 222.25 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11510,7 +12719,7 @@
 			)
 		)
 		(property "Number of Rows" "1"
-			(at 337.82 224.79 0)
+			(at 345.44 224.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11521,7 +12730,7 @@
 			)
 		)
 		(property "Pin Count" "4"
-			(at 337.82 227.33 0)
+			(at 345.44 227.33 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11532,7 +12741,7 @@
 			)
 		)
 		(property "Pitch (mm)" "3.81"
-			(at 337.82 229.87 0)
+			(at 345.44 229.87 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11543,7 +12752,7 @@
 			)
 		)
 		(property "Series" "TBP02R1-381"
-			(at 337.82 232.41 0)
+			(at 345.44 232.41 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11554,7 +12763,7 @@
 			)
 		)
 		(property "Symbol Name" "J_TBP02R1-381-04BE"
-			(at 337.82 234.95 0)
+			(at 345.44 234.95 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11565,7 +12774,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
-			(at 337.82 237.49 0)
+			(at 345.44 237.49 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11576,7 +12785,7 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 337.82 240.03 0)
+			(at 345.44 240.03 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12164,7 +13373,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_TBP02R1-381-04BE")
-		(at 332.74 128.27 0)
+		(at 340.36 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12173,7 +13382,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6762d71-e16e-4f7b-ae1d-065b74e38b50")
 		(property "Reference" "J3"
-			(at 336.55 126.9999 0)
+			(at 344.17 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12182,7 +13391,7 @@
 			)
 		)
 		(property "Value" "TBP02R1-381-04BE"
-			(at 336.55 129.5399 0)
+			(at 344.17 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,7 +13400,7 @@
 			)
 		)
 		(property "Footprint" "connector_footprints:TBP02R1-381-04BE"
-			(at 337.82 138.43 0)
+			(at 345.44 138.43 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12202,7 +13411,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r1-381.pdf"
-			(at 337.82 140.97 0)
+			(at 345.44 140.97 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12213,7 +13422,7 @@
 			)
 		)
 		(property "Description" "Same Sky TBP02R1-381 series,  4 positions connector,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
-			(at 337.82 143.51 0)
+			(at 345.44 143.51 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12224,7 +13433,7 @@
 			)
 		)
 		(property "Color" "Blue"
-			(at 337.82 146.05 0)
+			(at 345.44 146.05 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12235,7 +13444,7 @@
 			)
 		)
 		(property "Contact Plating" "Tin"
-			(at 337.82 148.59 0)
+			(at 345.44 148.59 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12246,7 +13455,7 @@
 			)
 		)
 		(property "Current Rating (A)" "8.0"
-			(at 337.82 151.13 0)
+			(at 345.44 151.13 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12257,7 +13466,7 @@
 			)
 		)
 		(property "MPN" "TBP02R1-381-04BE"
-			(at 337.82 153.67 0)
+			(at 345.44 153.67 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12268,7 +13477,7 @@
 			)
 		)
 		(property "Manufacturer" "Same Sky"
-			(at 337.82 156.21 0)
+			(at 345.44 156.21 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12279,7 +13488,7 @@
 			)
 		)
 		(property "Mounting Angle" "Vertical"
-			(at 337.82 158.75 0)
+			(at 345.44 158.75 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12290,7 +13499,7 @@
 			)
 		)
 		(property "Mounting Style" "Through Hole"
-			(at 337.82 161.29 0)
+			(at 345.44 161.29 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12301,7 +13510,7 @@
 			)
 		)
 		(property "Number of Rows" "1"
-			(at 337.82 163.83 0)
+			(at 345.44 163.83 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12312,7 +13521,7 @@
 			)
 		)
 		(property "Pin Count" "4"
-			(at 337.82 166.37 0)
+			(at 345.44 166.37 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12323,7 +13532,7 @@
 			)
 		)
 		(property "Pitch (mm)" "3.81"
-			(at 337.82 168.91 0)
+			(at 345.44 168.91 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12334,7 +13543,7 @@
 			)
 		)
 		(property "Series" "TBP02R1-381"
-			(at 337.82 171.45 0)
+			(at 345.44 171.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12345,7 +13554,7 @@
 			)
 		)
 		(property "Symbol Name" "J_TBP02R1-381-04BE"
-			(at 337.82 173.99 0)
+			(at 345.44 173.99 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12356,7 +13565,7 @@
 			)
 		)
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02R1-381-04BE"
-			(at 337.82 176.53 0)
+			(at 345.44 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12367,7 +13576,7 @@
 			)
 		)
 		(property "Voltage Rating (V)" "300"
-			(at 337.82 179.07 0)
+			(at 345.44 179.07 0)
 			(show_name yes)
 			(effects
 				(font
