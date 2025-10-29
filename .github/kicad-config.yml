@@ -8,10 +8,10 @@ views:
     light_elevation: 30
     side: 'top'  # (top, bottom, left, right, front, back)
     hide_footprints:
+      - J10
       - J11
       - J12
       - J13
-      - J14
     
   top:
     prefix: '2_'
@@ -76,10 +76,10 @@ views:
     light_elevation: 30
     side: 'top'  # (top, bottom, left, right, front, back)
     show_footprints:
+      - J10
       - J11
       - J12
       - J13
-      - J14
     
   top_full:
     prefix: '9_'
