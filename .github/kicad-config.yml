@@ -70,7 +70,7 @@ views:
   side_full:
     prefix: '8_'
     suffix: '_side_full'
-    zoom_factor: 0.9
+    zoom_factor: 0.88
     rotate: '315,360,405'
     pan: '0,-0.8,0'
     light_elevation: 30
@@ -120,7 +120,7 @@ views:
   front_full:
     prefix: '13_'
     suffix: '_front_full'
-    zoom_factor: 1.6
+    zoom_factor: 1.7
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
@@ -129,7 +129,7 @@ views:
   back_full:
     prefix: '14_'
     suffix: '_back_full'
-    zoom_factor: 1.6
+    zoom_factor: 1.7
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 10
