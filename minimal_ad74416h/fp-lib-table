@@ -27,4 +27,6 @@
   (lib (name "dip_switches_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/dip_switches_footprints.pretty")(options "")(descr ""))
   (lib (name "nxp_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/nxp_footprints.pretty")(options "")(descr ""))
   (lib (name "nexperia_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/nexperia_footprints.pretty")(options "")(descr ""))
+  (lib (name "slide_switches_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/slide_switches_footprints.pretty")(options "")(descr ""))
+  (lib (name "terminal_block_footprints")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/footprints/terminal_block_footprints.pretty")(options "")(descr ""))
 )

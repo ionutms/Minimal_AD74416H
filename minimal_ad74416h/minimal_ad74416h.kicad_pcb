@@ -18259,6 +18259,283 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "terminal_block_footprints:TBP02P1-381-04BE"
+		(layer "F.Cu")
+		(uuid "55c58871-58e2-4a2a-ae44-3404748e2a72")
+		(at 177.97526 53.26634 -90)
+		(property "Reference" "J13"
+			(at 0 -0.762 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0ca87924-d8fa-48f2-9133-29a4cea5c00d")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP02P1-381-04BE"
+			(at 0 -19.558 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "602d1bc5-d6b7-47f5-8f5c-79197cf4ba0d")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e58c740-ab84-4df8-98e3-b6ce1e15797a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "463c6a2f-defd-42aa-9d6a-978bac98580b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Blue"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d54f078f-6424-4d31-9f93-16c43c11d109")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48615ed7-edab-4f9a-be58-dbc6d27953ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3b0a097-13d2-4422-a058-2ef4a5781061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TBP02P1-381-04BE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3332a8b-94d9-4a39-b038-8740ca95672f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f4f045a-89b7-4c46-8db2-caf866264c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3de301ea-abe5-4c2b-96f2-d56be31bb68a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5655b8eb-b3e7-4d11-ba44-f7c05c5db1c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c444d352-1bec-42b2-9a75-072f09396247")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b3a50a0-e1b4-4556-a94f-a01554971e9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ad820bb-97ec-46bf-9d85-672424b216fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "TBP02P1-381"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95b00e1a-d7ad-4917-b97d-e8fcf9743224")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol Name" "J_TBP02P1-381-04BE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25032c08-2d61-4de0-827c-c4fd8fac071c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a7fec07-92fc-499d-91ac-41e9fe4b46da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45fab095-1e35-4760-b4f4-bbbcd9b4c3e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8de41f36-8d6b-47ef-926f-bd39a6efdb40")
+		(sheetname "/")
+		(sheetfile "minimal_ad74416h.kicad_sch")
+		(fp_rect
+			(start -8.21 -1.4)
+			(end 8.21 -17.3)
+			(stroke
+				(width 0.00635)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "475d0eb6-3c52-4d25-8363-6ce8eef247f1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -18.288 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dc5bbf13-6369-40a6-b8c8-3d0f070cf3af")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3D_MODELS_VAULT}/3D_models/terminal_blocks/TBP02P1-381-04BE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "diode_footprints:SOD323"
 		(layer "F.Cu")
 		(uuid "577a7bb8-02db-4c63-a48e-bbf859b547de")
@@ -27251,6 +27528,283 @@
 			)
 		)
 	)
+	(footprint "terminal_block_footprints:TBP02P1-381-04BE"
+		(layer "F.Cu")
+		(uuid "7e845af6-eeea-4152-8e6e-8a8638e86f3c")
+		(at 120.75668 53.26634 90)
+		(property "Reference" "J10"
+			(at 0 -0.762 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "345cf164-eb44-4903-8328-d6b8680ae8ee")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP02P1-381-04BE"
+			(at 0 -19.558 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "829477bc-325f-4975-8b86-3918bb18006c")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34e26178-c466-4c65-997c-f04fa5db76d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8a6ca89-755c-437a-9736-f25fef265f3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Blue"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b480eae3-69cf-44a3-a610-cb23d8152fb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96eec120-6dec-4902-af32-c24e33fe7f9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ecc648e-b544-4f5f-a0ef-a2c4fabb233a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TBP02P1-381-04BE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "238da874-dac5-42bc-898d-a65a8de7768e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c7b469b-0f4b-434d-ae2f-4f614c5b076f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71da7586-03a4-47bf-aad5-f8b8f489fdf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0317a364-0616-460a-8239-826c7984849a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7df66a23-7c99-4373-8be2-c6c86b9f64b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56f9ac61-b6dd-4e23-9ba1-0cdb4e8ff3a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "369620b0-411f-4541-bfaa-697df63291f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "TBP02P1-381"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "583d515f-e199-46f6-9814-1a83140616d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol Name" "J_TBP02P1-381-04BE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7280228-09ec-4552-aaa3-1d471cffe2bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54781c03-3fcd-417d-a85d-29cefd5a251f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fab693b-b280-4d02-b9eb-c71e1a150dc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/50949276-d688-48b1-b276-f7cbe278aef1")
+		(sheetname "/")
+		(sheetfile "minimal_ad74416h.kicad_sch")
+		(fp_rect
+			(start -8.21 -1.4)
+			(end 8.21 -17.3)
+			(stroke
+				(width 0.00635)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "52f995ef-cb7a-484a-ae1f-ea5533f8ab9d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -18.288 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "79117e07-530e-4967-a041-728edd472d1f")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3D_MODELS_VAULT}/3D_models/terminal_blocks/TBP02P1-381-04BE.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "resistor_footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7e862118-f721-4b7e-a9ac-854885488d22")
@@ -35723,7 +36277,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "TBP02R1-381"
+		(property "Value" "TBP02R1-381-04BE"
 			(at 0 -10.2 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45809,6 +46363,283 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3D_MODELS_VAULT}/3D_models/diodes/DO-214AA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "terminal_block_footprints:TBP02P1-381-04BE"
+		(layer "F.Cu")
+		(uuid "c6dc817c-b8d6-4a34-89e2-631d451b68f5")
+		(at 177.97526 76.12634 -90)
+		(property "Reference" "J12"
+			(at 0 -0.762 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f49fb9dd-dfa4-438d-a86d-4cac1cd10288")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP02P1-381-04BE"
+			(at 0 -19.558 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7fa6da8d-1839-43af-b61f-5cc4044d8687")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8509efe5-9653-4562-8e54-d2b9f07db05e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac841004-9e38-47d9-b30c-24291170bba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Blue"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64a36a66-5e10-439b-9295-cb9309444e88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df497371-54f5-4b58-9f27-48fbb4b1ebd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f277c1d-8521-44f1-9588-b7ea9f9a1415")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TBP02P1-381-04BE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1838a46-73a2-4c98-b3ed-edbd0f460eab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbd0d605-be7d-4682-9cfa-73378d285994")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4efccf9-14ae-451d-9e5f-4c1e2d490bdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "109c4ff3-70a2-49c4-97a3-d03d9f674b69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91f32baf-aa63-4deb-9b88-e6ecca3c1272")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2745f58-4b17-4d69-81ed-072828f5f62d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27e98210-71b3-4701-99be-4ab4870374c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "TBP02P1-381"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "550cae1a-612b-4b02-8764-3c089678d634")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol Name" "J_TBP02P1-381-04BE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d6b50bf-63af-487c-9cf9-1e91f7dff503")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8a25cd5-4769-4376-884d-fc588d58d5c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c68f647-2413-4fc6-b8f1-d46b642a6eee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2855dd11-afd7-42ec-a180-95234d4756c7")
+		(sheetname "/")
+		(sheetfile "minimal_ad74416h.kicad_sch")
+		(fp_rect
+			(start -8.21 -1.4)
+			(end 8.21 -17.3)
+			(stroke
+				(width 0.00635)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "f5aa56a3-77df-42c0-a840-2a1f8fe0f1bb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -18.288 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "91191c6f-5eed-4169-9e6f-49f7a6e3abbe")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3D_MODELS_VAULT}/3D_models/terminal_blocks/TBP02P1-381-04BE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -57343,7 +58174,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "TBP02R1-381"
+		(property "Value" "TBP02R1-381-04BE"
 			(at 0 -10.2 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60480,6 +61311,283 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3D_MODELS_VAULT}/3D_models/transistors/SOT23-3.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "terminal_block_footprints:TBP02P1-381-04BE"
+		(layer "F.Cu")
+		(uuid "f368fbf7-a926-4973-84f8-0a665986683d")
+		(at 120.75668 76.12634 90)
+		(property "Reference" "J11"
+			(at 0 -0.762 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a37506ca-a3ae-4eac-af95-9bd231a852d3")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP02P1-381-04BE"
+			(at 0 -19.558 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "86ef3a2a-fc23-444f-bdae-3d839a538023")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02p1-381.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55d18680-48b0-407e-829a-4484098ea368")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Same Sky TBP02P1-381 series,  4 positions terminal block,  3.81 mm pitch,  Blue,  Vertical mounting,  8.0 A,  300 V,  Through Hole,  Tin plated"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4a319d8-83fe-4b51-8eb9-8bfbc29e0ba8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Blue"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68899b91-ee75-439c-9972-d377f1a46c14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "289626ac-969d-42ab-a116-bca1c73217ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Current Rating (A)" "8.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec7cc593-9ab1-46c2-91e0-7ade64398a7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TBP02P1-381-04BE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc855d17-7fcc-4076-935d-acdb867d0487")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba5f8c98-702c-43f3-b317-7cf7fceef03d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b8683a5-a43b-4074-ba1a-43a8ab13bef9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mounting Style" "Through Hole"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd5691e1-0095-4e37-8690-e312769483d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41e3be7c-00fb-4040-bd11-97c17f87e923")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pin Count" "4"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66ddd517-b51b-49f1-9427-ed290c686689")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch (mm)" "3.81"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0103fc9-5d68-451e-a33a-078cd98e43a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Series" "TBP02P1-381"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8405aac2-5cc3-465a-9d73-3b86511c563a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol Name" "J_TBP02P1-381-04BE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45ed31df-6c44-4a1d-88ce-afbab335a89f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/TBP02P1-381-04BE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18bc00f9-c826-4159-963c-e80589b588ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80e17033-b8d4-4656-af39-489487c160a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1315de83-f52d-441e-ab95-88cb86ead858")
+		(sheetname "/")
+		(sheetfile "minimal_ad74416h.kicad_sch")
+		(fp_rect
+			(start -8.21 -1.4)
+			(end 8.21 -17.3)
+			(stroke
+				(width 0.00635)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "51ad9db7-4d90-45d0-9fbf-4ae3bb4d76c4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -18.288 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "80bf6f3a-744e-4812-b72a-875d497bece9")
+			(effects
+				(font
+					(size 0.762 0.762)
+					(thickness 0.1524)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3D_MODELS_VAULT}/3D_models/terminal_blocks/TBP02P1-381-04BE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -85155,57 +86263,6 @@
 		)
 	)
 	(zone
-		(net 29)
-		(net_name "/ISN_C")
-		(layer "F.Cu")
-		(uuid "18c1ad46-a9fd-4877-9851-48ecbba63d75")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30030)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 177.209528 80.071793) (xy 177.274959 80.144116) (xy 177.328142 80.217262) (xy 177.370069 80.291316)
-				(xy 177.401321 80.365713) (xy 177.435748 80.519974) (xy 177.434153 80.684335) (xy 177.395545 80.864154)
-				(xy 177.316103 81.066397) (xy 177.194763 81.29788) (xy 177.170398 81.341846) (xy 178.078767 81.842327)
-				(xy 178.320626 80.827419) (xy 178.241068 80.803352) (xy 178.167244 80.770986) (xy 178.025058 80.677537)
-				(xy 177.866149 80.52738) (xy 177.697596 80.339244) (xy 177.53313 80.153972) (xy 177.335251 79.94607)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 177.343317 79.954549) (xy 177.343488 79.954724) (xy 177.447422 80.063923) (xy 177.532987 80.153822)
-				(xy 177.533262 80.154121) (xy 177.697578 80.339224) (xy 177.866141 80.527372) (xy 177.866143 80.527374)
-				(xy 177.866149 80.52738) (xy 178.025058 80.677537) (xy 178.025063 80.67754) (xy 178.025065 80.677542)
-				(xy 178.035401 80.684335) (xy 178.167244 80.770986) (xy 178.241068 80.803352) (xy 178.310078 80.824228)
-				(xy 178.317004 80.829904) (xy 178.318071 80.838139) (xy 178.08233 81.827373) (xy 178.077079 81.834627)
-				(xy 178.068237 81.836042) (xy 178.065303 81.834909) (xy 178.064791 81.834627) (xy 177.180671 81.347506)
-				(xy 177.175079 81.340512) (xy 177.176069 81.331612) (xy 177.176083 81.331587) (xy 177.194763 81.29788)
-				(xy 177.316103 81.066397) (xy 177.395545 80.864154) (xy 177.434153 80.684335) (xy 177.435748 80.519974)
-				(xy 177.401321 80.365713) (xy 177.370069 80.291316) (xy 177.370068 80.291314) (xy 177.370066 80.291309)
-				(xy 177.328151 80.217277) (xy 177.328146 80.21727) (xy 177.328142 80.217262) (xy 177.274959 80.144116)
-				(xy 177.274955 80.144111) (xy 177.274952 80.144107) (xy 177.216994 80.080045) (xy 177.213985 80.071611)
-				(xy 177.217396 80.063924) (xy 177.326772 79.954548) (xy 177.335044 79.951122)
-			)
-		)
-	)
-	(zone
 		(net 51)
 		(net_name "/GPIO_D")
 		(layer "F.Cu")
@@ -89426,6 +90483,52 @@
 				(xy 155.690433 72.474278) (xy 155.686733 72.501312) (xy 155.685209 72.506771) (xy 155.685208 72.506776)
 				(xy 155.682157 72.547011) (xy 155.680327 72.559935) (xy 155.674461 72.588065) (xy 155.647115 72.638664)
 				(xy 155.566304 72.719475) (xy 155.53722 72.781848) (xy 155.53722 69.526) (xy 155.690433 69.526)
+			)
+		)
+	)
+	(zone
+		(net 37)
+		(net_name "/ISP_C")
+		(layer "F.Cu")
+		(uuid "467963c6-931d-421b-8e93-aa9cde120c00")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 177.33972 72.341002) (xy 177.484302 72.169345) (xy 177.721059 71.951428) (xy 177.864997 71.839326)
+				(xy 178.01704 71.734273) (xy 178.16183 71.646726) (xy 178.306624 71.572301) (xy 178.428397 71.521448)
+				(xy 178.545563 71.484919) (xy 178.633322 71.46762) (xy 178.715846 71.46162) (xy 178.078767 70.410913)
+				(xy 177.02806 71.46162) (xy 177.08915 71.466467) (xy 177.141861 71.480397) (xy 177.185839 71.501973)
+				(xy 177.222667 71.530526) (xy 177.278744 71.609448) (xy 177.311645 71.721303) (xy 177.31646 71.869682)
+				(xy 177.286513 72.04404) (xy 177.258459 72.128852) (xy 177.226288 72.196109) (xy 177.213998 72.21528)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 177.33972 72.341002) (xy 177.484302 72.169345) (xy 177.721059 71.951428) (xy 177.864997 71.839326)
+				(xy 178.01704 71.734273) (xy 178.16183 71.646726) (xy 178.306624 71.572301) (xy 178.428397 71.521448)
+				(xy 178.545563 71.484919) (xy 178.633322 71.46762) (xy 178.715846 71.46162) (xy 178.078767 70.410913)
+				(xy 177.02806 71.46162) (xy 177.08915 71.466467) (xy 177.141861 71.480397) (xy 177.185839 71.501973)
+				(xy 177.222667 71.530526) (xy 177.278744 71.609448) (xy 177.311645 71.721303) (xy 177.31646 71.869682)
+				(xy 177.286513 72.04404) (xy 177.258459 72.128852) (xy 177.226288 72.196109) (xy 177.213998 72.21528)
 			)
 		)
 	)
@@ -98284,6 +99387,52 @@
 		)
 	)
 	(zone
+		(net 38)
+		(net_name "/ISP_D")
+		(layer "F.Cu")
+		(uuid "8f464cc7-b7bf-4f42-8a03-aa2a07665ef6")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 176.892669 49.371588) (xy 177.078951 49.212597) (xy 177.364271 49.022397) (xy 177.536677 48.925471)
+				(xy 177.717362 48.835655) (xy 177.894434 48.758995) (xy 178.070946 48.69451) (xy 178.223561 48.64978)
+				(xy 178.369804 48.618666) (xy 178.558938 48.60162) (xy 178.078767 47.550913) (xy 177.02806 47.303191)
+				(xy 177.099476 47.537905) (xy 177.141452 47.809416) (xy 177.148693 48.109722) (xy 177.117588 48.421823)
+				(xy 177.087706 48.574385) (xy 177.049094 48.719735) (xy 177.00354 48.852649) (xy 176.950721 48.974879)
+				(xy 176.895505 49.077357) (xy 176.834864 49.167432) (xy 176.766945 49.245864)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 176.892669 49.371588) (xy 177.078951 49.212597) (xy 177.364271 49.022397) (xy 177.536677 48.925471)
+				(xy 177.717362 48.835655) (xy 177.894434 48.758995) (xy 178.070946 48.69451) (xy 178.223561 48.64978)
+				(xy 178.369804 48.618666) (xy 178.558938 48.60162) (xy 178.078767 47.550913) (xy 177.02806 47.303191)
+				(xy 177.099476 47.537905) (xy 177.141452 47.809416) (xy 177.148693 48.109722) (xy 177.117588 48.421823)
+				(xy 177.087706 48.574385) (xy 177.049094 48.719735) (xy 177.00354 48.852649) (xy 176.950721 48.974879)
+				(xy 176.895505 49.077357) (xy 176.834864 49.167432) (xy 176.766945 49.245864)
+			)
+		)
+	)
+	(zone
 		(net 113)
 		(net_name "/3V3")
 		(layer "F.Cu")
@@ -100884,56 +102033,6 @@
 		)
 	)
 	(zone
-		(net 30)
-		(net_name "/ISN_D")
-		(layer "F.Cu")
-		(uuid "aa78c5df-ef02-41fb-8f90-505a5e06a519")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30031)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 176.881182 57.399533) (xy 176.959468 57.484705) (xy 177.024958 57.57011) (xy 177.079067 57.656463)
-				(xy 177.121919 57.74259) (xy 177.178895 57.919558) (xy 177.199857 58.105051) (xy 177.185987 58.304871)
-				(xy 177.136187 58.528903) (xy 177.094601 58.664836) (xy 178.078767 58.982327) (xy 178.133436 57.951795)
-				(xy 178.029452 57.941119) (xy 177.927836 57.920092) (xy 177.734374 57.848578) (xy 177.529758 57.728711)
-				(xy 177.288621 57.539292) (xy 177.006906 57.273809)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 177.015171 57.281598) (xy 177.288621 57.539292) (xy 177.529758 57.728711) (xy 177.734374 57.848578)
-				(xy 177.734377 57.848579) (xy 177.734381 57.848581) (xy 177.81982 57.880163) (xy 177.927836 57.920092)
-				(xy 177.961708 57.927101) (xy 178.02944 57.941117) (xy 178.029444 57.941117) (xy 178.029452 57.941119)
-				(xy 178.122358 57.950657) (xy 178.130237 57.954911) (xy 178.132846 57.962916) (xy 178.079572 58.967143)
-				(xy 178.075711 58.975223) (xy 178.067268 58.978207) (xy 178.064296 58.977658) (xy 177.105568 58.668374)
-				(xy 177.098746 58.662573) (xy 177.097972 58.653816) (xy 177.136189 58.528896) (xy 177.185987 58.30487)
-				(xy 177.185987 58.304869) (xy 177.199857 58.10505) (xy 177.178895 57.919558) (xy 177.156043 57.848581)
-				(xy 177.121919 57.74259) (xy 177.079067 57.656463) (xy 177.079061 57.656453) (xy 177.024968 57.570125)
-				(xy 177.02496 57.570113) (xy 177.001326 57.539292) (xy 176.959468 57.484705) (xy 176.935836 57.458994)
-				(xy 176.888773 57.407791) (xy 176.885697 57.39938) (xy 176.889113 57.391601) (xy 176.998875 57.281839)
-				(xy 177.007147 57.278413)
-			)
-		)
-	)
-	(zone
 		(net 33)
 		(net_name "/LKG_COMP_C")
 		(layer "F.Cu")
@@ -101116,58 +102215,6 @@
 		)
 	)
 	(zone
-		(net 37)
-		(net_name "/ISP_C")
-		(layer "F.Cu")
-		(uuid "ad0a8b5d-e999-4add-9ff0-9694a8d18844")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30011)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 177.33972 72.341002) (xy 177.484302 72.169345) (xy 177.721059 71.951428) (xy 177.864997 71.839326)
-				(xy 178.01704 71.734273) (xy 178.16183 71.646726) (xy 178.306624 71.572301) (xy 178.428397 71.521448)
-				(xy 178.545563 71.484919) (xy 178.633322 71.46762) (xy 178.715846 71.46162) (xy 178.078767 70.410913)
-				(xy 177.02806 71.46162) (xy 177.08915 71.466467) (xy 177.141861 71.480397) (xy 177.185839 71.501973)
-				(xy 177.222667 71.530526) (xy 177.278744 71.609448) (xy 177.311645 71.721303) (xy 177.31646 71.869682)
-				(xy 177.286513 72.04404) (xy 177.258459 72.128852) (xy 177.226288 72.196109) (xy 177.213998 72.21528)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 178.084767 70.421458) (xy 178.086499 70.423665) (xy 178.705933 71.445271) (xy 178.707292 71.454122)
-				(xy 178.701994 71.461342) (xy 178.696777 71.463006) (xy 178.633327 71.467619) (xy 178.633318 71.46762)
-				(xy 178.54557 71.484917) (xy 178.545563 71.484919) (xy 178.428386 71.521451) (xy 178.428381 71.521453)
-				(xy 178.306622 71.572301) (xy 178.161832 71.646724) (xy 178.161819 71.646732) (xy 178.017037 71.734274)
-				(xy 177.86501 71.839317) (xy 177.864993 71.839329) (xy 177.721064 71.951423) (xy 177.4843 72.169347)
-				(xy 177.484296 72.16935) (xy 177.34793 72.331254) (xy 177.339979 72.335374) (xy 177.331444 72.332666)
-				(xy 177.330708 72.33199) (xy 177.220657 72.221939) (xy 177.21723 72.213666) (xy 177.21908 72.207352)
-				(xy 177.226288 72.196109) (xy 177.258459 72.128852) (xy 177.286513 72.04404) (xy 177.31646 71.869682)
-				(xy 177.311645 71.721303) (xy 177.278744 71.609448) (xy 177.222667 71.530526) (xy 177.185839 71.501973)
-				(xy 177.185833 71.50197) (xy 177.185832 71.501969) (xy 177.185833 71.501969) (xy 177.141862 71.480397)
-				(xy 177.089146 71.466466) (xy 177.089148 71.466466) (xy 177.053338 71.463625) (xy 177.045361 71.459555)
-				(xy 177.0426 71.451037) (xy 177.045989 71.44369) (xy 178.068222 70.421457) (xy 178.076494 70.418031)
-			)
-		)
-	)
-	(zone
 		(net 73)
 		(net_name "/P1_0")
 		(layer "F.Cu")
@@ -101210,6 +102257,50 @@
 				(xy 136.142707 53.988878) (xy 136.195108 53.986524) (xy 136.28054 53.970368) (xy 136.364512 53.942643)
 				(xy 136.426095 53.913792) (xy 136.455313 53.900105) (xy 136.455314 53.900103) (xy 136.455321 53.900101)
 				(xy 136.539943 53.848355) (xy 136.682419 53.727807) (xy 136.758659 53.626953) (xy 136.76638 53.62242)
+			)
+		)
+	)
+	(zone
+		(net 30)
+		(net_name "/ISN_D")
+		(layer "F.Cu")
+		(uuid "aeeefd4a-4381-46d4-aa25-8ca00dac2910")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30003)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 176.881182 57.399533) (xy 176.959468 57.484705) (xy 177.024958 57.57011) (xy 177.079067 57.656463)
+				(xy 177.121919 57.74259) (xy 177.178895 57.919558) (xy 177.199857 58.105051) (xy 177.185987 58.304871)
+				(xy 177.136187 58.528903) (xy 177.094601 58.664836) (xy 178.078767 58.982327) (xy 178.133436 57.951795)
+				(xy 178.029452 57.941119) (xy 177.927836 57.920092) (xy 177.734374 57.848578) (xy 177.529758 57.728711)
+				(xy 177.288621 57.539292) (xy 177.006906 57.273809)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 176.881182 57.399533) (xy 176.959468 57.484705) (xy 177.024958 57.57011) (xy 177.079067 57.656463)
+				(xy 177.121919 57.74259) (xy 177.178895 57.919558) (xy 177.199857 58.105051) (xy 177.185987 58.304871)
+				(xy 177.136187 58.528903) (xy 177.094601 58.664836) (xy 178.078767 58.982327) (xy 178.133436 57.951795)
+				(xy 178.029452 57.941119) (xy 177.927836 57.920092) (xy 177.734374 57.848578) (xy 177.529758 57.728711)
+				(xy 177.288621 57.539292) (xy 177.006906 57.273809)
 			)
 		)
 	)
@@ -105176,6 +106267,50 @@
 		)
 	)
 	(zone
+		(net 29)
+		(net_name "/ISN_C")
+		(layer "F.Cu")
+		(uuid "d5212f89-a648-4f0c-853d-5ea939b6c626")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30002)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 177.209528 80.071793) (xy 177.274959 80.144116) (xy 177.328142 80.217262) (xy 177.370069 80.291316)
+				(xy 177.401321 80.365713) (xy 177.435748 80.519974) (xy 177.434153 80.684335) (xy 177.395545 80.864154)
+				(xy 177.316103 81.066397) (xy 177.194763 81.29788) (xy 177.170398 81.341846) (xy 178.078767 81.842327)
+				(xy 178.320626 80.827419) (xy 178.241068 80.803352) (xy 178.167244 80.770986) (xy 178.025058 80.677537)
+				(xy 177.866149 80.52738) (xy 177.697596 80.339244) (xy 177.53313 80.153972) (xy 177.335251 79.94607)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 177.209528 80.071793) (xy 177.274959 80.144116) (xy 177.328142 80.217262) (xy 177.370069 80.291316)
+				(xy 177.401321 80.365713) (xy 177.435748 80.519974) (xy 177.434153 80.684335) (xy 177.395545 80.864154)
+				(xy 177.316103 81.066397) (xy 177.194763 81.29788) (xy 177.170398 81.341846) (xy 178.078767 81.842327)
+				(xy 178.320626 80.827419) (xy 178.241068 80.803352) (xy 178.167244 80.770986) (xy 178.025058 80.677537)
+				(xy 177.866149 80.52738) (xy 177.697596 80.339244) (xy 177.53313 80.153972) (xy 177.335251 79.94607)
+			)
+		)
+	)
+	(zone
 		(net 111)
 		(net_name "/2B3")
 		(layer "F.Cu")
@@ -105640,56 +106775,6 @@
 				(xy 120.185412 57.907681) (xy 120.302588 57.870759) (xy 120.424277 57.819526) (xy 120.568755 57.744742)
 				(xy 120.713126 57.656882) (xy 120.864503 57.551634) (xy 121.007718 57.439399) (xy 121.242966 57.221457)
 				(xy 121.378251 57.059634) (xy 121.386184 57.055486)
-			)
-		)
-	)
-	(zone
-		(net 38)
-		(net_name "/ISP_D")
-		(layer "F.Cu")
-		(uuid "d900309e-f4ac-4416-8ee2-6a3293016ed0")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30004)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 176.892669 49.371588) (xy 177.078951 49.212597) (xy 177.364271 49.022397) (xy 177.536677 48.925471)
-				(xy 177.717362 48.835655) (xy 177.894434 48.758995) (xy 178.070946 48.69451) (xy 178.223561 48.64978)
-				(xy 178.369804 48.618666) (xy 178.558938 48.60162) (xy 178.078767 47.550913) (xy 177.02806 47.303191)
-				(xy 177.099476 47.537905) (xy 177.141452 47.809416) (xy 177.148693 48.109722) (xy 177.117588 48.421823)
-				(xy 177.087706 48.574385) (xy 177.049094 48.719735) (xy 177.00354 48.852649) (xy 176.950721 48.974879)
-				(xy 176.895505 49.077357) (xy 176.834864 49.167432) (xy 176.766945 49.245864)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 178.073193 47.549598) (xy 178.080458 47.554832) (xy 178.081148 47.556123) (xy 178.552068 48.586587)
-				(xy 178.55239 48.595536) (xy 178.54629 48.602091) (xy 178.542477 48.603103) (xy 178.369799 48.618666)
-				(xy 178.223562 48.649779) (xy 178.070946 48.69451) (xy 177.89443 48.758996) (xy 177.894408 48.759005)
-				(xy 177.717364 48.835653) (xy 177.717361 48.835654) (xy 177.53668 48.925469) (xy 177.36427 49.022397)
-				(xy 177.364268 49.022398) (xy 177.078959 49.212591) (xy 177.078937 49.212607) (xy 176.900891 49.364568)
-				(xy 176.892374 49.367333) (xy 176.885023 49.363942) (xy 176.774645 49.253564) (xy 176.771218 49.245291)
-				(xy 176.774072 49.237633) (xy 176.834864 49.167432) (xy 176.895505 49.077357) (xy 176.950721 48.974879)
-				(xy 177.00354 48.852649) (xy 177.049094 48.719735) (xy 177.087706 48.574385) (xy 177.117588 48.421823)
-				(xy 177.148693 48.109722) (xy 177.141452 47.809416) (xy 177.099476 47.537905) (xy 177.033981 47.322651)
-				(xy 177.034851 47.31374) (xy 177.041768 47.308054) (xy 177.047859 47.307859)
 			)
 		)
 	)

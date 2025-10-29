@@ -363,4 +363,5 @@
   (lib (name "INDUCTORS_7443734948_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/INDUCTORS_7443734948_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "INDUCTORS_74437429203_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/INDUCTORS_74437429203_DATA_BASE.kicad_sym")(options "")(descr ""))
   (lib (name "INDUCTORS_74437529203_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/INDUCTORS_74437529203_DATA_BASE.kicad_sym")(options "")(descr ""))
+  (lib (name "TERMINAL_BLOCKS_TBP02P1-381_DATA_BASE")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Symbols_Generator/series_kicad_sym/TERMINAL_BLOCKS_TBP02P1-381_DATA_BASE.kicad_sym")(options "")(descr ""))
 )

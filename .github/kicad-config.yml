@@ -7,6 +7,11 @@ views:
     pan: '0,-0.8,0'
     light_elevation: 30
     side: 'top'  # (top, bottom, left, right, front, back)
+    hide_footprints:
+      - J11
+      - J12
+      - J13
+      - J14
     
   top:
     prefix: '2_'
@@ -56,6 +61,74 @@ views:
   back:
     prefix: '7_'
     suffix: '_back'
+    zoom_factor: 1.6
+    rotate: '0,0,0'
+    pan: '0,0,0'
+    light_elevation: 10
+    side: 'back'
+
+  side_full:
+    prefix: '8_'
+    suffix: '_side_full'
+    zoom_factor: 0.9
+    rotate: '315,360,405'
+    pan: '0,-0.8,0'
+    light_elevation: 30
+    side: 'top'  # (top, bottom, left, right, front, back)
+    show_footprints:
+      - J11
+      - J12
+      - J13
+      - J14
+    
+  top_full:
+    prefix: '9_'
+    suffix: '_top_full'
+    zoom_factor: 0.9
+    rotate: '0,0,0'
+    pan: '0,0.2,0'
+    light_elevation: 60
+    side: 'top'
+    
+  bottom_full:
+    prefix: '10_'
+    suffix: '_bottom_full'
+    zoom_factor: 0.9
+    rotate: '0,0,0'
+    pan: '0,0.2,0'
+    light_elevation: 60
+    side: 'bottom'
+    
+  left_full:
+    prefix: '11_'
+    suffix: '_left_full'
+    zoom_factor: 1.6
+    rotate: '0,0,0'
+    pan: '0,0,0'
+    light_elevation: 10
+    side: 'left'
+    
+  right_full:
+    prefix: '12_'
+    suffix: '_right_full'
+    zoom_factor: 1.6
+    rotate: '0,0,0'
+    pan: '0,0,0'
+    light_elevation: 10
+    side: 'right'
+    
+  front_full:
+    prefix: '13_'
+    suffix: '_front_full'
+    zoom_factor: 1.6
+    rotate: '0,0,0'
+    pan: '0,0,0'
+    light_elevation: 10
+    side: 'front'
+    
+  back_full:
+    prefix: '14_'
+    suffix: '_back_full'
     zoom_factor: 1.6
     rotate: '0,0,0'
     pan: '0,0,0'
