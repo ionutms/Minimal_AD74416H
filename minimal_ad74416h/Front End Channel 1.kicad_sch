@@ -218,7 +218,7 @@
 				)
 			)
 			(symbol "J_FW-02-01-G-D-160-160_0_0"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name ""
@@ -236,7 +236,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name ""
@@ -254,7 +254,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 1.27 180)
 					(length 2.54)
 					(name ""
@@ -272,7 +272,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 -1.27 180)
 					(length 2.54)
 					(name ""
@@ -512,7 +512,7 @@
 				)
 			)
 			(symbol "C_CC0603JRNPO9BN221_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -530,7 +530,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -757,7 +757,7 @@
 				)
 			)
 			(symbol "C_VJ0603Y472KXBAC_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -775,7 +775,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -944,7 +944,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name ""
@@ -962,7 +962,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name ""
@@ -1131,7 +1131,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name ""
@@ -1149,7 +1149,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name ""
@@ -1320,7 +1320,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 1.27)
 					(name ""
@@ -1338,7 +1338,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 1.27)
 					(name ""
@@ -1601,7 +1601,7 @@
 				)
 			)
 			(symbol "R_CRM1206-FX-R150ELF_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -1619,7 +1619,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -1882,7 +1882,7 @@
 				)
 			)
 			(symbol "R_ERJ-2GE0R00X_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -1900,7 +1900,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -1979,7 +1979,7 @@
 					(hide yes)
 				)
 			)
-			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(property "Case Code - in" "0402"
 				(at 0 -12.7 0)
 				(show_name)
 				(effects
@@ -1990,7 +1990,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case Code - in" "0402"
+			(property "Case Code - mm" "1005"
 				(at 0 -15.24 0)
 				(show_name)
 				(effects
@@ -2001,7 +2001,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case Code - mm" "1005"
+			(property "Component Type" "Resistor"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -2012,7 +2012,7 @@
 					(hide yes)
 				)
 			)
-			(property "Component Type" "Resistor"
+			(property "MPN" "ERJ-2RKF1002X"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -2023,7 +2023,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ERJ-2RKF1002X"
+			(property "Manufacturer" "Panasonic"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -2034,7 +2034,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Panasonic"
+			(property "Series" "ERJ-2RKF"
 				(at 0 -25.4 0)
 				(show_name)
 				(effects
@@ -2045,7 +2045,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "ERJ-2RKF"
+			(property "Symbol Name" "R_ERJ-2RKF1002X"
 				(at 0 -27.94 0)
 				(show_name)
 				(effects
@@ -2056,7 +2056,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(property "Temperature Coefficient" "100 ppm/°C"
 				(at 0 -30.48 0)
 				(show_name)
 				(effects
@@ -2067,7 +2067,7 @@
 					(hide yes)
 				)
 			)
-			(property "Temperature Coefficient" "100 ppm/°C"
+			(property "Tolerance" "1%"
 				(at 0 -33.02 0)
 				(show_name)
 				(effects
@@ -2078,7 +2078,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "1%"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
 				(at 0 -35.56 0)
 				(show_name)
 				(effects
@@ -2089,19 +2089,8 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
-				(at 0 -38.1 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
 			(property "Voltage Rating" "50V"
-				(at 0 -40.64 0)
+				(at 0 -38.1 0)
 				(show_name)
 				(effects
 					(font
@@ -2174,7 +2163,7 @@
 				)
 			)
 			(symbol "R_ERJ-2RKF1002X_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -2192,7 +2181,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -2455,7 +2444,7 @@
 				)
 			)
 			(symbol "R_ERJ-2RKF2001X_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -2473,7 +2462,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -2736,7 +2725,7 @@
 				)
 			)
 			(symbol "R_ERJ-2RKF3901X_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -2754,7 +2743,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -3017,7 +3006,7 @@
 				)
 			)
 			(symbol "R_RMCF0402JT100K_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -3035,7 +3024,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -3298,7 +3287,7 @@
 				)
 			)
 			(symbol "R_RNCF0603TKY2K00_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -3316,7 +3305,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -3579,7 +3568,7 @@
 				)
 			)
 			(symbol "R_RT0805BRB0712RL_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -3597,7 +3586,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""

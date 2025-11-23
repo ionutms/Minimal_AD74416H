@@ -247,7 +247,7 @@
 				)
 			)
 			(symbol "R_ERJ-2RKF3302X_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -265,7 +265,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -492,7 +492,7 @@
 				)
 			)
 			(symbol "C_C1608X7S1A225K080AC_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -510,7 +510,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -737,7 +737,7 @@
 				)
 			)
 			(symbol "C_CGA4J1X7R1V225K125AC_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -755,7 +755,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -834,7 +834,7 @@
 					(hide yes)
 				)
 			)
-			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_0402.step"
+			(property "Capacitor Type" "Ceramic"
 				(at 0 -15.24 0)
 				(show_name)
 				(effects
@@ -845,7 +845,7 @@
 					(hide yes)
 				)
 			)
-			(property "Capacitor Type" "Ceramic"
+			(property "Case Code - in" "0402"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -856,7 +856,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case Code - in" "0402"
+			(property "Case Code - mm" "1005"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -867,7 +867,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case Code - mm" "1005"
+			(property "Dielectric" "X7R"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -878,7 +878,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" "X7R"
+			(property "MPN" "GCM155R71H102KA37D"
 				(at 0 -25.4 0)
 				(show_name)
 				(effects
@@ -889,7 +889,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GCM155R71H102KA37D"
+			(property "Manufacturer" "Murata Electronics"
 				(at 0 -27.94 0)
 				(show_name)
 				(effects
@@ -900,7 +900,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata Electronics"
+			(property "Series" "GCM155R71H"
 				(at 0 -30.48 0)
 				(show_name)
 				(effects
@@ -911,7 +911,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "GCM155R71H"
+			(property "Symbol Name" "C_GCM155R71H102KA37D"
 				(at 0 -33.02 0)
 				(show_name)
 				(effects
@@ -922,7 +922,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "C_GCM155R71H102KA37D"
+			(property "Tolerance" "10%"
 				(at 0 -35.56 0)
 				(show_name)
 				(effects
@@ -933,7 +933,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "10%"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H102KA37D"
 				(at 0 -38.1 0)
 				(show_name)
 				(effects
@@ -944,19 +944,8 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H102KA37D"
-				(at 0 -40.64 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
 			(property "Voltage Rating" "50V"
-				(at 0 -43.18 0)
+				(at 0 -40.64 0)
 				(show_name)
 				(effects
 					(font
@@ -993,7 +982,7 @@
 				)
 			)
 			(symbol "C_GCM155R71H102KA37D_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -1011,7 +1000,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -1090,7 +1079,7 @@
 					(hide yes)
 				)
 			)
-			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/C_0402.step"
+			(property "Capacitor Type" "Ceramic"
 				(at 0 -15.24 0)
 				(show_name)
 				(effects
@@ -1101,7 +1090,7 @@
 					(hide yes)
 				)
 			)
-			(property "Capacitor Type" "Ceramic"
+			(property "Case Code - in" "0402"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -1112,7 +1101,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case Code - in" "0402"
+			(property "Case Code - mm" "1005"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -1123,7 +1112,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case Code - mm" "1005"
+			(property "Dielectric" "X7R"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -1134,7 +1123,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" "X7R"
+			(property "MPN" "GCM155R71H104KE02D"
 				(at 0 -25.4 0)
 				(show_name)
 				(effects
@@ -1145,7 +1134,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GCM155R71H104KE02D"
+			(property "Manufacturer" "Murata Electronics"
 				(at 0 -27.94 0)
 				(show_name)
 				(effects
@@ -1156,7 +1145,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata Electronics"
+			(property "Series" "GCM155R71H"
 				(at 0 -30.48 0)
 				(show_name)
 				(effects
@@ -1167,7 +1156,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "GCM155R71H"
+			(property "Symbol Name" "C_GCM155R71H104KE02D"
 				(at 0 -33.02 0)
 				(show_name)
 				(effects
@@ -1178,7 +1167,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "C_GCM155R71H104KE02D"
+			(property "Tolerance" "10%"
 				(at 0 -35.56 0)
 				(show_name)
 				(effects
@@ -1189,7 +1178,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "10%"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
 				(at 0 -38.1 0)
 				(show_name)
 				(effects
@@ -1200,19 +1189,8 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/GCM155R71H104KE02D"
-				(at 0 -40.64 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
 			(property "Voltage Rating" "50V"
-				(at 0 -43.18 0)
+				(at 0 -40.64 0)
 				(show_name)
 				(effects
 					(font
@@ -1249,7 +1227,7 @@
 				)
 			)
 			(symbol "C_GCM155R71H104KE02D_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -1267,7 +1245,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -1494,7 +1472,7 @@
 				)
 			)
 			(symbol "C_GRJ21BC72A105KE11L_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -1512,7 +1490,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -1739,7 +1717,7 @@
 				)
 			)
 			(symbol "C_GRM21BR61H106KE43L_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -1757,7 +1735,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -1984,7 +1962,7 @@
 				)
 			)
 			(symbol "C_GRM32EC72A106KE05L_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -2002,7 +1980,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -2229,7 +2207,7 @@
 				)
 			)
 			(symbol "C_KGM05AR71C393KH_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 0 0)
 					(length 2.8)
 					(name ""
@@ -2247,7 +2225,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 0 180)
 					(length 2.8)
 					(name ""
@@ -2441,7 +2419,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name ""
@@ -2459,7 +2437,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name ""
@@ -2629,7 +2607,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name ""
@@ -2647,7 +2625,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name ""
@@ -5285,30 +5263,6 @@
 				)
 				(polyline
 					(pts
-						(xy -2.286 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
 					)
 					(stroke
@@ -5345,43 +5299,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -5417,7 +5335,7 @@
 				)
 			)
 			(symbol "RT_NTCS0805E3333JHT_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -5435,43 +5353,7 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -5734,7 +5616,7 @@
 				)
 			)
 			(symbol "R_ERJ-2GE0R00X_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -5752,7 +5634,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -5831,7 +5713,7 @@
 					(hide yes)
 				)
 			)
-			(property "3dviewer Link" "https://3dviewer.net/index.html#model=https://github.com/ionutms/KiCAD_Symbols_Generator/blob/main/3D_models/R_0402.step"
+			(property "Case Code - in" "0402"
 				(at 0 -12.7 0)
 				(show_name)
 				(effects
@@ -5842,7 +5724,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case Code - in" "0402"
+			(property "Case Code - mm" "1005"
 				(at 0 -15.24 0)
 				(show_name)
 				(effects
@@ -5853,7 +5735,7 @@
 					(hide yes)
 				)
 			)
-			(property "Case Code - mm" "1005"
+			(property "Component Type" "Resistor"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -5864,7 +5746,7 @@
 					(hide yes)
 				)
 			)
-			(property "Component Type" "Resistor"
+			(property "MPN" "ERJ-2RKF1002X"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -5875,7 +5757,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ERJ-2RKF1002X"
+			(property "Manufacturer" "Panasonic"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -5886,7 +5768,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Panasonic"
+			(property "Series" "ERJ-2RKF"
 				(at 0 -25.4 0)
 				(show_name)
 				(effects
@@ -5897,7 +5779,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "ERJ-2RKF"
+			(property "Symbol Name" "R_ERJ-2RKF1002X"
 				(at 0 -27.94 0)
 				(show_name)
 				(effects
@@ -5908,7 +5790,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "R_ERJ-2RKF1002X"
+			(property "Temperature Coefficient" "100 ppm/°C"
 				(at 0 -30.48 0)
 				(show_name)
 				(effects
@@ -5919,7 +5801,7 @@
 					(hide yes)
 				)
 			)
-			(property "Temperature Coefficient" "100 ppm/°C"
+			(property "Tolerance" "1%"
 				(at 0 -33.02 0)
 				(show_name)
 				(effects
@@ -5930,7 +5812,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "1%"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
 				(at 0 -35.56 0)
 				(show_name)
 				(effects
@@ -5941,19 +5823,8 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/ERJ-2RKF1002X"
-				(at 0 -38.1 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
 			(property "Voltage Rating" "50V"
-				(at 0 -40.64 0)
+				(at 0 -38.1 0)
 				(show_name)
 				(effects
 					(font
@@ -6026,7 +5897,7 @@
 				)
 			)
 			(symbol "R_ERJ-2RKF1002X_1_1"
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -6044,7 +5915,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -12829,13 +12700,7 @@
 			(uuid "cd9ca6d2-2736-4b69-b923-e979a522ff28")
 		)
 		(pin "2"
-			(uuid "102a8887-072e-4715-b713-28b63d89f5bb")
-		)
-		(pin "2"
 			(uuid "eedd9fb5-6c19-4ed2-921c-ae366b328d5a")
-		)
-		(pin "1"
-			(uuid "a1a29f2d-60ed-4a1e-a9ab-ecb86648c236")
 		)
 		(instances
 			(project "minimal_ad74416h"
