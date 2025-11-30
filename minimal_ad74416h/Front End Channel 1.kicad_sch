@@ -3665,7 +3665,7 @@
 					(hide yes)
 				)
 			)
-			(property "Drain Current (A)" "0.2"
+			(property "Collector Current (A)" "-"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -3676,7 +3676,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "BSS138-7-F"
+			(property "Drain Current (A)" "0.2"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -3687,7 +3687,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Diodes Incorporated"
+			(property "MPN" "BSS138-7-F"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -3698,7 +3698,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "BSS138-7-F"
+			(property "Manufacturer" "Diodes Incorporated"
 				(at 0 -25.4 0)
 				(show_name)
 				(effects
@@ -3709,7 +3709,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "Q_BSS138-7-F"
+			(property "Series" "BSS138-7-F"
 				(at 0 -27.94 0)
 				(show_name)
 				(effects
@@ -3720,7 +3720,7 @@
 					(hide yes)
 				)
 			)
-			(property "Transistor Type" "N-Channel"
+			(property "Symbol Name" "Q_BSS138-7-F"
 				(at 0 -30.48 0)
 				(show_name)
 				(effects
@@ -3731,8 +3731,19 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSS138-7-F"
+			(property "Transistor Type" "N-Channel"
 				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSS138-7-F"
+				(at 0 -35.56 0)
 				(show_name)
 				(effects
 					(font
@@ -3806,7 +3817,7 @@
 						(type outline)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 1.27 0)
 					(length 2.54)
 					(name "D"
@@ -3824,7 +3835,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 -6.35 180)
 					(length 2.54)
 					(name "G"
@@ -3842,7 +3853,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 1.27 180)
 					(length 2.54)
 					(name "S"
@@ -3921,7 +3932,7 @@
 					(hide yes)
 				)
 			)
-			(property "Drain Current (A)" "-10.8"
+			(property "Collector Current (A)" "-"
 				(at 0 -17.78 0)
 				(show_name)
 				(effects
@@ -3932,7 +3943,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SI7113ADN-T1-GE3"
+			(property "Drain Current (A)" "-10.8"
 				(at 0 -20.32 0)
 				(show_name)
 				(effects
@@ -3943,7 +3954,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Vishay Semiconductors"
+			(property "MPN" "SI7113ADN-T1-GE3"
 				(at 0 -22.86 0)
 				(show_name)
 				(effects
@@ -3954,7 +3965,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "SI7113ADN-T1-GE3"
+			(property "Manufacturer" "Vishay Semiconductors"
 				(at 0 -25.4 0)
 				(show_name)
 				(effects
@@ -3965,7 +3976,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "Q_SI7113ADN-T1-GE3"
+			(property "Series" "SI7113ADN-T1-GE3"
 				(at 0 -27.94 0)
 				(show_name)
 				(effects
@@ -3976,7 +3987,7 @@
 					(hide yes)
 				)
 			)
-			(property "Transistor Type" "P-Channel"
+			(property "Symbol Name" "Q_SI7113ADN-T1-GE3"
 				(at 0 -30.48 0)
 				(show_name)
 				(effects
@@ -3987,8 +3998,19 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/SI7113ADN-T1-GE3"
+			(property "Transistor Type" "P-Channel"
 				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/SI7113ADN-T1-GE3"
+				(at 0 -35.56 0)
 				(show_name)
 				(effects
 					(font
@@ -4063,7 +4085,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 1.27 0)
 					(length 2.54)
 					(name "D"
@@ -4081,7 +4103,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 -6.35 180)
 					(length 2.54)
 					(name "G"
@@ -4099,7 +4121,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 1.27 180)
 					(length 2.54)
 					(name "S"
@@ -4117,7 +4139,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -1.27 180)
 					(length 2.54)
 					(name "S"
@@ -4135,7 +4157,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -3.81 180)
 					(length 2.54)
 					(name "S"
@@ -4289,12 +4311,6 @@
 		(uuid "252be3bc-8e66-467d-ab20-9b1ebda93845")
 	)
 	(junction
-		(at 241.3 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a28e02c-c9d9-40e2-9e21-b0767e7d0a48")
-	)
-	(junction
 		(at 205.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4427,16 +4443,6 @@
 			(type default)
 		)
 		(uuid "017bac29-9259-4b88-a62b-348d46e2ccff")
-	)
-	(wire
-		(pts
-			(xy 241.3 152.4) (xy 254 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "039ec88f-41f3-41b0-8ca4-8c71d59cda15")
 	)
 	(wire
 		(pts
@@ -5419,7 +5425,7 @@
 		(uuid "d2775802-4710-4cf7-85a7-6d284bba5e38")
 	)
 	(label "VSENSEN"
-		(at 165.1 241.3 0)
+		(at 241.3 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5505,17 +5511,6 @@
 		)
 		(uuid "84b99ca7-f20b-4d09-ae16-44b6b95264b9")
 	)
-	(hierarchical_label "ISN"
-		(shape bidirectional)
-		(at 241.3 241.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9dbd5ab7-9275-4962-af84-3fbfe84de8f6")
-	)
 	(hierarchical_label "CCOMP"
 		(shape bidirectional)
 		(at 127 127 180)
@@ -5526,17 +5521,6 @@
 			(justify right)
 		)
 		(uuid "a7b7759e-6316-4732-a8da-d29158906082")
-	)
-	(hierarchical_label "I{slash}ON"
-		(shape bidirectional)
-		(at 254 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8524877-3046-4b06-9555-298096fffb53")
 	)
 	(hierarchical_label "SENSELF"
 		(shape bidirectional)
@@ -6470,6 +6454,16 @@
 				(hide yes)
 			)
 		)
+		(property "Collector Current (A)" "-"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8feec234-73b8-48b8-9ae8-b4ea47902a8c")
 		)
@@ -7050,6 +7044,16 @@
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSS138-7-F"
 			(at 156.21 200.66 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (A)" "-"
+			(at 171.45 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,6 +7806,16 @@
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/BSS138-7-F"
 			(at 130.81 97.79 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (A)" "-"
+			(at 146.05 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,6 +10994,16 @@
 		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/SI7113ADN-T1-GE3"
 			(at 171.45 66.04 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (A)" "-"
+			(at 186.69 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

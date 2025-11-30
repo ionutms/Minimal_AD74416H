@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|117402540|53566620|1eb383b0-4953-4353-9bab-f90bdab850d2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|117402540|76426620|fac7331d-5923-451b-8984-b74dbc73a2c3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|181328060|52966620|ea81de6d-e567-4eeb-a2ac-dd57db37ad2b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|181328060|75826620|ae7863ba-6807-493c-b5f4-d028ed24404f|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -574,9 +591,9 @@
       "/VIOUT_D": "rgb(221, 133, 0)",
       "/VOUT2": "rgb(0, 72, 0)",
       "/VSENSEN_A": "rgb(0, 194, 0)",
-      "/VSENSEN_B": "rgb(0, 194, 194)",
-      "/VSENSEN_C": "rgb(194, 0, 194)",
-      "/VSENSEN_D": "rgb(221, 133, 0)",
+      "/VSENSEN_B": "rgb(194, 0, 194)",
+      "/VSENSEN_C": "rgb(221, 133, 0)",
+      "/VSENSEN_D": "rgb(0, 194, 194)",
       "/VSENSEP_A": "rgb(0, 194, 0)",
       "/VSENSEP_B": "rgb(0, 194, 194)",
       "/VSENSEP_C": "rgb(194, 0, 194)",
